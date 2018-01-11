@@ -7,9 +7,8 @@ import android.arch.persistence.room.PrimaryKey;
 /**
  * Created by betsegaw on 1/11/18.
  */
-
 @Entity
-public class Members {
+public class User {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     @ColumnInfo(name = "first_name")
@@ -24,10 +23,11 @@ public class Members {
     private String phone;
     private String email;
 
-    public Members() {
+    public User() {
     }
 
-    public Members(Long id, String firstName, String middleName, String lastName, String userName, String password, String phone, String email) {
+    public User(Long id, String firstName, String middleName, String lastName, String userName,
+                String password, String phone, String email) {
         this.id = id;
         this.firstName = firstName;
         this.middleName = middleName;

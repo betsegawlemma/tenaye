@@ -4,6 +4,8 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 import android.arch.persistence.room.TypeConverters;
 
+import com.betsegaw.tenaye.converters.Converter;
+
 /**
  * Created by betsegaw on 1/11/18.
  */

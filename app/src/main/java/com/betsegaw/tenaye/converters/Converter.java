@@ -1,4 +1,4 @@
-package com.betsegaw.tenaye.entities;
+package com.betsegaw.tenaye.converters;
 
 import android.arch.persistence.room.TypeConverter;
 
