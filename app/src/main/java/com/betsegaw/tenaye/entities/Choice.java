@@ -1,0 +1,83 @@
+package com.betsegaw.tenaye.entities;
+
+import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.ForeignKey;
+import android.arch.persistence.room.PrimaryKey;
+
+/**
+ * Created by betsegaw on 1/11/18.
+ */
+@Entity(foreignKeys ={@ForeignKey(entity = Question.class,
+        parentColumns = "id",
+        childColumns = "question_id")})
+public class Choice {
+    @PrimaryKey(autoGenerate = true)
+    private Long id;
+    private String letter;
+    private String description;
+    private Byte[] picture;
+    private String path;
+    @ColumnInfo(name="question_id")
+    private Long questionId;
+
+    public Choice() {
+    }
+
+    public Choice(Long id, String letter, String description, Byte[] picture, String path, Long questionId) {
+        this.id = id;
+        this.letter = letter;
+        this.description = description;
+        this.picture = picture;
+        this.path = path;
+        this.questionId = questionId;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getLetter() {
+        return letter;
+    }
+
+    public void setLetter(String letter) {
+        this.letter = letter;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Byte[] getPicture() {
+        return picture;
+    }
+
+    public void setPicture(Byte[] picture) {
+        this.picture = picture;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public Long getQuestionId() {
+        return questionId;
+    }
+
+    public void setQuestionId(Long questionId) {
+        this.questionId = questionId;
+    }
+}
