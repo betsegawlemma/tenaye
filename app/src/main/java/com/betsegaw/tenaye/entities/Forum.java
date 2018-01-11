@@ -1,7 +1,6 @@
 package com.betsegaw.tenaye.entities;
 
 import android.arch.persistence.room.ColumnInfo;
-import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.TypeConverters;
 
@@ -14,7 +13,7 @@ import java.util.Date;
 public class Forum {
     private Long id;
     private String description;
-    @TypeConverters({Converters.class})
+    @TypeConverters({Converter.class})
     private Date date;
     private Long likes;
     private Long dislikes;

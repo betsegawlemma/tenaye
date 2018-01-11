@@ -19,7 +19,7 @@ public class StoryComment {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     String comment;
-    @TypeConverters({Converters.class})
+    @TypeConverters({Converter.class})
     Date date;
     Long likes;
     Long dislikes;

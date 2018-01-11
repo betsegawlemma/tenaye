@@ -21,7 +21,7 @@ public class ContactUs {
     private String middleName;
     @ColumnInfo(name = "last_name")
     private String lastName;
-    @TypeConverters({Converters.class})
+    @TypeConverters({Converter.class})
     private Date date;
     private String message;
     private String phone;

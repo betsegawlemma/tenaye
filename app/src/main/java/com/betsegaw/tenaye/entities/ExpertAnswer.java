@@ -27,7 +27,7 @@ public class ExpertAnswer {
     private String answer;
     private String phone;
     private String email;
-    @TypeConverters({Converters.class})
+    @TypeConverters({Converter.class})
     private Date date;
     @ColumnInfo(name="student_question_id")
     private Long studentQuestionId;

@@ -14,7 +14,7 @@ public class Story {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String description;
-    @TypeConverters({Converters.class})
+    @TypeConverters({Converter.class})
     private Date date;
     private Long likes;
     private Long dislikes;

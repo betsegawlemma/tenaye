@@ -13,7 +13,7 @@ public class StudentQuestion {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String description;
-    @TypeConverters({Converters.class})
+    @TypeConverters({Converter.class})
     private String date;
     private String email;
     private String phone;
