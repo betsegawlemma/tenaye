@@ -2,6 +2,7 @@ package com.betsegaw.tenaye.entities;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
+import android.arch.persistence.room.TypeConverters;
 
 /**
  * Created by betsegaw on 1/11/18.
@@ -12,15 +13,18 @@ public class StudentQuestion {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String description;
+    @TypeConverters({Converters.class})
+    private String date;
     private String email;
     private String phone;
 
     public StudentQuestion() {
     }
 
-    public StudentQuestion(Long id, String description, String email, String phone) {
+    public StudentQuestion(Long id, String description, String date, String email, String phone) {
         this.id = id;
         this.description = description;
+        this.date = date;
         this.email = email;
         this.phone = phone;
     }
@@ -55,5 +59,13 @@ public class StudentQuestion {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }
