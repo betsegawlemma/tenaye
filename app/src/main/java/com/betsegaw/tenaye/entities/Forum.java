@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity
+@Entity(tableName = "forums")
 public class Forum {
     private Long id;
     private String description;
@@ -27,7 +27,8 @@ public class Forum {
     public Forum() {
     }
 
-    public Forum(Long id, String description, Date date, Long likes, Long dislikes, Long rank, String status, Long categoryId) {
+    public Forum(Long id, String description, Date date, Long likes, Long dislikes, Long rank,
+                 String status, Long categoryId) {
         this.id = id;
         this.description = description;
         this.date = date;

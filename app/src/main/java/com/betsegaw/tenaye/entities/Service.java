@@ -7,7 +7,7 @@ import android.arch.persistence.room.PrimaryKey;
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity
+@Entity(tableName = "services")
 public class Service {
     @PrimaryKey(autoGenerate = true)
     private Long id;

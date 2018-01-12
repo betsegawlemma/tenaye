@@ -1,12 +1,18 @@
 package com.betsegaw.tenaye.entities;
 
+import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.PrimaryKey;
+
+import static android.arch.persistence.room.ForeignKey.CASCADE;
 
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity
+@Entity(foreignKeys ={@ForeignKey(entity = Topic.class,
+        parentColumns = "id",
+        childColumns = "topic_id", onDelete = CASCADE)},tableName = "questions")
 public class Question {
     @PrimaryKey(autoGenerate = true)
     private Long id;
@@ -14,18 +20,19 @@ public class Question {
     private Byte[] picture;
     private String answer;
     private String path;
-
+    @ColumnInfo(name = "topic_id")
+    private Long topicId;
     public Question() {
     }
 
-    public Question(Long id, String description, Byte[] picture, String path, String answer) {
+    public Question(Long id, String description, Byte[] picture, String answer, String path, Long topicId) {
         this.id = id;
         this.description = description;
         this.picture = picture;
-        this.path = path;
         this.answer = answer;
+        this.path = path;
+        this.topicId = topicId;
     }
-
     public Long getId() {
         return id;
     }
@@ -64,5 +71,13 @@ public class Question {
 
     public void setAnswer(String answer) {
         this.answer = answer;
+    }
+
+    public Long getTopicId() {
+        return topicId;
+    }
+
+    public void setTopicId(Long topicId) {
+        this.topicId = topicId;
     }
 }

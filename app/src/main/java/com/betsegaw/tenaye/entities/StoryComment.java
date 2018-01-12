@@ -10,29 +10,33 @@ import com.betsegaw.tenaye.converters.Converter;
 
 import java.util.Date;
 
+import static android.arch.persistence.room.ForeignKey.CASCADE;
+
 /**
  * Created by betsegaw on 1/11/18.
  */
 
 @Entity(foreignKeys ={@ForeignKey(entity = Story.class,
         parentColumns = "id",
-        childColumns = "story_id")})
+        childColumns = "story_id", onDelete = CASCADE)},tableName = "story_comments")
 public class StoryComment {
     @PrimaryKey(autoGenerate = true)
     private Long id;
-    String comment;
+    private String comment;
     @TypeConverters({Converter.class})
-    Date date;
-    Long likes;
-    Long dislikes;
-    Long rank;
+    private Date date;
+    private Long likes;
+    private Long dislikes;
+    private Long rank;
     @ColumnInfo(name = "story_id")
-    Long storyId;
+    private Long storyId;
+    private String status;
 
     public StoryComment() {
     }
 
-    public StoryComment(Long id, String comment, Date date, Long likes, Long dislikes, Long rank, Long storyId) {
+    public StoryComment(Long id, String comment, Date date, Long likes, Long dislikes, Long rank,
+                        Long storyId, String status) {
         this.id = id;
         this.comment = comment;
         this.date = date;
@@ -40,6 +44,7 @@ public class StoryComment {
         this.dislikes = dislikes;
         this.rank = rank;
         this.storyId = storyId;
+        this.status = status;
     }
 
     public Long getId() {
@@ -96,5 +101,13 @@ public class StoryComment {
 
     public void setStoryId(Long storyId) {
         this.storyId = storyId;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

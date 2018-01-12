@@ -10,12 +10,17 @@ import com.betsegaw.tenaye.converters.Converter;
 
 import java.util.Date;
 
+import static android.arch.persistence.room.ForeignKey.CASCADE;
+
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity(foreignKeys ={@ForeignKey(entity = StudentQuestion.class,
+@Entity(foreignKeys ={
+        @ForeignKey(entity = StudentQuestion.class,
         parentColumns = "id",
-        childColumns = "student_question_id")})
+        childColumns = "student_question_id",
+        onDelete = CASCADE)
+        },tableName = "expert_answers")
 public class ExpertAnswer {
     @PrimaryKey(autoGenerate = true)
     private Long id;

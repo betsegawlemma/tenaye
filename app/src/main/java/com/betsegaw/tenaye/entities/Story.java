@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity
+@Entity(tableName = "stories")
 public class Story {
     @PrimaryKey(autoGenerate = true)
     private Long id;

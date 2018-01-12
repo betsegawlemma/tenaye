@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity
+@Entity(tableName = "newses")
 public class News {
     @PrimaryKey(autoGenerate = true)
     private Long id;

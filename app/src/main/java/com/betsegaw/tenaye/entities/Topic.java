@@ -11,7 +11,7 @@ import android.arch.persistence.room.PrimaryKey;
 
 @Entity(foreignKeys ={@ForeignKey(entity = Category.class,
         parentColumns = "id",
-        childColumns = "category_id")})
+        childColumns = "category_id")},tableName = "topics")
 public class Topic {
     @PrimaryKey(autoGenerate = true)
     private Long id;

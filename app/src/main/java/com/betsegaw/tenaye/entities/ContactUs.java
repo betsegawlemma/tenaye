@@ -13,7 +13,7 @@ import java.util.Date;
  * Created by betsegaw on 1/11/18.
  */
 
-@Entity
+@Entity(tableName = "contact_us")
 public class ContactUs {
     @PrimaryKey(autoGenerate = true)
     private Long id;

@@ -10,7 +10,7 @@ import com.betsegaw.tenaye.converters.Converter;
  * Created by betsegaw on 1/11/18.
  */
 
-@Entity
+@Entity(tableName = "student_questions")
 public class StudentQuestion {
     @PrimaryKey(autoGenerate = true)
     private Long id;
