@@ -5,6 +5,7 @@ import android.arch.persistence.room.Query;
 
 import com.betsegaw.tenaye.entities.Question;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -14,9 +15,9 @@ import java.util.Set;
 @Dao
 public interface QuestionDao extends BaseDao<Question> {
     @Query("SELECT * FROM questions")
-    public Set<Question> findAll();
+    public List<Question> findAll();
     @Query("SELECT * FROM questions WHERE topic_id = :topicId")
-    public Set<Question> findByTopiId(Long topicId);
+    public List<Question> findByTopiId(Long topicId);
     @Query("SELECT * FROM questions WHERE id = :id")
-    public Optional<Question> findById(Long id);
+    public Question findById(Long id);
 }

@@ -19,16 +19,18 @@ public class StudentQuestion {
     private String date;
     private String email;
     private String phone;
+    private String status;
 
     public StudentQuestion() {
     }
 
-    public StudentQuestion(Long id, String description, String date, String email, String phone) {
+    public StudentQuestion(Long id, String description, String date, String email, String phone, String status) {
         this.id = id;
         this.description = description;
         this.date = date;
         this.email = email;
         this.phone = phone;
+        this.status = status;
     }
 
     public Long getId() {
@@ -69,5 +71,13 @@ public class StudentQuestion {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

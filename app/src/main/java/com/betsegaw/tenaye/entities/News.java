@@ -2,6 +2,9 @@ package com.betsegaw.tenaye.entities;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
+import android.arch.persistence.room.TypeConverters;
+
+import com.betsegaw.tenaye.converters.Converter;
 
 import java.util.Date;
 
@@ -13,6 +16,7 @@ public class News {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String description;
+    @TypeConverters({Converter.class})
     private Date date;
 
     public News() {

@@ -5,6 +5,7 @@ import android.arch.persistence.room.Query;
 
 import com.betsegaw.tenaye.entities.Category;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -15,7 +16,7 @@ import java.util.Set;
 @Dao
 public interface CategoryDao extends BaseDao<Category>{
     @Query("SELECT * FROM categories")
-    public Set<Category> findAll();
+    public List<Category> findAll();
     @Query("SELECT * FROM categories where id=:id")
-    public Optional<Category> findById(Long id);
+    public Category findById(Long id);
 }

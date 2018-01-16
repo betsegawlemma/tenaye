@@ -5,6 +5,7 @@ import android.arch.persistence.room.Query;
 
 import com.betsegaw.tenaye.entities.ExpertAnswer;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -14,7 +15,7 @@ import java.util.Set;
 @Dao
 public interface ExpertAnswerDao extends BaseDao<ExpertAnswer> {
     @Query("SELECT * FROM expert_answers WHERE student_question_id=:studentQuestionId")
-    public Set<ExpertAnswer> findByStudentQuestionId(Long studentQuestionId);
+    public List<ExpertAnswer> findByStudentQuestionId(Long studentQuestionId);
     @Query("SELECT * FROM expert_answers WHERE id = :id")
-    public Optional<ExpertAnswer> findById(Long id);
+    public ExpertAnswer findById(Long id);
 }

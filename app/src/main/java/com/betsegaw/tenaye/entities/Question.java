@@ -17,7 +17,7 @@ public class Question {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String description;
-    private Byte[] picture;
+    private String picture;
     private String answer;
     private String path;
     @ColumnInfo(name = "topic_id")
@@ -25,7 +25,7 @@ public class Question {
     public Question() {
     }
 
-    public Question(Long id, String description, Byte[] picture, String answer, String path, Long topicId) {
+    public Question(Long id, String description, String picture, String answer, String path, Long topicId) {
         this.id = id;
         this.description = description;
         this.picture = picture;
@@ -49,11 +49,11 @@ public class Question {
         this.description = description;
     }
 
-    public Byte[] getPicture() {
+    public String getPicture() {
         return picture;
     }
 
-    public void setPicture(Byte[] picture) {
+    public void setPicture(String picture) {
         this.picture = picture;
     }
 

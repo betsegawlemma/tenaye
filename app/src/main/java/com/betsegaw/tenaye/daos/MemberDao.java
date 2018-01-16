@@ -5,6 +5,7 @@ import android.arch.persistence.room.Query;
 
 import com.betsegaw.tenaye.entities.Member;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -14,23 +15,23 @@ import java.util.Set;
 @Dao
 public interface MemberDao extends BaseDao<Member> {
     @Query("SELECT * FROM members")
-    public Set<Member> findAll();
+    public List<Member> findAll();
 
     @Query("SELECT * FROM members WHERE first_name = :firstName")
-    public Set<Member> findByFirstName(String firstName);
+    public List<Member> findByFirstName(String firstName);
 
     @Query("SELECT * FROM members WHERE first_name = :firstName AND middle_name=:middleName")
-    public Set<Member> findByFirstNameAndMiddleName(String firstName, String middleName);
+    public List<Member> findByFirstNameAndMiddleName(String firstName, String middleName);
 
     @Query("SELECT * FROM members WHERE first_name = :firstName AND middle_name = :middleName AND last_name =:lastName")
-    public Set<Member> findbyFirstNameANDMiddleNameAndLastName(String firstName, String middleName, String lastName);
+    public List<Member> findbyFirstNameANDMiddleNameAndLastName(String firstName, String middleName, String lastName);
 
     @Query("SELECT * FROM members WHERE phone = :phone")
-    public Optional<Member> findByPhone(String phone);
+    public Member findByPhone(String phone);
 
     @Query("SELECT * FROM members WHERE email = :email")
-    public Optional<Member> findByEmail(String email);
+    public Member findByEmail(String email);
 
     @Query("SELECT * FROM members WHERE id = :id")
-    public Optional<Member> findById(Long id);
+    public Member findById(Long id);
 }

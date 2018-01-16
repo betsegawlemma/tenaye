@@ -10,13 +10,18 @@ import static android.arch.persistence.room.ForeignKey.CASCADE;
 /**
  * Created by betsegaw on 1/11/18.
  */
-@Entity(tableName = "choices")
+@Entity(foreignKeys ={
+        @ForeignKey(entity = Question.class,
+                parentColumns = "id",
+                childColumns = "question_id",
+                onDelete = CASCADE)
+},tableName = "choices")
 public class Choice {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String letter;
     private String description;
-    private Byte[] picture;
+    private String picture;
     private String path;
     @ColumnInfo(name="question_id")
     private Long questionId;
@@ -24,7 +29,7 @@ public class Choice {
     public Choice() {
     }
 
-    public Choice(Long id, String letter, String description, Byte[] picture, String path, Long questionId) {
+    public Choice(Long id, String letter, String description, String picture, String path, Long questionId) {
         this.id = id;
         this.letter = letter;
         this.description = description;
@@ -57,11 +62,11 @@ public class Choice {
         this.description = description;
     }
 
-    public Byte[] getPicture() {
+    public String getPicture() {
         return picture;
     }
 
-    public void setPicture(Byte[] picture) {
+    public void setPicture(String picture) {
         this.picture = picture;
     }
 

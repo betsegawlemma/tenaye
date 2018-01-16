@@ -2,6 +2,7 @@ package com.betsegaw.tenaye.entities;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
 import android.arch.persistence.room.TypeConverters;
 
 import com.betsegaw.tenaye.converters.Converter;
@@ -13,6 +14,7 @@ import java.util.Date;
  */
 @Entity(tableName = "forums")
 public class Forum {
+    @PrimaryKey
     private Long id;
     private String description;
     @TypeConverters({Converter.class})

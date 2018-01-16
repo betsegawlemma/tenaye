@@ -2,10 +2,13 @@ package com.betsegaw.tenaye.daos;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Query;
+import android.arch.persistence.room.TypeConverters;
 
+import com.betsegaw.tenaye.converters.Converter;
 import com.betsegaw.tenaye.entities.Story;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -15,13 +18,13 @@ import java.util.Set;
 @Dao
 public interface StoryDao extends BaseDao<Story> {
     @Query("SELECT * FROM stories")
-    public Set<Story> findAll();
+    public List<Story> findAll();
     @Query("SELECT * FROM stories WHERE id = :id")
-    public Optional<Story> findById(Long id);
+    public Story findById(Long id);
     @Query("SELECT * FROM stories WHERE status IN (:statuses)")
-    public Set<Story> findByStauses(Set<String> statuses);
+    public List<Story> findByStauses(Set<String> statuses);
     @Query("SELECT * FROM stories WHERE rank >= :rank")
-    public Set<Story> findByRank(Long rank);
+    public List<Story> findByRank(Long rank);
     @Query("SELECT * FROM stories WHERE date >= :date")
-    public Set<Story> findByDate(Date date);
+    public List<Story> findByDate(@TypeConverters(Converter.class) Date date);
 }

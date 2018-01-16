@@ -1,6 +1,7 @@
 package com.betsegaw.tenaye.entities;
 
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
 /**
@@ -11,13 +12,13 @@ public class Category {
     @PrimaryKey(autoGenerate = true)
     private Long id;
     private String title;
-    private Byte[] picture;
+    private String picture;
     private String path;
 
     public Category() {
     }
 
-    public Category(Long id, String title, Byte[] picture, String path) {
+    public Category(Long id, String title, String picture, String path) {
         this.id = id;
         this.title = title;
         this.picture = picture;
@@ -40,11 +41,11 @@ public class Category {
         this.title = title;
     }
 
-    public Byte[] getPicture() {
+    public String getPicture() {
         return picture;
     }
 
-    public void setPicture(Byte[] picture) {
+    public void setPicture(String picture) {
         this.picture = picture;
     }
 

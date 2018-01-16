@@ -5,6 +5,7 @@ import android.arch.persistence.room.Query;
 
 import com.betsegaw.tenaye.entities.Service;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -14,11 +15,11 @@ import java.util.Set;
 @Dao
 public interface ServiceDao extends BaseDao<Service>{
     @Query("SELECT * FROM services")
-    public Set<Service> findAll();
+    public List<Service> findAll();
 
     @Query("SELECT * FROM services WHERE id = :id")
-    public Optional<Service> findById(Long id);
+    public Service findById(Long id);
 
     @Query("SELECT * FROM services WHERE location_name = :locationName")
-    public Set<Service> findByLocationName(String locationName);
+    public List<Service> findByLocationName(String locationName);
 }
