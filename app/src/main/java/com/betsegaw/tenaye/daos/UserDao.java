@@ -17,13 +17,13 @@ public interface UserDao extends BaseDao<User>{
     @Query("SELECT * FROM users")
     public List<User> findAll();
 
-    @Query("SELECT * FROM users WHERE first_name = :firstName")
+    @Query("SELECT * FROM users WHERE first_name LIKE :firstName")
     public List<User> findByFirstName(String firstName);
 
-    @Query("SELECT * FROM users WHERE first_name = :firstName AND middle_name=:middleName")
+    @Query("SELECT * FROM users WHERE first_name LIKE :firstName AND middle_name LIKE :middleName")
     public List<User> findByFirstNameAndMiddleName(String firstName, String middleName);
 
-    @Query("SELECT * FROM users WHERE first_name = :firstName AND middle_name = :middleName AND last_name =:lastName")
+    @Query("SELECT * FROM users WHERE first_name LIKE :firstName AND middle_name LIKE :middleName AND last_name LIKE :lastName")
     public List<User> findbyFirstNameANDMiddleNameAndLastName(String firstName, String middleName, String lastName);
 
     @Query("SELECT * FROM users WHERE phone = :phone")

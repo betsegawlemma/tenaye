@@ -17,13 +17,13 @@ public interface MemberDao extends BaseDao<Member> {
     @Query("SELECT * FROM members")
     public List<Member> findAll();
 
-    @Query("SELECT * FROM members WHERE first_name = :firstName")
+    @Query("SELECT * FROM members WHERE first_name LIKE :firstName")
     public List<Member> findByFirstName(String firstName);
 
-    @Query("SELECT * FROM members WHERE first_name = :firstName AND middle_name=:middleName")
+    @Query("SELECT * FROM members WHERE first_name LIKE :firstName AND middle_name LIKE :middleName")
     public List<Member> findByFirstNameAndMiddleName(String firstName, String middleName);
 
-    @Query("SELECT * FROM members WHERE first_name = :firstName AND middle_name = :middleName AND last_name =:lastName")
+    @Query("SELECT * FROM members WHERE first_name LIKE :firstName AND middle_name LIKE :middleName AND last_name LIKE :lastName")
     public List<Member> findbyFirstNameANDMiddleNameAndLastName(String firstName, String middleName, String lastName);
 
     @Query("SELECT * FROM members WHERE phone = :phone")
