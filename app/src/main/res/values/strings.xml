@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">ጤናዬ</string>>
+    <string name="app_name">Tenaye</string>
+    <string-array name="contraceptive">
+        <item>Introduction</item>
+        <item>Methods</item>
+    </string-array>
+    <string-array name="contraceptive_methods">
+        <item>Combined Oral Contraceptives ("The Pill")</item>
+        <item>Progestogen-Only Pills ("The Minipill")</item>
+        <item>Emergency Contraception Pills</item>
+        <item>Progestogen Only Injectables</item>
+        <item>Implants</item>
+        <item>Intrauterine Device (IUD) Levonorgestrel</item>
+        <item>Male Condoms</item>
+        <item>Female Condoms</item>
+        <item>Other Methods</item>
+    </string-array>
 </resources>
