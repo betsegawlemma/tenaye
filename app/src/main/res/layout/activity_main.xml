@@ -1,142 +1,383 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_dark"
+    android:fitsSystemWindows="true"
     tools:context="com.betsegaw.tenaye.MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="180dp"
-        android:layout_height="205dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginStart="8dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2"
-        app:srcCompat="@drawable/contra" />
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:background="@color/gray"
+    android:theme="@style/AppTheme">
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:fitsSystemWindows="true"
+        app:contentScrim="@color/colorAccent"
+        app:expandedTitleTextAppearance="@android:color/transparent"
+        app:layout_scrollFlags="exitUntilCollapsed">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:src="@drawable/tenayel"
+            android:contentDescription="@string/app_name"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"/>
+    </android.support.design.widget.CollapsingToolbarLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="180dp"
-        android:layout_height="205dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="4dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hv" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="180dp"
-        android:layout_height="209dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton4"
-        app:srcCompat="@drawable/ment" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="180dp"
-        android:layout_height="205dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/preg" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
+</android.support.design.widget.AppBarLayout>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="152dp">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="6dp"
-        android:background="@android:color/holo_red_dark"
-        android:fontFamily="serif"
-        android:text="HIV/ STIs"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/textView5" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="188dp"
-        android:background="@android:color/holo_blue_dark"
-        android:fontFamily="serif"
-        android:text="Mental Health"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
-        app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toStartOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <android.support.constraint.ConstraintLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/contra_primary_text"
+                    android:layout_width="0dp"
+                    android:text="Contraceptive"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/contra_media_image" />
+                <TextView
+                    android:id="@+id/contra_sub_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#8A000000"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_primary_text"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/contra_media_image" />
+                <ImageView
+                    android:id="@+id/contra_media_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/contra"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/contra_intro"
+                    android:text="Introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_media_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/contra_methods"
+                    android:text="Methods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="@+id/contra_intro"
+                    app:layout_constraintStart_toEndOf="@+id/contra_intro" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <android.support.constraint.ConstraintLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/hiv_primary_text"
+                    android:layout_width="0dp"
+                    android:text="HIV/Other STIs"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/hiv_media_image" />
+                <TextView
+                    android:id="@+id/hiv_sub_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#8A000000"
+                    app:layout_constraintTop_toBottomOf="@+id/hiv_primary_text"
+                    app:layout_constraintEnd_toStartOf="@+id/hiv_media_image" />
+                <ImageView
+                    android:id="@+id/hiv_media_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/hv"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/hiv_intro"
+                    android:text="Introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toBottomOf="@+id/hiv_media_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/hiv_stages"
+                    android:text="HIV Stages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="@+id/hiv_intro"
+                    app:layout_constraintStart_toEndOf="@+id/hiv_intro" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/hiv_syptoms"
+                    android:text="HIV Syptoms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="@+id/hiv_stages"
+                    app:layout_constraintStart_toEndOf="@+id/hiv_stages" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <android.support.constraint.ConstraintLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pregnancy_primary_text"
+                    android:layout_width="0dp"
+                    android:text="Unintended Pregnancy"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/pregnancy_media_image" />
+                <TextView
+                    android:id="@+id/pregnancy_sub_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#8A000000"
+                    app:layout_constraintTop_toBottomOf="@+id/pregnancy_primary_text"
+                    app:layout_constraintEnd_toStartOf="@+id/pregnancy_media_image" />
+                <ImageView
+                    android:id="@+id/pregnancy_media_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/pregnancy"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/pregnancy_intro"
+                    android:text="Introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toBottomOf="@+id/pregnancy_media_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/abortion"
+                    android:text="Abortion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="@+id/pregnancy_intro"
+                    app:layout_constraintStart_toEndOf="@+id/pregnancy_intro" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <android.support.constraint.ConstraintLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/mental_primary_text"
+                    android:layout_width="0dp"
+                    android:text="Mental Health"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/mental_media_image" />
+                <TextView
+                    android:id="@+id/mental_sub_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#8A000000"
+                    app:layout_constraintTop_toBottomOf="@+id/mental_primary_text"
+                    app:layout_constraintEnd_toStartOf="@+id/mental_media_image" />
+                <ImageView
+                    android:id="@+id/mental_media_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/mental"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/mental_intro"
+                    android:text="Introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toBottomOf="@+id/mental_media_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/types"
+                    android:text="Types"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="@+id/mental_intro"
+                    app:layout_constraintStart_toEndOf="@+id/mental_intro" />
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:id="@+id/diagnose"
+                    android:text="Diagnoses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textColor="#DE000000"
+                    app:layout_constraintTop_toTopOf="@+id/types"
+                    app:layout_constraintStart_toEndOf="@+id/types" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="188dp"
-        android:background="@android:color/holo_blue_dark"
-        android:fontFamily="serif"
-        android:text="Pregnancy"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-        app:layout_constraintStart_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="6dp"
-        android:background="@android:color/holo_blue_dark"
-        android:fontFamily="serif"
-        android:text="Contraceptive"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
-</android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
