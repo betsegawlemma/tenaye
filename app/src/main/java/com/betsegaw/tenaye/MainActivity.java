@@ -1,14 +1,12 @@
 package com.betsegaw.tenaye;
 
-import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
+import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.ImageButton;
+
+import com.betsegaw.tenaye.contraceptive.Contraceptive;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,37 +16,38 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       /* final ImageButton contraImgBtn = findViewById(R.id.contra);
-        final ImageButton pregImgBtn = findViewById(R.id.preg);
-        final ImageButton hivImgBtn = findViewById(R.id.hiv);
-        final ImageButton mentalImgBtn = findViewById(R.id.mental);
+        final CardView contraceptiveCardView = findViewById(R.id.contraceptive);
+        final CardView hivCardView = findViewById(R.id.hiv);
+        final CardView pregnancyCardView = findViewById(R.id.pregnancy);
+        final CardView mentalCardView = findViewById(R.id.mental);
 
-        contraImgBtn.setOnClickListener(new View.OnClickListener() {
+
+        contraceptiveCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 startActivity(new Intent(MainActivity.this, Contraceptive.class));
             }
         });
-        pregImgBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Pregnancy.class));
-            }
-        });
-        hivImgBtn.setOnClickListener(new View.OnClickListener() {
+        hivCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Hiv.class));
             }
         });
-        mentalImgBtn.setOnClickListener(new View.OnClickListener() {
+        pregnancyCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Pregnancy.class));
+            }
+        });
+        mentalCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, MentalHealth.class));
             }
         });
-   */
+
     }
 
 }

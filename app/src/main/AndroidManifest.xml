@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Contraceptive" />
+        <activity android:name=".contraceptive.Contraceptive" />
         <activity android:name=".Hiv"/>
         <activity android:name=".MentalHealth"/>
         <activity android:name=".Pregnancy"/>
