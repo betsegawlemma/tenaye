@@ -17,9 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".contraceptive.Contraceptive" />
-        <activity android:name=".Hiv"/>
-        <activity android:name=".MentalHealth"/>
-        <activity android:name=".Pregnancy"/>
+        <activity android:name=".hiv.Hiv"/>
+        <activity android:name=".mentalhealth.MentalHealth"/>
+        <activity android:name=".pregnancy.Pregnancy"/>
 
     </application>
 

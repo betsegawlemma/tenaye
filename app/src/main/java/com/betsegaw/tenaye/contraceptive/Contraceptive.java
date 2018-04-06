@@ -4,20 +4,15 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import com.betsegaw.tenaye.R;
-import com.betsegaw.tenaye.data.ContraListAdapter;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by betsegaw on 3/12/18.
  */
 
-public class Contraceptive extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
+public class Contraceptive extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
 
     TabLayout contraceptiveTabLayout;
     ViewPager contraceptiveViewPager;
@@ -33,15 +28,16 @@ public class Contraceptive extends AppCompatActivity implements TabLayout.OnTabS
     private void init() {
 
         contraceptiveTabLayout = findViewById(R.id.contraceptive_tab_layout);
-        contraceptiveTabLayout.addTab(contraceptiveTabLayout.newTab().setText("Contraceptive Content"));
-        contraceptiveTabLayout.addTab(contraceptiveTabLayout.newTab().setText("Contraceptive Quiz"));
+        contraceptiveTabLayout.addTab(contraceptiveTabLayout.newTab().setText("Content"));
+        contraceptiveTabLayout.addTab(contraceptiveTabLayout.newTab().setText("Quiz"));
         contraceptiveTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         contraceptiveViewPager = findViewById(R.id.contraceptive_pager);
         contraceptiveViewPagerAdapter = new ContraceptiveViewPagerAdapter(getSupportFragmentManager(),contraceptiveTabLayout.getTabCount());
         contraceptiveViewPager.setAdapter(contraceptiveViewPagerAdapter);
         contraceptiveViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(contraceptiveTabLayout));
-        contraceptiveTabLayout.setOnTabSelectedListener(this);
+        contraceptiveTabLayout.addOnTabSelectedListener(this);
+
     }
 
     @Override
@@ -56,6 +52,11 @@ public class Contraceptive extends AppCompatActivity implements TabLayout.OnTabS
 
     @Override
     public void onTabReselected(TabLayout.Tab tab) {
+
+    }
+
+    @Override
+    public void onClick(View v) {
 
     }
 }
