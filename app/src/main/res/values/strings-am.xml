@@ -1,0 +1,629 @@
+<resources>
+    <string name="app_name">ጤናዬ</string>
+
+    <string name="up_arrow">\u25B2</string>
+    <string name="down_arrow">\u25BC</string>
+    <string name="pro">አውንታዊ ባህሪያት</string>
+    <string name="cons">አሉታዊ ባህሪያት</string>
+
+    <!-- Start of Contraceptive content -->
+    <string name="contraceptive">የወሊድ መከላከያ ዘዴዎች</string>
+    <string name="cntra_intro">መግቢያ</string>
+    <string name="contraceptive_introduction">የማሕበረሰቦችን ጤና እና ልማት በመደገፍ ውስጥ የወሊድ መከላከያ ዘዴ የሴቶችን ደህንነት እና
+ራስን መቻል ለማረጋገጥ መሰረታዊ ጉዳይ ነው፡፡ የወሊድ መከላከያዎች የእርግዝናን ወቅት
+ለማራረቅ እና በወጣት ሴቶች ዘንድ የሚፈጠር እርግዝናን ለማዘግየት እንዲሁም በለጋ ዕድሜ
+በሚያጋጥም ወሊድ ወቅት ከፍተኛ የጤና እክል ችግሮችን እና የሞት ስጋቶችን ለማስቀረት ጠቃሚ
+ናቸው፡፡ </string>
+    <string name="cocs">በአፍ የሚወሰዱ ጥምር የወሊድ መከላከያ </string>
+    <string name="cocs_details">
+        \u2022 ሲኦሲዎች በመባል ይታወቃሉ፡፡\n
+        \u2022 ጥምር እንክብል በየዕለቱ በአፍ የሚዋጥ ሁለት ሆረሞኖችን ( ኤስትሮጅን እና
+ፕሮጀስትሮን) አጣምሮ የያዘ የወሊድ መከላከያ ዘዴ ነው፡፡\n
+        \u2022 በየዕለቱ መወሰድ አለበት፡፡\n
+        \u2022 የዘር ፍሬ እንቁላሎች ከኦቫሪ እንዳይለቀቁ ( የዘር ፍሬ ውህድት) እንዳይፈጠር
+ይከላከላል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ትክክለኛ እና ያልተቋረጠ አጠቃቀም >99% ሲሆን
+በመደበኛነት በመጠቀም 92% ነው፡፡\n
+        \u2022 ተጨማሪ ጥቅሞቹ፡ በኢንዶ ሜትሪያል እና በኦቫሪያን ካንሰር መያዝ ስጋትን ይቀንሳል፡፡\n
+    </string>
+    <string name="cocs_pros">
+        \u2022 ለአወሳሰድ እና መውሰድ ለማቆም ቀላል ነው፡፡\n
+        \u2022 የወር አበባን ቀላል እና ወቅቱን የጠበቀ እንዲሆን ያደርጋል፡፡\n
+    </string>
+    <string name="cocs_cons">
+        \u2022 እጅግ በጣም ከመጠን ያለፈ ውስፍረት ላላቸው ሴቶች ወይም ከ 35 ዓመት ዕድሜ በበላይ
+ለሆናቸው አጫሽ ሴቶች ምቹ አይደለም፡፡\n
+        \u2022 እንክብሎችን መውሰድ መርሳት፣ ማስመለስ ወይም አጣዳፊ ተቅማጥ ውጤታማነቱን ይቀንሰዋል፡፡\n
+        \u2022 እንደ የደም መርጋት፣ የጡት እና ሰርቪካል ካንሰሮች በጣም ከባድ ለሆኑ የጎንዮሽ ጉዳቶች የማጋለጥ
+ዕድሉ ዝቅተኛ ነው፡፡\n
+        \u2022 የራስ ምታት ህመም፣ ማቅለሽለሽ፣ የስሜት መለዋወጥ እና የጡት መክበድ የመሳሰሉ ጊዜያዊ
+የጎንዮሽ ጉዳቶች ሊያስከትል ይችላል፡፡\n
+    </string>
+    <string name = "pops">ባለ ፕሮጀስትሮን ብቻ እንክብሎች</string>
+    <string name="pops_details">
+        \u2022 ጥቃቅን እንክብሎች በመባልም ይታወቃል፡፡\n
+        \u2022 የፕሮጀስትሮን ሆርሞንን ብቻ የያዘ ከኢስትሮጅን ነጻ የሆነ በየለቱ በአፍ የሚወሰድ
+የወሊድ መከላከያ ነው፡፡\n
+        \u2022 የጉሮሮ ፈሳሽ በማደደር የወንድ የዘር ፍሬ ከሴት የዘር ዕንቁላሎች ጋር እንዳይገናኙ እና
+የዘር ፍሬዎች ውህደት እንዳይፈጠር በመዝጋት ይከላከላል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ትክክለኛ እና ያልተቋረጠ አጠቃቀም >99% ሲሆን
+በመደበኛነት በመጠቀም 92 - 97% ( በመካከለኛ ዕድሜ ለሚገኙ ሴቶች 91%)
+ነው፡፡\n
+        \u2022 ጡት በማጥባት ወቅት ሊወሰድ ይችላል፡፡\n
+        \u2022 በየዕለቱ መወሰድ ያለበት በተመሳሳይ ሰዓት ነው፡፡\n
+    </string>
+    <string name="pops_pros">
+        \u2022 የወር አበባን ቀላል እና ወቅቱን የጠበቀ እንዲሆን ያደርጋል፡፡\n
+        \u2022 በአጫሽ እና እድሜያቸው ከ 35 ዓመት በላይ በሆኑ ሴቶች ሊወሰድ ይችላል፡፡\n
+    </string>
+    <string name="pops_cons">
+        \u2022 በየዕለቱ መወሰድ ያለበት በተመሳሳይ ሰዓት ሲሆን ከ 3 እስከ 12 ሰዓታት ዘግይቶ ቢወሰድ የበለጠ
+ውጤታማ ነው፡፡\n
+        \u2022 እንክብሎችን ሳይወስዱ መርሳት፣ ማስመለስ ወይም አጣዳፊ ተቅማጥ ውጤታማነቱን ይቀንሰዋል፡፡\n
+        \u2022 የራስ ምታት ህመም፣ ማቅለሽለሽ፣ የስሜት መለዋወጥ እና የጡት መክበድ የመሳሰሉ ጊዜያዊ
+የጎንዮሽ ጉዳቶች ሊያስከትል ይችላል፡፡\n
+    </string>
+    <string name="ecps">የአስቸኳይ ጊዜ ወሊድ መከላከያ እንክብሎች</string>
+    <string name="ecps_details">
+        \u2022 ያልተቆጠበ ግብረ- ሥጋ ግንኙነት ከተፈጸመ በኋላ ባሉት 5 ቀናት ውስጥ የሚወሰዱ እንክብሎች
+ናቸው፡፡\n
+        \u2022 ዩሊሲፕታል አሴቴት 30 ሚ.ግ. እና ሌቮኖጀስትሬል 1.5 ሚ.ግ የታወቁ የአስቸኳይ ጊዜ ወሊድ መከላከያ እንክብሎች ናቸው፡፡\n
+    </string>
+    <string name="ecps_pros">
+        \u2022 \n
+    </string>
+    <string name="ecps_cons">
+        \u2022 \n
+    </string>
+    <string name="pois">ባለፕሮጅስትሮን ብቻ እንክብሎች</string>
+    <string name="pois_details">
+        \u2022 እንደ ምርቱ ዓይነት በየ 2 ወይም 3 ወራቱ በጡንቻ ወይም በቆዳ ውስጥ የሚቀበሩ፡፡\n
+        \u2022 የጉሮሮ ፈሳሽ በማደደር የወንድ የዘር ፍሬ ከሴት የዘር ዕንቁላሎች ጋር እንዳይገናኙ እና የዘር
+ፍሬዎች ውህደት እንዳይፈጠር በመዝጋት ይከላከላል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ትክክለኛ እና ያልተቋረጠ አጠቃቀም >99% ሲሆን
+በመደበኛነት በመጠቀም 97% ነው፡፡\n
+        \u2022 ከተጠቀሙ በኋላ ወደ ወሊድ ዘግይተው በመመለስ ወቅት ( በአማካይ ከ 1 – 4 ወራት ገደማ)
+መደበኛ ያልሆነ የብልት ደም መፍሰስ አብዛኛውን ጊዜ ሚጋጥም ሲሆን ነገር ግን ጎጂ
+አይደለም፡፡\n
+    </string>
+    <string name="pois_pros">
+        \u2022 ጡት በማጥባት ወቅት ሊወሳድ ይችላል ( ከወሊድ በኋላ ባሉት 21 ተከታታይ ቀናት ምንም ዓይነት
+የእርግዝና መከላከያ ባያስፈልግም)\n
+        \u2022 የግብረ- ሥጋ ግንኙነት እን እንደይቋረጥ ያደርጋል፡፡
+        \u2022 በየዕለቱ እንክበሎችን ለመውሰድ ማስተወስ አይኖርቦትም፡፡\n
+        \u2022 ህመም የሚያስከትሉ የወር አበባዎችን ሊቀንስ ይችላል፡፡
+        \u2022 የማህጸንን አካበቢ ከሚለበልብ በሽታ መጠነኛ የመከላከል ችሎታ የሚሰጥ ነው፡፡ ( ከጉሮሮ የሚወርድ
+ፈሳሽ ባክቴሪያ ወደ ማህጸን እንዳይገባ ይከላከላል፡፡) በተጨማሪም የማሕጸንን ካንሰር የመከላከል
+መጠነኛ ችሎታ ሊሰጥ የችላል፡፡\n
+    </string>
+    <string name="pois_cons">
+        \u2022 አንድ ጊዜ ከተቀበረ በኋላ ከሰውነት ውስጥ መወገድ ስለማይችል እንደ ወቅታቸውን ያልጠበቁ
+የወር- አበባዎች መፍሰስ ወይም ክብደት መጨመርን የመሳሰሉ የጎንዮሽ ጉዳቶችን የሚያስከትል
+ሲሆን ይህም አገልግሎት በሚሰጥበት ወቅት ወይም ከዚያ በኋላ ሊቀጥል ይችላል፡፡\n
+        \u2022 አንድ አንድ ሴቶች ላይ ክብደት መጨመር ሊያስከትል ይችላል፡፡\n
+        \u2022 መጠቀም ካቆሙ በኋላ የወር አበባ መፍሰስ እና እርግዝና ተፈጥሯዊ ሂደታቸው ለመመለስ ተወሰነ
+ጊዜ ሊወሰድ ይችላል፡፡\n
+    </string>
+    <string name="implants">የሚቀበሩ የወሊድ መከላከያዎች</string>
+    <string name="implants_details">
+        \u2022 በእጅ የላይኛው ክንድ ውስጥ የሚቀበሩ የፕሮጀስትሮን ሆርሞን ብቻ የያዙ መጠናቸው
+ትናንሽ፣ ተጣጣፊ ሽቦዎች ወይም እንክብሎች ናቸው፡፡\n
+        \u2022 የጉሮሮ ፈሳሽ በማደደር የወንድ የዘር ፍሬ ከሴት የዘር ዕንቁላሎች ጋር እንዳይገናኙ እና የዘር
+ፍሬዎች ውህደት እንዳይፈጠር በመዝጋት ይከላከላል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ትክክለኛ እና ያልተቋረጠ አጠቃቀም >99% የመከላከል
+ብቃት\n
+        \u2022 በተቀበረው መከላከያ ላይ ተመርኩዞ ወቅቱን ያልጠበቀ የወር አበባ መፍሰስ አብዛኛውን ጊዜ
+ሚጋጥም ሲሆን ነገር ግን ጎጂ አይደለም፡፡\n
+    </string>
+    <string name="implants_pros">
+        \u2022 Tየሚቀበሩት መከላከያዎች አገልግሎታቸው ለሶስት አመታት የሚቆይ ቢሆንም አስቀድመው
+በማውጣት ሊወገዱ ይችላሉ፡፡\n
+        \u2022 አንድ ጊዜ የእርግዝና መከላከያው ከተቀበረሎት በኋላ ስለ እርግዝና መከላከል ምንም ስጋት
+አይኖረብዎትም፡፡\n
+        \u2022 የተቀበረው የእርግዝና መከላከያ ሲወገድ ወዲያውኑ ወደ መደበኛ የእርግዝና ተፈጥሯዊ ችሎታ
+ይመለሳሉ፡፡\n
+    </string>
+    <string name="implants_cons">
+        \u2022 በአይን ባይታይም ክንደዎን በመዳሰስ ሊነኩት ይችላሉ፡፡ የሚቀበረው በመደበኛ የቀዶ-ሕክምና
+ባለሙያ ነው፡፡\n
+        \u2022 ብጉር የማውጣት አጋጣሚን ሊጨምር ይችላል፡፡.\n
+    </string>
+    <string name="iud">በማህጸን ወስጥ የሚቀበር የወሊድ መከላከያ</string>
+    <string name="iud_details">
+        \u2022ቅርጹ T የሆነ በየቀኑ ስርዓቱን ጠብቆ አነስተኛ መጠን ሌቮኖጀሰትሬል የሚያፈስስ በማህጸን
+ወስጥ ሚቀበር ከፕላስቲክ የተሰራ የወሊድ መከላከያ ነው፡፡\n
+        \u2022 በማኅጸን ውስጥ የጽንስን መዳበር (ኢንዶሜትሪየም) ያከሽፋል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃቱ፡ >99% ነው፡፡\n
+        \u2022 በየጊዜው በወር አበባ የሚፈሰውን የደም መጠን ይቀንሳል፡፡\n
+        \u2022 የወር አበባ ወቅት መዛባትን እና የአንዶሜተሪዮሲስን የህመም ምልክቶች ይቀንሳል፡፡\n
+        \u2022 በተጠቃሚዎች ስብስብ ላይ የሚስተዋል አሜኖሪያ ( የወር አበባ መፍሰስ ማቆም) ሊያጋጥም
+ይችላል፡፡\n
+    </string>
+    <string name="iud_pros">
+        \u2022 ምንም ዓይነት ሆርሞን በውስጡ ያልያዘ ነው፡፡\n
+        \u2022 አንድ ጊዜ የእርግዝና መከላከያው ከተቀበረሎት በኋላ ስለ እርግዝና መከላከል ምንም ስጋት
+አይኖረብዎትም፡፡\n
+        \u2022 የተቀበረው የእርግዝና መከላከያ ሲወገድ ወዲያውኑ ወደ መደበኛ የእርግዝና ተፈጥሯዊ ችሎታ
+ይመለሳሉ፡፡\n
+    </string>
+    <string name="iud_cons">
+        \u2022 የወር አበባን ሊያከብድ ችላል፡፡\n
+        \u2022 አንዳንድ ሴቶች እንዲቀበርላቸው አይፈልጉም፡፡\n
+        \u2022 ከተቀበረ በኋላ ባሉት የመጀመሪዎቹ 20 ቀናት ውስጥ ኢንፌክሽን የማጋጠም እድሉ በጣም ጠባብ
+ነው፡፡\n
+    </string>
+    <string name="mcs">የወንድ ኮንደሞች</string>
+    <string name="mcs_details">
+        \u2022 የተነሳሳ የወንድ ብልትን የሚሸፍን ተለጣጭ ወይም የሚጠለቅ መከላከያ፡፡\n
+        \u2022 የወንድ የዘር ፈሳሽ እና የሴት ዘር እንቁላል እንዳይገናኙ ያግዳል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ትክክለኛ እና ያልተቋረጠ አጠቃቀም >98% ሲሆን
+በመደበኛነት በመጠቀም 85% ነው፡፡\n
+        \u2022 ተጨማሪ ጥቅሞቹ፡፡ ኤችአይቪን ጨምሮ በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎችን
+ይከላከላል፡፡\n
+    </string>
+    <string name="mcs_pros">
+        \u2022 ኮንደም መጠቀም እርስዎን እና የጾታ አጋሮን በግብረ ስጋ ግንኑነት ከሚተላለፉ በሽታዎች
+ለመከላከል በጣም ተመራጭ መንገድ ነው፡፡\n
+        \u2022 በትክክል ሲጠቀሙባቸው እርግዝናን የመከላከያ አስተማማኝ ዘዴ ናቸው፡፡\n
+        \u2022 ሊጠቀሙባቸው የሚያስፈልገው የግብረ ሥጋ ግንኙነት ሲደርጉ ብቻ ሲሆን ምንም አይነት ቅድመ
+ዝግጅት ኤስፈልጋቸውም፡፡\n
+        \u2022 አብዛኛውን ጊዜ ምንም አይነት ህክምና ነክ ጎንዮሽ ጉዳት አያስከትሉም፡፡\n
+    </string>
+    <string name="mcs_cons">
+        \u2022 ትክክለኛ ያልሆነ ስፋት ያለው ኮንደም ካልተጠቀሙ ኮንደሞች ሊወልቁ ወይም ሊፈነዱ ይችላሉ፡፡\n
+        \u2022 ላቴክስ፣ ፕላስቲክ ወይም ጸረ-የወንዴ ዘር የሆኑ ኮንደሞች አንዳንድ ሰዎች አለርጂክ ሊሆኑባቸው
+ይችላሉ፡፡\n
+        \u2022 የወንዴ ዘር ከፈሰሰ በኋላ ብልቱ ሳይልፈሰፈ ወዲያውኑ ወንዱ ከሴቷ ብልት ውስጥ ማውጣት አለበት፡፡\n
+    </string>
+    <string name="fcs">የሴት ኮንደሞች</string>
+    <string name="fcs_details">
+        \u2022 የሴት ብልትን በላላ መልኩ ለመሸፈን የሚመጥን ከስስ ብርሃን አስተላላፊ ተለጣጭ ፕላስቲክ
+የተሰራ የሚጠለቅ መከላከያ፡፡\n
+        \u2022 የወንድ የዘር ፈሳሽ እና የሴት ዘር እንቁላል እንዳይገናኙ ያግዳል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ትክክለኛ እና ያልተቋረጠ አጠቃቀም >90% ሲሆን
+በመደበኛነት በመጠቀም 79% ነው፡፡\n
+        \u2022 ተጨማሪ ጥቅሞቹ፡፡ ኤችአይቪን ጨምሮ በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎችን
+ይከላከላል፡፡\n
+    </string>
+    <string name="fcs_pros">
+            \u2022 ኮንደም መጠቀም እርስዎን እና የጾታ አጋሮን በግብረ ስጋ ግንኑነት ከሚተላለፉ በሽታዎች
+ለመከላከል በጣም ተመራጭ መንገድ ነው፡፡\n
+        \u2022 በትክክል ሲጠቀሙባቸው እርግዝናን የመከላከያ አስተማማኝ ዘዴ ናቸው፡፡\n
+        \u2022 ሊጠቀሙባቸው የሚያስፈልገው የግብረ ሥጋ ግንኙነት ሲደርጉ ብቻ ሲሆን ምንም አይነት ቅድመ
+ዝግጅት ኤስፈልጋቸውም፡፡\n
+        \u2022 አብዛኛውን ጊዜ ምንም አይነት ህክምና ነክ ጎንዮሽ ጉዳት አያስከትሉም፡፡\n
+    </string>
+    <string name="fcs_cons">
+        \u2022 ትክክለኛ ያልሆነ ስፋት ያለው ኮንደም ካልተጠቀሙ ኮንደሞች ሊወልቁ ወይም ሊፈነዱ ይችላሉ፡፡\n
+        \u2022 ላቴክስ፣ ፕላስቲክ ወይም ጸረ-የወንዴ ዘር የሆኑ ኮንደሞች አንዳንድ ሰዎች አለርጂክ ሊሆኑባቸው
+ይችላሉ፡፡\n
+    </string>
+    <string name="ms">የወንድ የመውለድ ችሎታን ማስቀረት (ማኮላሸት)</string>
+    <string name="ms_details">
+        \u2022 ወደፊት ፈጽሞ መውለድ እንደማይፈልጉ እርግጠኛ ለሆኑ ወንዶች ዘላቂ ዘዴ ነው፡፡\n
+        \u2022 ከወንድ ቆለጥ ወደ ወንድ ብልት የወንድ የዘር ፈሳሽን ሚያሰተላልፉ ቧንቧዎችን ( ቫስ ዴፈረንስ
+ቧንቧዎችን) የቆረጣሉ፣ ይደፈናሉ ወይም ይቋጠራሉ፡፡\n
+        \u2022 ከፈሰሰው የዘር ተሸካሚ ፈሳሽ ጋር የወንድ የዘር እንዳይገናኝ ያግዳል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ከሶስት ወራት የወንድ ዘር ተሸካሚ ፈሳሽ ምርመራ በኋላ
+>99% ሲሆን የወንድ ዘር ተሸካሚ ፈሳሽ ምርመራ ሳደረግ 97-98% ነው፡፡\n
+        \u2022 የተጠራቀመ የወንድ ዘር እያለ ውጤት ሳያስከትል ለ 3 ወራት መዘግየት፤ የወንድ የግብረ-ሥጋ
+ችሎታ ላይ ምንም ተጽዕኖ አያሳድርም፡፡\n
+    </string>
+    <string name="ms_pros">
+        \u2022 በድጋሚ ስለእርግዝና መከላከያ ፈጽሞ ማሰብ አይኖረብዎትም፡፡\n
+        \u2022 አብዛኛውን ጊዜ የሚከናወነው በጠቅላላ የቀዶህክምና ባለሙያ ነው፡፡\n
+    </string>
+    <string name="ms_cons">
+        \u2022 በቀላሉ መልሶ ማስተካከል አይቻልም፡፡\n
+        \u2022 ከተከናወነ በኋላ መጠነኛ ምቾት ማጣት ሊጋጥሞት ይችላል፡፡\n
+        \u2022 ከመከናወኑ አስቀድሞ የባለሙያ ምክር አገልግሎት እንደሚያስፈልግዎት ሙሉ በሙሉ እርግጠኛ
+መሆን አለበዎት፡፡\n
+    </string>
+    <string name="fs">የሴት የመውለድ ችሎታን ማስቀረት ( የማህጸን መቋጠር)</string>
+    <string name="fs_details">
+        \u2022 ወደፊት ፈጽሞ መውለድ እንደማይፈልጉ እርግጠኛ ለሆኑ ሴቶች ዘላቂ ዘዴ ነው፡፡\n
+        \u2022 በኦፕራሲዮን የሴት ዘር እንቁላል መተላለፊያ ቧንቧዎችን በመቁረጥ ወይም በመቋጠር የሚሰራ
+ነው፡፡\n
+        \u2022 የሴት የዘር እንቁላሎች ከወንድ የዘር ፈሳሽ ጋር እንዳይገናኝ ያግዳል፡፡\n
+        \u2022 እርግዝናን የመከላከል ብቃት ፡ ከሶስት ወራት የወንድ ዘር ተሸካሚ ፈሳሽ ምርመራ በኋላ
+>99% ነው፡፡\n
+    </string>
+    <string name="fs_pros">
+        \u2022 የወር አበባን መፍሰስን ላይ ተጽእኖ የለውም\n
+        \u2022 በድጋሚ ስለእርግዝና መከላከያ ፈጽሞ ማሰብ አይኖረብዎትም፡፡\n
+    </string>
+    <string name="fs_cons">
+        \u2022 በቀላሉ መልሶ ማስተካከል አይቻልም፡፡\n
+        \u2022 ቀዶ ህክምናው ከተከናወነ በኋላ መጠነኛ ምቾት ማጣት ሊጋጥሞት ይችላል፡፡\n
+        \u2022 ከመከናወኑ አስቀድሞ የባለሙያ ምክር አገልግሎት እንደሚያስፈልግዎት ሙሉ በሙሉ እርግጠኛ
+መሆን አለበዎት፡፡\n
+    </string>
+    <!-- End of Contraceptive content -->
+
+   <!-- Start of HIV content -->
+    <string name="hiv">ኤችአይቪ/ኤድስ</string>
+    <string name="hiv_intro">መግቢያ</string>
+    <string name="hiv_introduction">ኤችአይቪ/ የሰውን በሽታ የመከላከል ተፈጥሯዊ አቅም የሚያዳክም ቫይረስ/ በከፍተኛ ደረጃ ተላላፊ የሆነ
+ተፈጥሯዊውን ሰውነታችንን ከበሽታ የመከላከል ችሎታ ስርዓት በጣም አስፈላጊ ክፍሎችን እና ሴሎችን
+(ሲዲ 4) የሚያዳክም ቫይረስ ነው፡፡ ኤችአይቪ መጠቃት በግብረ- ሥጋ ከሚተላለፉ በህክምና ከማይድኑ
+በሽታዎች አንዱ ነው፡፡ በኤችአይቪ መጠቃት በህክምና ሳይረዳ ከቀረ በሽታን የመከላከል ችሎታን በከፍተኛ
+ደረጃ ለመጉዳት እና ሙሉ በሙሉ ራስን ከበሽታ መከላከል ፈጽሞ ወደማይችልበት ደረጃ ለማድረስ ከ 10
+እስከ 15 ዓመታት ሊወስድበት ይችላል፡፡ ነገር ግን ኤችአይቪ የመስፋፋት እድገቱ ፍጥነት በግለሰቡ ዕድሜ፣
+ጤና እና የኋላ የጤና ሁኔታዎች ላይ መሰረት ያደረገ ነው፡፡\n
+        \u2022 ኤድስ ( አኳየርድ ኢሚዩኖዲፊሸንሲ ሲንድረም) ማለት በኤችአይቪ መጠቃት የመጨረሻው ደረጃ
+ላይ የሚፈጠር የተለያዩ የህመም ምልክቶች እና ህመሞች ( ወይም በሽታ) ማለት ነው፡፡\n
+        \u2022 በሽታው የመከላከል ችሎታን ስርዓት በመቀይር ሰዎችን በበሽታዎች እና ተወስያን የበለጠ ተጠቂ
+እንዲሆኑ የሚደርግ ነው፡፡ \n
+        \u2022 አንድ ሰው ኤድስ አለበት የሚባለው በሽታ የመከላከል ስርዓቱ በሽታ አምጪ ተዋሲንን ለመዋጋት
+በጣም ደካማ ሲሆን እና ተወሲያኑም የተወሰኑ የበሽታው መለያ ምልክቶችን እና ህመሞችን
+ሲስከትሉ ነው፡፡ \n
+    </string>
+    <string name="hiv_stages">በኤችአይቪ የመጠቃት ደረጃዎች</string>
+    <string name="stage1">አጣዳፊ መጀመሪያ ደረጃ መጠቃት</string>
+    <string name="stage1_details">
+        በኤችአይቪ ከመያዝ በኋላ ከአንድ እስከ አራት ሳምንታት ገደማ አንድ አንድ ሰዎች በአብዛኛው ጉንፋን
+መሰል ምልክቶች ያጋጥሟቸዋል፡፡ ይህም ብዙ ጊዜ አይቆይም ( እንድ ወይም ሁለት ሳምንታት) ፡፡ እነዚህ
+ምልክቶች የሚከሰቱት ሰውነትዎ ለኤችአይቪ ቫይረስ ምላሽ ስለሚሰጡ ነው፡፡ የኤችአይቪ ምልክቶች በተለያዩ ሰዎች ላይ የተለያዩ ሊሆኑ ይችላሉ እንዲሁም አንዳንድ ሰዎች ለብዙ ዓመታት ምንም ምልክት
+ላይታይባቸው ይችላል፡፡\n\n
+        ጉንፋን መሰል ምልክቶች ( በመጀመሪያው በኤችአይቪ መጠቃት ደረጃ ወቅት) ሚከተሉትን ሊካትቱ
+ይችላሉ፡-\n
+        \u2022 ትኩሳት ( የሰውነት ሙቀት መጨመር)\n
+        \u2022 የሰውነት መድከም\n
+        \u2022 የሚከረክር ጉሮሮ\n
+        \u2022 የእጢዎች ማበጥ\n
+        \u2022 የራስ ምታት\n
+        \u2022 የሆምድ ህመም\n
+        \u2022 የመገጣጠሚያዎች ህመም\n
+        \u2022 የጡንቻ ህመም\n
+    </string>
+    <string name="stage2">የህመም ምለክቶች የሚታዩበት ደረጃ</string>
+    <string name="stage2_details">
+        የኤችአይቪ ቫይረስ ( በዕድሜ፣ በአለፈ የአኗኗር ሁኔታ አና በጠቅላላ ጤና ላይ መሰረት አድርጎ) ከ 10 እስከ
+15 ዓመታት ድረስ ምንም ዓይነት ሌላ የህመም ምልክቶች ላያሳይ ይችላል፡፡ ነገር ግን ቫይረሱ አሁንም
+በህይወት ይገኛል፡፡ \n
+        <b><i>ማሳሰቢያ:</i></b> በአንደኛው እና በሁለተኛው ደረጃ ብዙ ሰዎች ምንም ዓይነት የህመም ምልክት
+ስለማያጋጥማቸው ኤችአይቪ አብዛኛውን ጊዜ በቫይረሱ እንደተጠቁ ከማያውቁ ሰዎች በቀላሉ ወደ ሌሎች
+ይተላለፋል፡፡\n
+    </string>
+    <string name="stage3">በኤችአይቪ መጠቃት የህመም ምልክቶች\n(በኤችአይቪ መጠቃት ዘግይቶ የሚመጣ ደረጃ)</string>
+    <string name="stage3_details">
+        በኤችአይቪ መጠቃት የህመም ምልክቶች/ በኤችአይቪ መጠቃት ዘግይቶ የሚመጣ ደረጃ/
+በዚህ ደረጃ በሸታን የመከላከል ስርዓት አቅም በከፍተኛ ደረጃ የተጎዳ በመሆኑ ከባድ የሆኑ የበሽታ አምጭ
+ተዋስያንን ጥቃት እና በሽታዎችን ፈጽሞ መከላከል አይችልም፡፡
+    </string>
+
+    <string name="hiv_syptoms">በኤችአይቪ መጠቃት ምልክቶች</string>
+    <string name="hiv_syptoms_details">
+        \u2022 የዕይታ ብዥታ\n
+        \u2022 ተቅማጥ፦ አብዛኛውን ጊዜ ዘላቂ ሆነ እና የማይድን\n
+        \u2022 ዘላቂ ደረቅ ሳል\n
+        \u2022 ለሳምንታት የዘለቀ ትኩሳት\n
+        \u2022 የለሊት ላብ\n
+        \u2022 ቋሚ የሆነ የሰውነት መድከም\n
+        \u2022 የትንፋሽ መቆራረጥ(ዳይስፒኒያ)\n
+        \u2022 ለሳምንታት ዘለቀ የእጢዎች ዕብጠት\n
+        \u2022 ያልተሰበ ሰውነት ክብድት መቀነስ\n
+        \u2022 የአፍ ውስጥ ችግሮች (በምላስ ላይ እና በአፍ ውስጥ ነጫጭ ነጠብጣቦች)\n
+        \u2022 የቆዳ ችግሮች\n
+       በኤችአይቪ መጠቃት ዘግይቶ የሚመጣ ደረጃ ወቅት ህይወትን ለማሳጣት ፈታኝ ለሆኑ ህመሞች
+ተጋላጭነት ከፍተኛ ነው፡፡ ህይወትን ለማሳጣት ፈታኝ ለሆኑ ህመሞችን መቆጣጠር፣ ማስወገድ፣ እና/ወይም አብዛኛውን ጊዜ ተገቢ የህክምና እንክብካቤ በማድረግ አብዛኛውን ጊዜ የኤችአይቪ ህክምናን መከታተልን
+ጨምሮ መንከባከብ ይቻላል፡፡ ቀድመው የኤችአይቪ ምርመራ ማድረግ እና ህክምናውን መከታተል የረጅም
+ጊዜ ጤና እንዲኖርዎ የበለጠ ተመራጭ ነው፡፡\n
+    </string>
+    <string name="hiv_misconceptions">ስለ ኤችአይቪ እና ኤድስ የተዛቡ አመለካክቶች/string>
+    <string name="hiv_misconceptions_details">
+        ቫይረሱ ፈጽሞ የማይተላለፍባቸው መንገዶች፡-\n
+        \u2022 እጅ በመጨባበጥ\n
+        \u2022 በመተቃቀፍ\n
+        \u2022 በተራ መሳሳም\n
+        \u2022 በማስነጠስ\n
+        \u2022 ያልተቆረጠ ቆዳን በመንካት\n
+        \u2022 መጸዳጃ ቤትን በጋራ በመጠቀም\n
+        \u2022 ፎጣ በጋራ በመጠቀም\n
+        \u2022 የመመገቢያ እና የመገልገያ መሳሪያዎችን በጋራ በመጠቀም\n
+        \u2022 አፍለአፍ በሚደረግ የመጀመሪያ እርዳታ \n
+        \u2022 በሌሎች \"ተራ በሆኑ የእርስ በእርስ ንክኪዎች\"\n
+    </string>
+    <string name="hiv_diagnosis">የኤችአይቪ ምርመራ</string>
+    <string name="hiv_diagnosis_details">
+        የኤችአይቪ ምርመራ በተለይ ቫይረሱን ለመለየት በሚደረግ የደም ምርመራ አማካኝነት የሚደረግ ነው፡፡
+የኤችአይቪ ቫይረስ ከተገኘ የምርመራው ውጤት \"ፖዘቲቭ\" ተብሎ ይጠራል፡፡ የፖዘቲቭ ውጤት
+ለታካሚው ከመገለጹ በፊት ደሙ በተደጋጋሚ ለብዙ ጊዜ ምርመራ ይደረግበታል፡፡\n\n
+        አንድ ግለሰብ ለኤችአይቪ ቫይረስ ከተጋለጠ በተቻለ ፍጥነት ወዲያውኑ መመርመር አለበት፡፡ የኤችአይቪ
+ቫይረስ በቶለ፤ መታወቁ የህክምና እርዳታው ውጤታማ ለመሆን የተሻለ እድል ይኖረዋል፡፡\n
+    </string>
+    <string name="hiv_transmission">መተላለፊያ መንገዶች</string>
+    <string name="hiv_transmission_details">
+        ከሰው ወደ ሰው የሚተላለፍ የኤችአይቪ ስርጭት የኤችአይቪ መተላለፍ ተብሎ ይጠራል፡፡ የኤችአይቪ
+ቫይረስ መተላለፍ
+የሚችለው (የሚሰራጨው) በኤችአይቪ ከተያዘ ግለሰብ የተወሰኑ የሰውነት ፈሳሾች
+አማካኝነት ብቻ ነው፡፡\n\n
+       የኤችአይቪ ሊተላለፍ የሚችለው እነዚህ ፈሳሾች ከሙከስ ሜምብሬን ወይም ከቆሰለ የሰውነት ክፍል ጋር
+ከተነካካ ወይም በቀጥታ በደም መተላለፊያ ቧንቧ ( በመርፌ ወይም ሲሪንጅ አማካኝነት) ከተወጋ ብቻ
+ነው፡፡\n\n
+        <b><i>የግብረ- ሥጋ ግንኙነት መተላለፊያ መንገድ:</i></b> ይህ በኤችአይቪ ከተጠቃ ግለሰብ ጋር የግብረ- ሥጋ ግንኙነት
+በማድረግ ሊከሰት ይችላል፡፡ ያልተቆጠበ የግብረ- ሥጋ ግንኙነት በመፈጸም ሊከሰት ይችላል፡፡ የኤችአይቪ
+ቫይረስ መተላለፍ
+የሚችለው (የሚሰራጨው) በኤችአይቪ ከተያዘ ግለሰብ በተወሰኑ የሰውነት ፈሳሾች
+እንደ የዘር ፍሬ ፈሳሽ፣ ከዘር ፍሬ ፈሳሽ ቀድመው በሚመነጩ ፈሳሾች፣ በፍንጢጣ ፍሳሾች እና በሴት ብልት
+ፈሳሾች አማካኝነት ብቻ ነው፡፡\n\n
+        <b><i>ከእናት ወደ ልጅ የመተላለፊያ መንገድ</i></b> እናት በወሊድ፣ በእርግዝና እና በማጥባት ወቅት ቫረሱን ወደ ልጇ
+ልታስተላልፍ ትችላለች፡፡ የኤችአይቪ ቫይረስ በተጨማሪም በቫይረሱ ከተጠቃች ሴት ወደ ህጻን ልጇ
+በእርግዝና ወቅት፣ በወሊድ ( በምጥ እና ልጅ በመገላገል ወቅት ተብሎም ሊጠራ ይችላል) ፣ ወይም ጡት
+በማጥባት ወቅት ቫረሱን ወደ ልጇ ልታስተላልፍ ትችላለች፡፡\n\n
+        <b><i>በደም ንክኪ አማካኝነት የመተላለፊያ መንገድ፡</i></b> ለከፍተኛ የምርመራ እና የቅድመ- ጥንቃቄ ተግባር ምስጋና
+ይግባውና አሁን አሁን ባደጉት ሀገራ በደም መተካት ህክምና ( ብለድ ትራንስፊዩዠን) ኤችአይቪ
+የማስተላለፍ ዕድል በጣም ዝቅተኛ ነው፡፡ ነገር ግን በመርፌ በሚወሰዱ እና አይቪ አደንዛዥ ዕጾች
+ተጠቃሚዎች ዘንድ በኤችአይቪ ቫይረስ በተጠቃ ደም የተበከሉ ሲሪንጆችን መጋራት እና መልሶ መጠቀም
+በከፍተኛ ደረጃ አደገኛ ሆኗል፡፡\n\n
+    </string>
+    <string name="hiv_prevention">መከላከያ መንገዶች</string>
+    <string name="hiv_prevention_details">
+        ማንም ሰው በኤችአይቪ ሊያዝ ይችላል፡፡ ነገር ግን በኤችአይቪ ከመጠቃት ራስዎን ለመከላከል ሊወስዷቸው
+የሚችሉ እርምጃዎች አሉ፡፡\n
+        \u2022 <b><i>ከግብረ- ሥጋ ግንኑነት ይታቀቡ፣\n</i></b>
+        \u2022 <b><i>ይመርመሩ፣ የጾታ አጋርዎን የኤችአይቪ ውጤት ይወቁ፣</i></b>የግብረ- ሥጋ ግንኙነት ከማድረጋችሁ
+በፊት የኤችአይቪ ምርመራ ስለማድረግ እና ስለመመርመር የጾታ አጋርዎን ያወያዩ፡፡\n
+        \u2022 <b><i>የአደጋ ስጋቱ ዝቅተኛ የሆነ የግብረ- ሥጋ ግንኙነት ያድርጉ፡፡</i></b> ኤችአይቪ በዋነኛነት የሚተላለፈው
+በቂጥ ወይም በሴት ብልት ኮንደም ሳይጠቀሙ የግብረ- ሥጋ ግንኙነት በመፈጸም ነው፡፡ \n
+        \u2022 <b><i>ኮንደም ይጠቀሙ፡</i></b> የግብረ- ሥጋ ግንኙነት በሚደርጉበት ወቅት ዘወትር ኮንደምን በትክክል
+ይጠቀሙ፡፡\n
+        \u2022 <b><i>የጾታዊ ግንኙነት አጋሮችዎን ብዛት ይገድቡ፡-</i></b> ብዙ የጾታ አጋሮች አሉዎት ማለት የኤችአይቪ
+መጠቃት በአግባቡ ቁጥጥር ያላደረገ/ ች የኤችአይቪ ተጠቂ የሆነ/ ች ወይም በግብረ- ሥጋ ግንኙነት
+የሚተላለፉ በሽታዎች (ኤስቲዲዎች) ተጠቂ የሆነ/ ች አጋር ሊኖርዎት የሚችልበት አጋጣሚ ሰፊ
+ነው ማለት ነው፡፡\n
+        \u2022 <b><i>የአባላዘ በሽታዎች ምርመራ ያድርጉ፡.</i></b> የጾታ አጋሮችዎም እንዲመረመሩ እና ህክምና እንዲያገኙ
+ያሳምኗቸው፡፡ የኤስቲዲ በሽታዎች ተጠቂ መሆን በኤችአይቪ የመያዝ እድልን ወይም
+ኤችአይቪን ወደ ሌሎች ማስተላለፍ ዕድልን ያሰፋል፡፡\n
+        \u2022 <b><i>በመርፌ የሚወሰዱ አደንዛዥ ዕፆችን አይወጉ፡፡</i></b> የሚወስዱ ከሆነ ግን በስቴሪላይዝድ የዕጽ
+መሳሪዎች እና ማጽጃ ውሃን ይጠቀሙ፤ እንዲሁም መጠቀሚዎችዎን ከሌሎች ጋር ፈጽሞ
+አይጋሩ፡፡\n
+        \u2022 <b><i>ከመጋለጥ በኋላ የሚወሰዱ መድሃኒቶች (ፒኢፒ) </i></b> ፒኢፒ ማለት ለ ኤችአይቪ ከተጋለጡ በኋላ ወዲያውኑ በ ኤችአይቪ የመጠቃትን አደጋ ለመቀነስ
+ሚወሰዱ ኤችአይቪ መድሃኒቶች ናቸው፡፡ ፒኢፒ ለምሳሌ በኤችአይቪ ከተጠቃ ግለሰብ ጋር
+የግበረ- ሥጋ ግንኙነት ከፈጸሙ በኋላ ወይም የጤና እንክብካቤ ሰራተኛ በድንገት በስራ ቦታ
+በሚፈጠር አደጋ ለኤችአይቪ ከተጋለጠ/ ች በኋላ ሊወሰድ ይችላል፡፡ ውጤታማ ለመሆን ፒኢፒ
+መወሰድ መጀመር ያለበት ለኤችአይቪ ከሚያጋልጥ አጋጣሚ በኋላ በ 3 ቀናት ውስጥ ነው፡፡
+ፒኢፒ የኤችአይቪ መድሃኒቶችን በየቀኑ ለ 28 ቀናት መውሰድን የሚያካትት ነው፡፡\n
+        \u2022 <b><i>ኤችአይቪ ከእናት ወደ ልጅ እንዳይተላለፍ መከላከያ መንገድ:</i></b> ከኤችአይቪ ጋር የሚኖሩ ሴቶች ኤችአይቪ በእርግዝና ወቅት ወደ ልጃቸው እንዳይተላለፍ
+የኤችአይቪ መድሃኒቶችን በመውሰድ መተላለፍ እድሉን ይቀንሳሉ፡፡ አዲስ የተወለዱ ህጻናት
+ልጆቻቸውም ከተወለዱ በኋላ ከ 4 እስከ 6 ሳምንታት ለሚቆይ ጊዜ የኤችአይቪ መድሃትን
+መውሰድ አለባቸው፡፡\n
+    </string>
+    <!-- End of HIV content -->
+    <!-- Start of Mental Health content -->
+    <string name="mh">Mental Health</string>
+    <string name="mental_health">Introduction</string>
+    <string name="mental_health_details">
+        A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave. \n\n
+        There are many different mental health problems, and many symptoms are common to more than one diagnosis. So you may experience the symptoms of more than one mental health problem at once. \n
+    </string>
+    <string name="mh_kinds">Kinds</string>
+    <string name="mh_kinds_depression">Depression</string>
+    <string name="mh_kinds_depression_details">
+        Affects your self-esteem, sleep, appetite, sex drive and, sometimes, your physical health. It can make you feel hopeless, despairing, guilty, worthless, unmotivated and exhausted. At its most severe, depression can make you feel suicidal, and be life-threatening. Common specific forms of depression. \n\n
+        <b><i>Postnatal depression (PND):</i></b> depression that can develop from between two weeks to up to two years after becoming a parent. It's usually diagnosed in mothers, but can affect partners too. \n
+        <b><i>Seasonal affective disorder (SAD):</i></b> depression that is related to day length and usually (but not always) occurs in the winter.
+    </string>
+    <string name="mh_kinds_anxiety">Anxiety</string>
+    <string name="mh_kinds_anxiety_details">
+        Refers to strong feelings of unease, worry and fear. You might experience:\n
+        \u2022 Constant worrying about things that are a regular part of everyday life, or about things that aren’t likely to happen. \n
+        \u2022 Unpleasant physical symptoms such as sleep problems, panic attacks, an increased heartbeat, an upset stomach, muscle tension or feeling shaky. \n
+        \u2022 A specific anxiety disorder, such as generalised anxiety disorder (GAD), panic disorder, a phobia, obsessive-compulsive disorder (OCD) or post-traumatic stress disorder (PTSD).\n
+    </string>
+    <string name="mh_kinds_social_phobias">Social Phobias</string>
+    <string name="mh_kinds_social_phobias_details">
+        People with social phobia have an intense, chronic fear of being watched and judged by others, and of being humiliated by their own actions.
+    </string>
+    <string name="mh_kinds_eating_disorder">Eating Disorder</string>
+    <string name="mh_kinds_eating_disorder_details">
+        Eating problems aren’t just about food. They can be about difficult things in your life and painful feelings, which you may be finding hard to express, face or resolve. Focusing on food can be a way of disguising these problems, even from yourself. The most common:\n\n
+        <b><i>Anorexia </i></b> – not allowing yourself to eat enough food to get the energy and nutrition you need to stay physically healthy. Sometimes people assume that anorexia is about slimming and dieting, but it is often connected to very low self-esteem, negative self-image and feelings of intense distress. \n\n
+        <b><i>Bulimia</i></b> – finding that you eat large amounts of food all in one go, often because you are feeling upset or worried (this is called bingeing); then feeling deeply guilty or ashamed, and taking steps to get rid of the food you have eaten (this is called purging). \n\n
+        <b><i>Binge eating disorder</i></b> – feeling that you can’t stop yourself from eating, even when you want to. This is sometimes described as having a food addiction or compulsive eating.  \n\n
+        <b><i>Eating disorder not otherwise specified (EDNOS)</i></b> – this diagnosis means you meet some of the criteria for one of the above disorders, but not all of them.  \n\n
+    </string>
+    <string name="mh_kinds_bipolar_disorder">Bipolar Disorder</string>
+    <string name="mh_kinds_bipolar_disorder_details">
+        Bipolar Disorder (also known as bipolar affective disorder) is characterized by cycling mood changes: severe highs (mania) and lows (depression). Everyone has variations in their mood, but in bipolar disorder these changes can be very distressing and have a big impact on your life\n
+    </string>
+    <string name="mh_kinds_panic_disorder">Panic Disorder</string>
+    <string name="mh_kinds_panic_disorder_details">
+        panic disorder is characterized by panic attacks or sudden feelings of terror that strike repeatedly and without warning: chest pain, heart palpitations, shortness of breath, dizziness, abdominal discomfort, feelings of unreality, and fear of dying. \n
+    </string>
+    <string name="mh_kinds_addictive_disorders">Addictive Disorders</string>
+    <string name="mh_kinds_addictive_disorders_details">
+         addiction is a disease that affects both brain and behavior. \n\n
+        <b><i>Substance Related Disorders: </i></b> alcohol, chats or drugs; side effects of medications; or exposure to toxins such as substance-related disorders may be defined as abuse of substances, such as lead, antifreeze, carbon monoxide and inhalants. \n
+    </string>
+    <string name="mh_kinds_schizophrenia">Schizophrenia</string>
+    <string name="mh_kinds_schizophrenia_details">
+        a severe and disabling brain disease that affects a person’s thoughts and behavior. You may receive a diagnosis of schizophrenia if you have symptoms such as:\n
+        \u2022 The presence of certain psychotic features during the active phase of the illness, such as delusions or hallucinations\n
+        \u2022 Psychotic experiences, for example hallucinations or delusions \n
+        \u2022 Disorganised thinking \n
+        \u2022 A lack of interest in things\n
+        \u2022 Wanting to avoid people\n
+    </string>
+    <string name="mh_causes">Causes</string>
+    <string name="mh_causes_details">
+    Mental health problems can have a wide range of causes. The following factors could potentially trigger a period of poor mental health:\n
+    \u2022 Social isolation or loneliness  \n
+    \u2022 Experiencing discrimination and stigma\n
+    \u2022 The death of someone close to you\n
+    \u2022 Severe or long-term stress\n
+    \u2022 Social disadvantage, poverty or debt\n
+    \u2022 Caring for a family member or friend\n
+    \u2022 A long-term physical health condition\n
+    \u2022 Drug, chat and alcohol misuse\n
+    \u2022 Physical causes – for example, a head injury or a condition such as  epilepsy can have an impact on behaviour and mood\n
+    </string>
+    <string name="mh_diagnoses">Diagnoses</string>
+    <string name="mh_diagnoses_details">
+        Despite these challenges, it is possible to recover from a mental health problem and live a productive and fulfilling life. There are a lot of different approaches to how mental health problems should be diagnosed, what causes them and which treatments are most effective. To diagnose a mental health problem, doctors will look at: \n
+        \u2022 What symptoms you\'re experiencing (groupings of certain symptoms  suggest different diagnoses)  \n
+        \u2022 How long you\'ve been experiencing these symptoms \n
+        \u2022 The impact they\'re having on your life\n
+    </string>
+    <string name="mh_diagnose_who">Who can diagnose me? </string>
+    <string name="mh_diagnose_who_details">
+        For common problems such as depression and anxiety, your GP may be able to give you a diagnosis after one or two appointments. For less common problems you’ll need to be referred to a mental health specialist.\n
+    </string>
+    <string name="mh_diagnose_selfhelp">Self Help</string>
+    <string name="mh_diagnose_selfhelp_detail">
+        Self-care techniques and general lifestyle changes can help manage the symptoms of many mental health problems, and may also help to prevent some problems from developing or getting worse. Recovering from a mental health problem is likely to take time, energy and work. Here are some tips for looking after yourself that you might nd helpful. \n\n
+        <b><i>Nourish your social life: </i></b> Feeling connected to other people is important. It can help you to feel valued and con dent about yourself, and can give you a different perspective on things. \n
+        <b><i>Try peer support: </i></b> Peer support brings together people who’ve had similar experiences to support each other. This can offer many benefits, such as: \n
+        \u2022 Feeling accepted for who you are \n
+        \u2022 Increased self-confidence \n
+        \u2022 Meeting new people and using your experiences to help others \n
+        \u2022 Finding out new information and places for support \n
+        \u2022 Challenging stigma and discrimination.\n
+
+        <b><i>Make time for therapeutic activities </i></b> such as:\n
+        \u2022 <b><i>Relaxation:</i></b> like having a bath, listening to music or taking your dog for a walk. If you know that a certain activity helps you feel more relaxed, make sure you set aside time to do it. \
+        \u2022 <b><i>Mindfulness:</i></b> mindfulness is a therapeutic technique that involves being more aware of the present moment. Practising mindfulness can help you become more aware of your own moods and reactions. \n
+        \u2022 <b><i>Ecotherapy:</i></b> getting out into a green environment, such as the park or the countryside, is especially helpful.  
+        <b><i>Look after your physical health </i></b> by:\n
+        \u2022 <b><i>Getting enough sleep</i></b> – this can help you have the energy to cope with dif cult feelings and experiences. \n
+        \u2022 <b><i>Eating healthily</i></b> – what you eat, and when you eat, can make a big difference to how well you feel. \n
+        \u2022 <b><i>Keeping physically active:</i></b> – doing regular exercise can be very effective in lifting your mood and increasing your energy levels. \n
+        \u2022 <b><i>Looking after yourself</i></b> – when you're experiencing a mental health problem, it's easy for personal care to not feel like a priority.  \n
+        \u2022 <b><i>Avoiding drugs, chat and alcohol</i></b> – while you might want to use chats, drugs or alcohol to cope with difficult feelings, in the long run they can make you feel a lot worse. \n
+    </string>
+    <string name="mh_treatments">What treatments are available? </string>
+    <string name="mh_treatments_details">
+        The two most common forms of treatment offered are talking treatments and medication\n\n
+        <b><i>Talking treatments: </i></b> provide a regular time and space for you to talk about your thoughts and experiences and explore difficult feelings with a trained professional. This could help you to: \n
+        \u2022 Deal with a specific problem \n
+        \u2022 Cope with upsetting memories or experiences \n
+        \u2022 Improve your relationships \n
+        \u2022 Develop more helpful ways of living day-to-day\n\n
+        <b><i>Medication:</i></b> The most common type of treatment available is prescription medication. These drugs don’t cure mental health problems, but they can ease many symptoms. \n
+    </string>
+    <string name="mh_faqs">Frequently Asked Questions</string>
+    <string name="mh_faqs_details">
+        \u2022 <b><i>Are brain disorders genetic?</i></b> Genetic abnormalities are merely one factor that may contribute to the onset of mental illness.\n
+        \u2022 <b><i>Do people recover from brain disorders?</i></b> Recovery rates from anxiety and eating disorders are high. With new medications 80 percent of people who have major depression and 60 percent of people who have schizophrenia, will recover meaningful lives. \n
+        \u2022 <b><i>How do I get better?</i></b> Learn as much as you can about your disorder.
+    </string>
+    <!-- End of Mental Health Content -->
+    <!-- Start of Unwanted Pregnancy Content -->
+    <string name="upregnancy">Unintended Pregnancy</string>
+    <string name="unintended_pregnancy">Introduction</string>
+    <string name="unintended_pregnancy_detail">
+        Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception. Unintended pregnancies may also result from.
+    </string>
+    <string name="upregnancy_causes">Causes</string>
+    <string name="upregnancy_causes_detail">
+        \u2022 Rape, incest or various other forms of forced or unwanted sex\n
+        \u2022 Not using contraception or family planning services\n
+        \u2022 Using contraception inconsistently or incorrectly\n
+        \u2022 Contraceptive failure (the method was used correctly, but did not work.) Contraceptive failure accounts for a relatively small fraction of unintended pregnancies when modern highly effective contraceptives are used.\n
+    </string>
+    <string name="upregnancy_consequences">Consequences</string>
+    <string name="upregnancy_consequences_detail">
+        \u2022 Prenatal care initiated later, and less adequate. Adversely affects health of woman and of child and less preparation for parenthood. Delay from unintended pregnancy is in addition to that from other risk factors for delay.\n
+        \u2022 Unintended pregnancies preclude chance to resolve sexually transmitted diseases (STD) before pregnancy. Untreated STD in pregnant woman can result in premature delivery, infection in newborn or infant death.\n
+        \u2022 Women with an unintended pregnancy are more likely to suffer depression during or after pregnancy.\n
+        \u2022 Reduced likelihood of breastfeeding, resulting in less healthy children\n
+        \u2022 Lower mother-child relationship quality.\n
+        \u2022 Greater infant mortality\n
+        \u2022 Abortion, termination of pregnancy\n
+    </string>
+    <string name="unsafe_abortion">Unsafe Abortion</string>
+    <string name="unsafe_abortion_detail">WHO defines an unsafe abortion as \" a procedure for terminating an unwanted pregnancy either by persons lacking the necessary skills or in an environment lacking the minimal medical standards, or both\".
+Unsafe and illegal abortion is among the main causes of death worldwide.
+    </string>
+    <string name="unsafe_method_abortion">Unsafe Methods of Abortion</string>
+    <string name="unsafe_method_abortion_detail">
+        \u2022 Swallowing large doses of drugs, such as antimalarials or oral contraceptives.\n
+        \u2022 Inserting a sharp object into the uterus.\n
+        \u2022 Drinking or flushing the vagina with caustic liquids such as bleach.\n
+        \u2022 Physical abuse such as jumping or falling from high places, vigorous dancing, or sustained and vigorous sexual intercourse over long periods.\n
+        \u2022 Prolonged and hard massage to manipulate the uterus, or repeated blows to the stomach.\n
+    </string>
+    <string name="safe_method_abortion">Safe Methods of Abortion</string>
+    <string name="safe_method_abortion_detail">
+        \u2022 Safe methods of abortion used during the first trimester (12 weeks) of pregnancy are vacuum aspiration, dilation and curettage, and medication abortion. (The length of a pregnancy is measured from the first day of a woman’s last menstrual period.)\n
+        \u2022 For pregnancies of more than 12 completed weeks since the woman’s last menstrual period, the two most widely used abortion methods are dilation and evacuation (D and E) and medication abortion.\n
+    </string>
+    <string name="unsafe_abortion_issues">Unsafe Abortion Issues</string>
+    <string name="unsafe_abortion_issues_detail">
+        <b><i>Incomplete abortion</i></b> occurs when some tissue remains in the uterus.\n
+        \u2022 Symptoms include abdominal pain; vaginal bleeding; and a soft, enlarged uterus.\n
+        \u2022 Treatment involves removing the remaining tissue in the uterus with vacuum aspiration or, if that is not available, with dilation and curettage.\n
+        <b><i>Infection</i></b> of uterine tissue can result from use of contaminated instruments or when tissue remains in the uterus.\n
+        \u2022 Symptoms include those of incomplete abortion as well as fever, chills, and foul-smelling vaginal discharge and uterine tenderness. Most often, symptoms appear two to three days after the abortion.\n
+        \u2022 Treatment involves antibiotics and vacuum aspiration if needed to remove the remaining tissue in the uterus.
+        <b><i>Heavy bleeding</i></b> results when an incomplete abortion is not treated or from some abortion techniques such as dilation and curettage or insertion of sticks or other objects into the cervix.\n
+        \u2022 Heavy bleeding also can be triggered by toxic reactions caused by herbs, drugs, or chemicals that are swallowed or placed in the vagina.\n
+        \u2022 Treatment may require removing remaining tissue in the uterus and administration of drugs to stop the bleeding, intravenous fluid replacement, and, in severe cases, blood transfusion or surgery.\n
+        <b><i>Uterine perforation</i></b> can occur when a sharp object or instrument is inserted into the uterus.\n
+        \u2022 Other organs also can be injured, including the cervix, ovaries, bowel, bladder, and rectum.\n
+        \u2022 Observation and antibiotics may be all that is needed as treatment, but in more severe cases, surgery may be needed to repair damage to bowel, blood vessels, or other organs.\n
+        NB: Untreated, these complications can cause disabilities and chronic conditions that include: chronic pelvic pain; pelvic inflammatory disease, an infection of the reproductive organs; and infertility.\n
+    </string>
+    <!-- end of content of Unintended Pregnancy -->
+    <!-- star of Sexually Transmitted Infections -->
+    <string name="stis">Sexually Transmitted Infections (STIs)</string>
+    <string name="sti_intro">Introduction</string>
+    <string name="sti_intro_detail">
+    Sexually transmitted infections (STIs), also called sexually transmitted diseases (STDs), are infections that are passed from one person to another through sexual contact.
+    </string>
+    <string name="sti_causes">Causes</string>
+    <string name="sti_causes_detail">
+        More than 30 different bacteria, viruses and parasites are known to be transmitted through sexual contact. Eight of these pathogens are linked to the greatest incidence of sexually transmitted disease. Of these 8 infections, 4 are currently curable: syphilis, gonorrhoea, chlamydia and trichomoniasis. The other 4 are viral infections and are incurable: hepatitis B, herpes simplex virus (HSV or herpes), HIV, and human papillomavirus (HPV).
+    </string>
+    <string name="sti_transmission">Transmission</string>
+    <string name="sti_transmission_detail">
+            STIs are spread from one person to another person in the following ways:\n
+        \u2022 Having unprotected (without a condom) vaginal, oral, or anal sex with someone who has an STI. NB. STIs can be spread even if there are no signs or symptoms.\n
+        \u2022 During genital touching. It is possible to get some STIs, such as syphilis and herpes, without having sex.\n
+        \u2022 From a pregnant woman to her baby.\n
+    </string>
+    <string name="sti_syptoms">Signs and Syptoms</string>
+    <string name="sti_syptoms_detail">
+        Different STIs have different manifestations. Many STIs have only mild symptoms or no signs or symptoms at all. When women have symptoms, the symptoms may be mistaken for something else, such as a urinary tract infection or yeast infection. The common signs/symptoms of STIs.\n
+        \u2022 Itching around the vagina and/or discharge from the vagina for women.\n
+        \u2022 Discharge from the penis for men.\n
+        \u2022 Pain during sex or when urinating.\n
+        \u2022 Pain in the pelvic area.\n
+        \u2022 Chancre sores (painless red sores) on the genital area, anus, tongue and/or throat.\n
+        \u2022 A scaly rash on the palms of your hands and the soles of your feet.\n
+        \u2022 Dark urine, loose, light-colored stools, and yellow eyes and skin.\n
+        \u2022 Small blisters that turn into scabs on the genital area.\n
+        \u2022 Swollen glands, fever and body aches.\n
+        \u2022 Unusual infections, unexplained fatigue, night sweats and weight loss.\n
+        \u2022 Soft, flesh-colored warts (growth) around the genital area.\n
+    </string>
+    <string name="sti_complications">Complications</string>
+    <string name="sti_complications_detail">
+        STIs can have serious consequences beyond the immediate impact of the infection itself. Women often have more serious health problems from STIs than men, including infertility.\n
+        \nEach STI causes different health problems. Certain types of untreated STIs can cause or lead to:\n
+        \u2022 Problems getting pregnant or permanent infertility. STIs such as gonorrhoea and chlamydia are major causes of pelvic inflammatory disease (PID) and infertility in women.\n
+        \u2022 Problems during pregnancy and health problems for the unborn baby.\n
+        \u2022 Infection in other parts of the body\n
+        \u2022 Organ damage\n
+        \u2022 HPV infection can causes cervical cancer and related deaths each year\n
+        \u2022 STIs like herpes and syphilis can increase the risk of HIV acquisition three-fold or more.\n
+        \u2022 Mother-to-child transmission of STIs can result in stillbirth, neonatal death, low-birth-weight and prematurity, sepsis, pneumonia, neonatal conjunctivitis, and congenital deformities.\n
+        \u2022 Death.\n
+    </string>
+    <string name="sti_prevention">Prevention</string>
+    <string name="sti_prevention_detail">
+        The best way to prevent an STI is to not have vaginal, oral, or anal sex.\n\n
+        If you do have sex, lower your risk of getting an STI with the following steps:\n
+        \u2022 <b><i>Get vaccinated:</i></b> There are vaccines to protect against HPV and hepatitis B. (but not practiced in our country)\n
+        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex. NB. Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
+with some sores (such as those that can occur with herpes) or warts (which can be caused by HPV infection).\n
+        \u2022 <b><i>Be monogamous (faithful to each other):</i></b> Having sex with just one partner can lower your risk for STIs. Your risk of getting STIs goes up with the number of partners you have.\n
+        NB. The steps work best when used together. No single step can protect you from every single type of STI.\n
+    </string>
+    <string name="sti_treatment">Treatment</string>
+    <string name="sti_treatment_detail">
+        Some STIs are curable while few are not. STIs that are caused by bacteria, like chlamydia, syphilis and Gonorrhoea, can be cured with antibiotics. But STIs caused by a virus (like HIV or herpes) can’t be cured. Your doctor can only treat the symptoms that the virus causes. Don’t wait to be treated. Early treatment helps prevent serious health problems.\n\n
+        See your doctor if you’re at risk for having an STI, if you have any of the symptoms, or if you have concerns about whether you have one. STIs can cause serious health problems if left untreated. For example, chlamydia can lead to problems that can cause women not to be able to have children (infertility). HPV can lead to cancer of the cervix or penis, and syphilis can lead to paralysis, mental problems, heart damage, blindness and even death.
+    </string>
+    <!-- end of Sexually Transmitted Infections -->
+</resources>

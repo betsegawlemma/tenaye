@@ -3,8 +3,11 @@
 
     <string name="up_arrow">\u25B2</string>
     <string name="down_arrow">\u25BC</string>
+    <string name="pro">Pros</string>
+    <string name="cons">Cons</string>
 
     <!-- Start of Contraceptive content -->
+    <string name="contraceptive">Contraceptive</string>
     <string name="cntra_intro">Introduction</string>
     <string name="contraceptive_introduction">Contraception is essential to secure the well-being and autonomy of women, while supporting the health and development of communities. Contraception allows spacing of pregnancies and can delay pregnancies in young women at increased risk of health problems and death from early childbearing. </string>
     <string name="cocs">Combined Oral Contraceptive</string>
@@ -133,7 +136,6 @@
         \u2022 Forms a barrier to prevent sperm and egg from meeting\n
         \u2022 Effectiveness to prevent pregnancy: 90% with correct and consistent use; 79% as commonly used\n
         \u2022 Additional benefits: protects against sexually transmitted infections, including HIV\n
-        \u2022 Additional benefits: protects against sexually transmitted infections, including HIV\n
     </string>
     <string name="fcs_pros">
         \u2022 Condoms are the best way to protect yourself and your partner against sexually transmitted infections (STIs)\n
@@ -144,7 +146,6 @@
     <string name="fcs_cons">
         \u2022 Condoms may slip off or break if the wrong size is used\n
         \u2022 Some people may be allergic to latex, plastic or spermicides\n
-        \u2022 The man has to pull out immediately after ejaculating before the penis goes soft\n
     </string>
     <string name="ms">Male Sterilization\n (vasectomy)</string>
     <string name="ms_details">
@@ -182,6 +183,7 @@
     <!-- End of Contraceptive content -->
 
    <!-- Start of HIV content -->
+    <string name="hiv">HIV/AIDS</string>
     <string name="hiv_intro">Introduction</string>
     <string name="hiv_introduction">HIV (human immunodeficiency virus) is a retrovirus that infects the vital organs and cells of the human immune system (CD4 cells), which is our body’s natural defence against illness. HIV infection is one of none-curable sexually transmitted infections. If HIV is left untreated, it may take up to 10 or 15 years for the immune system to be so severely damaged it can no longer defend itself at all. However, the speed HIV progresses will vary depending on age, health and background.\n
         \u2022 AIDS (acquired immunodeficiency syndrome) is a refers to a set of symptoms and illnesses, (or syndrome) that occur at the very final stage of HIV infection. \n
@@ -269,6 +271,7 @@
     </string>
     <!-- End of HIV content -->
     <!-- Start of Mental Health content -->
+    <string name="mh">Mental Health</string>
     <string name="mental_health">Introduction</string>
     <string name="mental_health_details">
         A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave. \n\n
@@ -386,6 +389,7 @@
     </string>
     <!-- End of Mental Health Content -->
     <!-- Start of Unwanted Pregnancy Content -->
+    <string name="upregnancy">Unintended Pregnancy</string>
     <string name="unintended_pregnancy">Introduction</string>
     <string name="unintended_pregnancy_detail">
         Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception. Unintended pregnancies may also result from.
@@ -440,4 +444,66 @@ Unsafe and illegal abortion is among the main causes of death worldwide.
         \u2022 Observation and antibiotics may be all that is needed as treatment, but in more severe cases, surgery may be needed to repair damage to bowel, blood vessels, or other organs.\n
         NB: Untreated, these complications can cause disabilities and chronic conditions that include: chronic pelvic pain; pelvic inflammatory disease, an infection of the reproductive organs; and infertility.\n
     </string>
+    <!-- end of content of Unintended Pregnancy -->
+    <!-- star of Sexually Transmitted Infections -->
+    <string name="stis">Sexually Transmitted Infections (STIs)</string>
+    <string name="sti_intro">Introduction</string>
+    <string name="sti_intro_detail">
+    Sexually transmitted infections (STIs), also called sexually transmitted diseases (STDs), are infections that are passed from one person to another through sexual contact.
+    </string>
+    <string name="sti_causes">Causes</string>
+    <string name="sti_causes_detail">
+        More than 30 different bacteria, viruses and parasites are known to be transmitted through sexual contact. Eight of these pathogens are linked to the greatest incidence of sexually transmitted disease. Of these 8 infections, 4 are currently curable: syphilis, gonorrhoea, chlamydia and trichomoniasis. The other 4 are viral infections and are incurable: hepatitis B, herpes simplex virus (HSV or herpes), HIV, and human papillomavirus (HPV).
+    </string>
+    <string name="sti_transmission">Transmission</string>
+    <string name="sti_transmission_detail">
+            STIs are spread from one person to another person in the following ways:\n
+        \u2022 Having unprotected (without a condom) vaginal, oral, or anal sex with someone who has an STI. NB. STIs can be spread even if there are no signs or symptoms.\n
+        \u2022 During genital touching. It is possible to get some STIs, such as syphilis and herpes, without having sex.\n
+        \u2022 From a pregnant woman to her baby.\n
+    </string>
+    <string name="sti_syptoms">Signs and Syptoms</string>
+    <string name="sti_syptoms_detail">
+        Different STIs have different manifestations. Many STIs have only mild symptoms or no signs or symptoms at all. When women have symptoms, the symptoms may be mistaken for something else, such as a urinary tract infection or yeast infection. The common signs/symptoms of STIs.\n
+        \u2022 Itching around the vagina and/or discharge from the vagina for women.\n
+        \u2022 Discharge from the penis for men.\n
+        \u2022 Pain during sex or when urinating.\n
+        \u2022 Pain in the pelvic area.\n
+        \u2022 Chancre sores (painless red sores) on the genital area, anus, tongue and/or throat.\n
+        \u2022 A scaly rash on the palms of your hands and the soles of your feet.\n
+        \u2022 Dark urine, loose, light-colored stools, and yellow eyes and skin.\n
+        \u2022 Small blisters that turn into scabs on the genital area.\n
+        \u2022 Swollen glands, fever and body aches.\n
+        \u2022 Unusual infections, unexplained fatigue, night sweats and weight loss.\n
+        \u2022 Soft, flesh-colored warts (growth) around the genital area.\n
+    </string>
+    <string name="sti_complications">Complications</string>
+    <string name="sti_complications_detail">
+        STIs can have serious consequences beyond the immediate impact of the infection itself. Women often have more serious health problems from STIs than men, including infertility.\n
+        \nEach STI causes different health problems. Certain types of untreated STIs can cause or lead to:\n
+        \u2022 Problems getting pregnant or permanent infertility. STIs such as gonorrhoea and chlamydia are major causes of pelvic inflammatory disease (PID) and infertility in women.\n
+        \u2022 Problems during pregnancy and health problems for the unborn baby.\n
+        \u2022 Infection in other parts of the body\n
+        \u2022 Organ damage\n
+        \u2022 HPV infection can causes cervical cancer and related deaths each year\n
+        \u2022 STIs like herpes and syphilis can increase the risk of HIV acquisition three-fold or more.\n
+        \u2022 Mother-to-child transmission of STIs can result in stillbirth, neonatal death, low-birth-weight and prematurity, sepsis, pneumonia, neonatal conjunctivitis, and congenital deformities.\n
+        \u2022 Death.\n
+    </string>
+    <string name="sti_prevention">Prevention</string>
+    <string name="sti_prevention_detail">
+        The best way to prevent an STI is to not have vaginal, oral, or anal sex.\n\n
+        If you do have sex, lower your risk of getting an STI with the following steps:\n
+        \u2022 <b><i>Get vaccinated:</i></b> There are vaccines to protect against HPV and hepatitis B. (but not practiced in our country)\n
+        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex. NB. Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
+with some sores (such as those that can occur with herpes) or warts (which can be caused by HPV infection).\n
+        \u2022 <b><i>Be monogamous (faithful to each other):</i></b> Having sex with just one partner can lower your risk for STIs. Your risk of getting STIs goes up with the number of partners you have.\n
+        NB. The steps work best when used together. No single step can protect you from every single type of STI.\n
+    </string>
+    <string name="sti_treatment">Treatment</string>
+    <string name="sti_treatment_detail">
+        Some STIs are curable while few are not. STIs that are caused by bacteria, like chlamydia, syphilis and Gonorrhoea, can be cured with antibiotics. But STIs caused by a virus (like HIV or herpes) can’t be cured. Your doctor can only treat the symptoms that the virus causes. Don’t wait to be treated. Early treatment helps prevent serious health problems.\n\n
+        See your doctor if you’re at risk for having an STI, if you have any of the symptoms, or if you have concerns about whether you have one. STIs can cause serious health problems if left untreated. For example, chlamydia can lead to problems that can cause women not to be able to have children (infertility). HPV can lead to cancer of the cervix or penis, and syphilis can lead to paralysis, mental problems, heart damage, blindness and even death.
+    </string>
+    <!-- end of Sexually Transmitted Infections -->
 </resources>

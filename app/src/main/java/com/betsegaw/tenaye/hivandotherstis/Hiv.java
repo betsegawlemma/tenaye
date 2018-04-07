@@ -12,7 +12,7 @@ import com.betsegaw.tenaye.R;
  * Created by betsegaw on 4/1/18.
  */
 
-public class HivAndOtherSTIs extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
+public class Hiv extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
 
     TabLayout hivTabLayout;
     ViewPager hivViewPager;

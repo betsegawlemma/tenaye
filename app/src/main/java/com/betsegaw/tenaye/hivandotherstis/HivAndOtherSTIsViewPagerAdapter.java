@@ -22,9 +22,9 @@ public class HivAndOtherSTIsViewPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                HivAndOtherSTIsContent hivContent = new HivAndOtherSTIsContent();
+                HivContent hivContent = new HivContent();
                 return hivContent;
-            case 1:
+            case 2:
                 HivAndOtherSTIsQuiz hivAndOtherSTIsQuiz = new HivAndOtherSTIsQuiz();
                 return hivAndOtherSTIsQuiz;
             default:
