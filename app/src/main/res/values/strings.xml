@@ -188,7 +188,7 @@
         \u2022 The disease alters the immune system, making people much more vulnerable to infections and diseases. \n
         \u2022 A person is said to have AIDS when their immune system is too weak to fight off infection, and they develop certain defining symptoms and illnesses. \n
     </string>
-    <string name="hiv_stages">Stages of HIV Infection</string>
+    <string name="hiv_stages">Stages</string>
     <string name="stage1">Acute Primary Infection </string>
     <string name="stage1_details">
         Around one to four weeks after becoming infected with HIV, some people will experience symptoms that can feel a lot like flu. This may not last long (a week or two). These symptoms can happen because your body is reacting to the HIV virus. The symptoms of HIV can differ from person-to-person and some people may not get any symptoms at all for many years.\n\n
@@ -212,7 +212,7 @@
         At this stage, the immune system has been so badly damaged that it can no longer fight off serious infections and diseases. This stage of infection is known as AIDS.
     </string>
 
-    <string name="hiv_syptoms">Symptoms of Late-Stage HIV Infection</string>
+    <string name="hiv_syptoms">Symptoms</string>
     <string name="hiv_syptoms_details">
         \u2022 Blurred vision\n
         \u2022 Diarrhea, which is usually persistent or chronic\n
@@ -227,7 +227,7 @@
         \u2022 Skin problems\n
         During late-stage HIV infection, the risk of developing a life-threatening illness is much greater. Life-threatening illnesses may be controlled, avoided, and/or treated with proper medications, often including HIV treatment. The earlier you have HIV diagnosed and start treatment, the better your likely long-term health.\n
     </string>
-    <string name="hiv_misconceptions">HIV/AIDS Misconceptions</string>
+    <string name="hiv_misconceptions">Misconceptions</string>
     <string name="hiv_misconceptions_details">
         There are many misconceptions about HIV and AIDS. The virus CANNOT be transmitted from:\n
         \u2022 shaking hands\n
@@ -241,12 +241,12 @@
         \u2022 mouth-to-mouth resuscitation or \n
         \u2022 other forms of "casual contact"\n
     </string>
-    <string name="hiv_diagnosis">Diagnosis of HIV</string>
+    <string name="hiv_diagnosis">Diagnosis</string>
     <string name="hiv_diagnosis_details">
         Diagnosis is made through a blood test that screens specifically for the virus. If the HIV virus has been found, the test result is "positive." The blood is re-tested several times before a positive result is given to the patient.\n\n
         If a person has been exposed to the virus, it is crucial that they get tested as soon as possible. The earlier HIV is detected, the more likely the treatment will be successful.\n
     </string>
-    <string name="hiv_transmission">Hiv Transmission</string>
+    <string name="hiv_transmission">Transmission</string>
     <string name="hiv_transmission_details">
         The person-to-person spread of HIV is called HIV transmission. HIV is transmitted (spread) only in certain body fluids from a person infected with HIV\n\n
         HIV transmission is only possible if these fluids come in contact with a mucous membrane or damaged tissue or are directly injected into the bloodstream (from a needle or syringe).\n\n
@@ -254,7 +254,7 @@
         <b><i>Perinatal Transmission</i></b> a mother can pass the infection on to her child during childbirth, pregnancy, and also through breastfeeding. HIV can also spread from an HIV-infected woman to her child during pregnancy, childbirth (also called labor and delivery), or breastfeeding. This spread of HIV is called mother-to-child transmission of HIV.\n\n
         <b><i>Blood Transmission</i></b> the risk of transmitting HIV through blood transfusion is nowadays extremely low in developed countries, thanks to meticulous screening and precautions. However, among injection or IV drug users, sharing and reusing syringes contaminated with HIV-infected blood is extremely hazardous.\n\n
     </string>
-    <string name="hiv_prevention">HIV Prevention</string>
+    <string name="hiv_prevention">Prevention</string>
     <string name="hiv_prevention_details">
         Anyone can get HIV, but you can take steps to protect yourself from HIV infection. The following are list of prevention steps:\n
         \u2022 <b><i>Abstain from sex\n</i></b>
@@ -274,7 +274,7 @@
         A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave. \n\n
         There are many different mental health problems, and many symptoms are common to more than one diagnosis. So you may experience the symptoms of more than one mental health problem at once. \n
     </string>
-    <string name="mh_kinds">Kinds of Mental Health Issues</string>
+    <string name="mh_kinds">Kinds</string>
     <string name="mh_kinds_depression">Depression</string>
     <string name="mh_kinds_depression_details">
         Affects your self-esteem, sleep, appetite, sex drive and, sometimes, your physical health. It can make you feel hopeless, despairing, guilty, worthless, unmotivated and exhausted. At its most severe, depression can make you feel suicidal, and be life-threatening. Common specific forms of depression. \n\n
@@ -322,7 +322,7 @@
         \u2022 A lack of interest in things\n
         \u2022 Wanting to avoid people\n
     </string>
-    <string name="mh_causes">Causes of mental health problems</string>
+    <string name="mh_causes">Causes</string>
     <string name="mh_causes_details">
     Mental health problems can have a wide range of causes. The following factors could potentially trigger a period of poor mental health:\n
     \u2022 Social isolation or loneliness  \n
@@ -386,18 +386,18 @@
     </string>
     <!-- End of Mental Health Content -->
     <!-- Start of Unwanted Pregnancy Content -->
-    <string name="unintended_pregnancy">Unintended Pregnancies</string>
+    <string name="unintended_pregnancy">Introduction</string>
     <string name="unintended_pregnancy_detail">
         Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception. Unintended pregnancies may also result from.
     </string>
-    <string name="upregnancy_caues">Causes of unintended pregnancies</string>
+    <string name="upregnancy_causes">Causes</string>
     <string name="upregnancy_causes_detail">
         \u2022 Rape, incest or various other forms of forced or unwanted sex\n
         \u2022 Not using contraception or family planning services\n
         \u2022 Using contraception inconsistently or incorrectly\n
         \u2022 Contraceptive failure (the method was used correctly, but did not work.) Contraceptive failure accounts for a relatively small fraction of unintended pregnancies when modern highly effective contraceptives are used.\n
     </string>
-    <string name="upregnancy_consequences">Consequences of unintended pregnancy</string>
+    <string name="upregnancy_consequences">Consequences</string>
     <string name="upregnancy_consequences_detail">
         \u2022 Prenatal care initiated later, and less adequate. Adversely affects health of woman and of child and less preparation for parenthood. Delay from unintended pregnancy is in addition to that from other risk factors for delay.\n
         \u2022 Unintended pregnancies preclude chance to resolve sexually transmitted diseases (STD) before pregnancy. Untreated STD in pregnant woman can result in premature delivery, infection in newborn or infant death.\n
@@ -412,7 +412,7 @@
 Unsafe and illegal abortion is among the main causes of death worldwide.
     </string>
     <string name="unsafe_method_abortion">Unsafe Methods of Abortion</string>
-    <string name="unsage_method_abortion_detail">
+    <string name="unsafe_method_abortion_detail">
         \u2022 Swallowing large doses of drugs, such as antimalarials or oral contraceptives.\n
         \u2022 Inserting a sharp object into the uterus.\n
         \u2022 Drinking or flushing the vagina with caustic liquids such as bleach.\n
@@ -425,7 +425,7 @@ Unsafe and illegal abortion is among the main causes of death worldwide.
         \u2022 For pregnancies of more than 12 completed weeks since the woman’s last menstrual period, the two most widely used abortion methods are dilation and evacuation (D and E) and medication abortion.\n
     </string>
     <string name="unsafe_abortion_issues">Unsafe Abortion Issues</string>
-    <string name="unsage_abortion_issues_detail">
+    <string name="unsafe_abortion_issues_detail">
         <b><i>Incomplete abortion</i></b> occurs when some tissue remains in the uterus.\n
         \u2022 Symptoms include abdominal pain; vaginal bleeding; and a soft, enlarged uterus.\n
         \u2022 Treatment involves removing the remaining tissue in the uterus with vacuum aspiration or, if that is not available, with dilation and curettage.\n

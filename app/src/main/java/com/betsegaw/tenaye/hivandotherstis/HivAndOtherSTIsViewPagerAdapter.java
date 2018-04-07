@@ -1,4 +1,4 @@
-package com.betsegaw.tenaye.hiv;
+package com.betsegaw.tenaye.hivandotherstis;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,11 +8,11 @@ import android.support.v4.app.FragmentStatePagerAdapter;
  * Created by betsegaw on 4/1/18.
  */
 
-public class HivViewPagerAdapter extends FragmentStatePagerAdapter {
+public class HivAndOtherSTIsViewPagerAdapter extends FragmentStatePagerAdapter {
 
     int tabCount;
 
-    public HivViewPagerAdapter(FragmentManager fm, int tabCount) {
+    public HivAndOtherSTIsViewPagerAdapter(FragmentManager fm, int tabCount) {
         super(fm);
         this.tabCount = tabCount;
     }
@@ -22,11 +22,11 @@ public class HivViewPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                HivContent hivContent = new HivContent();
+                HivAndOtherSTIsContent hivContent = new HivAndOtherSTIsContent();
                 return hivContent;
             case 1:
-                HivQuiz hivQuiz = new HivQuiz();
-                return hivQuiz;
+                HivAndOtherSTIsQuiz hivAndOtherSTIsQuiz = new HivAndOtherSTIsQuiz();
+                return hivAndOtherSTIsQuiz;
             default:
                 return null;
         }

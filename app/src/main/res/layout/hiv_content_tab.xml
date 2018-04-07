@@ -57,7 +57,7 @@
 
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
-            <!-- Start of Hiv CardViews -->
+            <!-- Start of HivAndOtherSTIs CardViews -->
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/CardView.Light"
                 android:layout_width="match_parent"

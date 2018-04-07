@@ -4,9 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.betsegaw.tenaye.hiv.HivContent;
-import com.betsegaw.tenaye.hiv.HivQuiz;
-
 /**
  * Created by betsegaw on 4/1/18.
  */

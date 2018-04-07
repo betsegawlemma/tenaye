@@ -164,7 +164,7 @@ public class MentalHealthContent extends Fragment {
             }
         });
 
-        // Hiv Transmission
+        // HivAndOtherSTIs Transmission
         mhDiagnoseWhoHeader = view.findViewById(R.id.mh_diagnose_who_header);
         mhDiagnoseWhoArrow = view.findViewById(R.id.mh_diagnose_who_arrow);
         mhDiagnoseWhoDetail = view.findViewById(R.id.mh_diagnose_who_details);

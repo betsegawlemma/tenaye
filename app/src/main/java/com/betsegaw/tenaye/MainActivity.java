@@ -4,12 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
-import android.util.Log;
 import android.view.View;
 
 import com.betsegaw.tenaye.contraceptive.Contraceptive;
-import com.betsegaw.tenaye.hiv.Hiv;
+import com.betsegaw.tenaye.hivandotherstis.HivAndOtherSTIs;
 import com.betsegaw.tenaye.mentalhealth.MentalHealth;
+import com.betsegaw.tenaye.upregnancy.UnintendedPregnancy;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +40,14 @@ public class MainActivity extends AppCompatActivity {
         hivCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Hiv.class));
+                startActivity(new Intent(MainActivity.this, HivAndOtherSTIs.class));
+            }
+        });
+
+        pregnancyCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, UnintendedPregnancy.class));
             }
         });
 

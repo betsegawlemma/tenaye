@@ -1,4 +1,4 @@
-package com.betsegaw.tenaye.hiv;
+package com.betsegaw.tenaye.hivandotherstis;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -12,11 +12,11 @@ import com.betsegaw.tenaye.R;
  * Created by betsegaw on 4/1/18.
  */
 
-public class Hiv extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
+public class HivAndOtherSTIs extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
 
     TabLayout hivTabLayout;
     ViewPager hivViewPager;
-    HivViewPagerAdapter hivViewPagerAdapter;
+    HivAndOtherSTIsViewPagerAdapter hivAndOtherSTIsViewPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -33,8 +33,8 @@ public class Hiv extends AppCompatActivity implements TabLayout.OnTabSelectedLis
         hivTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         hivViewPager = findViewById(R.id.hiv_pager);
-        hivViewPagerAdapter = new HivViewPagerAdapter(getSupportFragmentManager(),hivTabLayout.getTabCount());
-        hivViewPager.setAdapter(hivViewPagerAdapter);
+        hivAndOtherSTIsViewPagerAdapter = new HivAndOtherSTIsViewPagerAdapter(getSupportFragmentManager(),hivTabLayout.getTabCount());
+        hivViewPager.setAdapter(hivAndOtherSTIsViewPagerAdapter);
         hivViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(hivTabLayout));
         hivTabLayout.addOnTabSelectedListener(this);
 
