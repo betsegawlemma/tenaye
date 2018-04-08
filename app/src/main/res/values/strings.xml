@@ -336,6 +336,7 @@
     \u2022 Caring for a family member or friend\n
     \u2022 A long-term physical health condition\n
     \u2022 Drug, chat and alcohol misuse\n
+    \u2022 Domestic violence or other abuse as an adult \n
     \u2022 Physical causes – for example, a head injury or a condition such as  epilepsy can have an impact on behaviour and mood\n
     </string>
     <string name="mh_diagnoses">Diagnoses</string>
@@ -495,10 +496,11 @@ Unsafe and illegal abortion is among the main causes of death worldwide.
         The best way to prevent an STI is to not have vaginal, oral, or anal sex.\n\n
         If you do have sex, lower your risk of getting an STI with the following steps:\n
         \u2022 <b><i>Get vaccinated:</i></b> There are vaccines to protect against HPV and hepatitis B. (but not practiced in our country)\n
-        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex. NB. Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
+        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex.\n\n
+        <b><i>NB.</i></b> Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
 with some sores (such as those that can occur with herpes) or warts (which can be caused by HPV infection).\n
         \u2022 <b><i>Be monogamous (faithful to each other):</i></b> Having sex with just one partner can lower your risk for STIs. Your risk of getting STIs goes up with the number of partners you have.\n
-        NB. The steps work best when used together. No single step can protect you from every single type of STI.\n
+        <b><i>NB.</i></b> The steps work best when used together. No single step can protect you from every single type of STI.\n
     </string>
     <string name="sti_treatment">Treatment</string>
     <string name="sti_treatment_detail">

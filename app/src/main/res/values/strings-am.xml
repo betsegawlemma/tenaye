@@ -391,239 +391,353 @@
     </string>
     <!-- End of HIV content -->
     <!-- Start of Mental Health content -->
-    <string name="mh">Mental Health</string>
+    <string name="mh">የአዕምሮ ጤና ችግሮች</string>
     <string name="mental_health">Introduction</string>
     <string name="mental_health_details">
-        A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave. \n\n
-        There are many different mental health problems, and many symptoms are common to more than one diagnosis. So you may experience the symptoms of more than one mental health problem at once. \n
+        የአዕምሮ ጤና ችግሮች እርስዎ ላያስተውሉት ቢችሉም እንደሌላ ማንኛውም አካላዊ ህመም መጥፎ
+ስሜትን የሚያስከትል፣ ወይም የባሰ የጤና ችግሮች ናቸው፡፡ የአዕምሮ ጤና ችግሮች የሚስቡበትን
+መንገድ፣ ስሜትዎን እና ባህሪዎ ላይ ተጸዕኖ የሚያስከትሉ ናቸው፡፡ \n\n
+        በዓይነታቸው የተለያዩ እና ብዙ የህመም ምልክቶቻቸው ከአንድ በላይ የሆኑ የህክምና ምርመራዎች
+የመያስፈልጓቸው ብዙ የአዕምሮ ጤና ችግሮች አሉ፡፡ ስለዚህ በአንድ ጊዜ ከአንድ በላይ የአዕምሮ ጤና
+ችግር ምልከቶች ሊሰሙዎት ይችላሉ፡፡\n
     </string>
-    <string name="mh_kinds">Kinds</string>
-    <string name="mh_kinds_depression">Depression</string>
+    <string name="mh_kinds">የአዕምሮ ጤና ችግሮች አይነቶች</string>
+    <string name="mh_kinds_depression">ድብርት</string>
     <string name="mh_kinds_depression_details">
-        Affects your self-esteem, sleep, appetite, sex drive and, sometimes, your physical health. It can make you feel hopeless, despairing, guilty, worthless, unmotivated and exhausted. At its most severe, depression can make you feel suicidal, and be life-threatening. Common specific forms of depression. \n\n
-        <b><i>Postnatal depression (PND):</i></b> depression that can develop from between two weeks to up to two years after becoming a parent. It's usually diagnosed in mothers, but can affect partners too. \n
-        <b><i>Seasonal affective disorder (SAD):</i></b> depression that is related to day length and usually (but not always) occurs in the winter.
+        ድብርት ለራስዎት የሚሰጡት ግምት ላይ፣ እንቅልፍ፣ የፆታዊ ግንኙነት ፍላጎት እና አንዳንድ ጊዜም
+በአካላዊ ጤናዎት ላይ ተጽዕኖ ያሳድራል፡፡ የተስፋቢስነት፣ የመነጠል፣ የጥፋተኝት፣ የጥቅም-ዓለባነት፣
+ተነሳሽነት የማጣት እና የድካም ስሜቶች ሊሰሙዎት ይችልሉ፡፡ በጣም ከፍተኛ ደረጃ ሲደርስ
+ድብርት እራስን የማጥፋት ስሜት ሊያስከትል እና ህይወትን ለማሳጣት ሊፈትን ይችላል፡፡ \n\n
+        <b><i>ከወሊድ በኋላ የሚከሰት ድብርት (ፒኤንዲ)፡</i></b> ይህ ዓይነቱ ድብርት ወላጅ ከሆኑ በኋላ
+በሚከተሉት ከሁለት ሳምንታት አስከ ሁለት ዓመታት መካከል ሊከሰት የሚችል ነው፡፡ አብዛኛውን
+ጊዜ ምርመራው ለእናቶች የሚደረግ ሲሆን ነገር ግን ሁለቱንም ወላጆች ሊያጠቃ ይችላል፡፡ \n
+        <b><i>ወቅታዊ ድብርት (ኤስኤዲ) ፡</i></b> ለአንድ ቀን ያህል ርዝመት ላለው ጊዜ ሚከሰት ድብርት ሆኖ
+አብዛኛውን ጊዜ ( ነገር ግን ሁል ጊዜ ሳይሆን) የሚከሰተው በክረምት ወቅት ነው፡፡
     </string>
-    <string name="mh_kinds_anxiety">Anxiety</string>
+    <string name="mh_kinds_anxiety">ጭንቀት</string>
     <string name="mh_kinds_anxiety_details">
-        Refers to strong feelings of unease, worry and fear. You might experience:\n
-        \u2022 Constant worrying about things that are a regular part of everyday life, or about things that aren’t likely to happen. \n
-        \u2022 Unpleasant physical symptoms such as sleep problems, panic attacks, an increased heartbeat, an upset stomach, muscle tension or feeling shaky. \n
-        \u2022 A specific anxiety disorder, such as generalised anxiety disorder (GAD), panic disorder, a phobia, obsessive-compulsive disorder (OCD) or post-traumatic stress disorder (PTSD).\n
+        ጭንቀት ማለት ጠንካራ የሆነ ከባድ ስሜት፣ የመጨነቅ እና የፍርሃት ስሜት ነው፡፡ የሚከተሉት
+ሊያጋጥሙዎት ይችላሉ፡-\n
+        \u2022 የእለት ተእለት መደበኛ ስለሆኑ የህይወት ጉዳዮችዎ ያለመቋረጥ መጨነቅ ወይም ዕውን
+ሆነው ሊፈጠሩ ስለማይችሉ ነገሮች መጨነቅ፡፡ \n
+        \u2022 እንደ የመኝታ ችግሮች፣ በድንገት መበርገግ፣ መጠኑ ከፍተኛ የሆነ የልብ ምት፣ የሆድ ህመም፣
+የጡንቻ መብረክረክ ወይም መንቀጥቀጥ ስሜቶችን የመሳሰሉ ምቾት የሚነሱ አካላዊ
+የህመም ምልክቶች፡\n
+        \u2022 እንደ ጠቅላላ የጭንቀት ችግር (ጂኤዲ) ፣ ድንገተኛ የድንጋጤ ህመም ችግር፣ ፎቢያ፣
+ኦብሰሲቭ ኮምፐልሲቭ የአእምሮ ችግር (ሲኦዲ) ወይም ከአደጋ በኋላ የሚከሰት የአእምሮ
+ችግር (ፒቲኤስዲ) የመሳሰሉ ልዩ የጭንቀት የአእምሮ ችግሮች ሊያጋጥሙዎት ይችላሉ፡፡\n
     </string>
-    <string name="mh_kinds_social_phobias">Social Phobias</string>
+    <string name="mh_kinds_social_phobias">ማህበራዊ ግንኙነት ጋር የተያያዙ ፍራቻዎች (ፎቢያዎች)</string>
     <string name="mh_kinds_social_phobias_details">
-        People with social phobia have an intense, chronic fear of being watched and judged by others, and of being humiliated by their own actions.
+        የማህበራዊ ፎቢያ ተጠቂ ሆኑ ሰዎች በሌሎች ክትትል ስር የመሆን እና መገመት ጥልቅ እና የማይድን
+ፍርሃት ያለባቸው እና በራሳቸው ድርጊቶች የሚሸማቀቁ ናቸው፡፡
     </string>
-    <string name="mh_kinds_eating_disorder">Eating Disorder</string>
+    <string name="mh_kinds_eating_disorder">የአመጋገብ ጤና ችግሮች</string>
     <string name="mh_kinds_eating_disorder_details">
-        Eating problems aren’t just about food. They can be about difficult things in your life and painful feelings, which you may be finding hard to express, face or resolve. Focusing on food can be a way of disguising these problems, even from yourself. The most common:\n\n
-        <b><i>Anorexia </i></b> – not allowing yourself to eat enough food to get the energy and nutrition you need to stay physically healthy. Sometimes people assume that anorexia is about slimming and dieting, but it is often connected to very low self-esteem, negative self-image and feelings of intense distress. \n\n
-        <b><i>Bulimia</i></b> – finding that you eat large amounts of food all in one go, often because you are feeling upset or worried (this is called bingeing); then feeling deeply guilty or ashamed, and taking steps to get rid of the food you have eaten (this is called purging). \n\n
-        <b><i>Binge eating disorder</i></b> – feeling that you can’t stop yourself from eating, even when you want to. This is sometimes described as having a food addiction or compulsive eating.  \n\n
-        <b><i>Eating disorder not otherwise specified (EDNOS)</i></b> – this diagnosis means you meet some of the criteria for one of the above disorders, but not all of them.  \n\n
+        የአመጋገብ ጤና ችግሮች ከምግብ ጋር የተያያዙ ተራ ችግሮች ብቻ አይደሉም፡፡ ለመግለጽ፣
+ለመጋፈጥ ወይም ለመፍታት ስለሚስቸግሩዎት በህይወት ውስጥ ሰለሚያጋጥሙ አስቸጋሪ ጉዳዮችዎ
+እና ስለሚያሳምሙ ስሜቶችዎ ሊሆኑ ይችላል፡፡ በምግብ ላይ ማተኮር ከእነዚህ ችግሮች እንደውም
+ከራስዎ ለመደበቅ የሚደረግ ሊሆን ይችላል፡፡ ከነዚህም ውስጥ በመደበኛነት የሚጋጥሙት፡-\n\n
+        <b><i>አኖሬዢያ፦ </i></b>ማለት በአካላዊ ጤናን ጠብቆ ለመቆየት የሚያስችሎትን ኃይል ሰጪ የሆነ በቂ
+ምግብ ለመመገብ ለራስዎ አለመፍቀድ ማለት ነው፡፡ አንዳንድ ጊዜ ሰዎች አኖሬዢያ ሰውነት
+ክብደትን ለማክሳት ወይም ዳይቲንግ ነው ብለው ይገምታሉ፡፡ ነገር ግን አብዛኛውን ጊዜ ከዝቅተኛ ለራስ የሚሰጥ ግምት ፣ አሉታዊ የሆነ ለራስ የሚሰጥ ግምት፣ እና ከጥልቅ የተጎዳ
+ስሜት ጋር የተያያዘ ነው፡፡\n\n
+        <b><i>ቢዩሊሚያ፦</i></b> ማለት ስለተናደዱ ወይም ስለተጨነቁ ብቻ በአንድ ጊዜ መጠኑ በጣም ብዙ
+የሆነ ምግብ መመገብ ማለት ሲሆን ( ቢንጊንግ ተብሎ ይጠራል) ከተመገቡ በኋላ በጥለው
+በመጸጸት ወይም በማፈር የተመገቡትን ምግብ ለማስወገድ እርምጃዎችን መውሰድ ማለት ነው
+( ይህ ፐርጂንግ ተብሎ ይጠራል) ፡፡\n\n
+        <b><i>ቢንጌ የአመጋገብ ጤና ችግር፡</i></b> ማለት በፈለጉ ጊዜ እንኳን መመገብን ማቆም
+የማይችሉበት ስሜት ማለት ነው፡፡ ይህ አንዳንድ ጊዜ የምግብ ሱስ ወይም አስገዳጅ መመገብ
+ችግር እንደሆነ ይገለጻል፡፡\n\n
+        <b><i>በልዩ ሁኔታ የማይጠቀስ የአመጋገብ ጤና ችግር (ኢዲኤንኦኤስ)፦</i></b> ማለት ከዚህ በላይ
+ከተዘረዘሩት አመጋገብ ጤና ችግሮች መስፈርቶች ውስጥ የሁሉንም ሳይሆን የአንዱን መስፈርት
+በተወሰነ ደረጃ ያሟሉ መሆኑ የሚመረመርበት የጤና ምርመራ ማለት ነው፡፡ \n\n
     </string>
-    <string name="mh_kinds_bipolar_disorder">Bipolar Disorder</string>
+    <string name="mh_kinds_bipolar_disorder">ባይፖላር የአዕምሮ የጤና ችግር</string>
     <string name="mh_kinds_bipolar_disorder_details">
-        Bipolar Disorder (also known as bipolar affective disorder) is characterized by cycling mood changes: severe highs (mania) and lows (depression). Everyone has variations in their mood, but in bipolar disorder these changes can be very distressing and have a big impact on your life\n
+        ባይፖላር ጤና ችግር ( በተጨማሪም ባፖላር ኢፌክቲቭ ዲሶረደር ተብሎ ይጠራል) ባህሪውም
+የስሜት መለዋወጥ ሳይክል ሲሆን፡ ከፍተኛ ደረጃ ንዴት (ማኒያ) እና በዝቅተኛ ደረጃ ድብርት
+ናቸው፡፡ ተጠቂ የሆነ እያንዳንዱ ሰው የስሜት መለዋወጥ የሚታይበት ሲሆን ነገር ግን በባይፖላር
+የአእምሮ ጤና ችግር እነዚህ የስሜት መለዋወጦች በጣም የመከፋት ስሜት ያለቸው እና በሕይወት
+ውስጥ ከፍተኛ ጫና የሚያስከትሉ ናቸው፡፡\n
     </string>
-    <string name="mh_kinds_panic_disorder">Panic Disorder</string>
+    <string name="mh_kinds_panic_disorder">ፓኒክ (የድገተኛ ድንጋጤ) የአእምሮ ጤና ችግር፡</string>
     <string name="mh_kinds_panic_disorder_details">
-        panic disorder is characterized by panic attacks or sudden feelings of terror that strike repeatedly and without warning: chest pain, heart palpitations, shortness of breath, dizziness, abdominal discomfort, feelings of unreality, and fear of dying. \n
+       ፓኒክ የአዕምሮ የጤና ችግር ባህሪው በድንገተኛ የፍርሃት
+ስሜት ያለምንም ማስጠንቀቂያ በተደጋጋሚ የሚያጋጥበት ሲሆን፣ የደረት ህመም የልብ ምት
+መርገብገብ የትንፋሽ ማጠር፣ መደንዘዝ፣ የሆድዕቃ መረበሽ ዕውን ልሆኑ ስሜቶች መሰማት እና
+የመሞት ፍርሃት ናቸው፡፡\n
     </string>
-    <string name="mh_kinds_addictive_disorders">Addictive Disorders</string>
+    <string name="mh_kinds_addictive_disorders">የሱስ የአዕምሮ ጤና ችግሮች፡</string>
     <string name="mh_kinds_addictive_disorders_details">
-         addiction is a disease that affects both brain and behavior. \n\n
-        <b><i>Substance Related Disorders: </i></b> alcohol, chats or drugs; side effects of medications; or exposure to toxins such as substance-related disorders may be defined as abuse of substances, such as lead, antifreeze, carbon monoxide and inhalants. \n
+        የሱስ የአእምሮ የጤና ችግሮች ሁለቱንም አንጎልን እና
+ባህሪን ያጠቃሉ፡፡ \n\n
+        <b><i>ከአደንዛዥ ዕጽ ጋር ተያያዠ የአእምሮ ጤና ችግሮች፡- </i></b> አልኮል፣ ጫት፣ ወይም አደንዛዥ
+እጾች ፣ የህክምና መድሃኒቶች የጎንዮሽ ጉዳቶች፣ ወይም ለበካይ ንጥረ- ነገሮች መጋለጥ እንደ
+ዕጽ- ነክ የአእምሮ ጤና ችግሮች የአደንዘዥ ዕጽ ተጠቂነት ተብለው የሚጠቀሱ ሲሆን እንደ ሊድ፣
+አንቲፍሪዝ፣ ካርቦን ሞኖከሳይድ፣ እና በትንፋሽ ሚሳቡ ንጥረ- ነገሮች ሱሶች መጠመድን
+ያካትታል፡፡ \n
     </string>
-    <string name="mh_kinds_schizophrenia">Schizophrenia</string>
+    <string name="mh_kinds_schizophrenia">ስኬዞፍሬኒያ</string>
     <string name="mh_kinds_schizophrenia_details">
-        a severe and disabling brain disease that affects a person’s thoughts and behavior. You may receive a diagnosis of schizophrenia if you have symptoms such as:\n
-        \u2022 The presence of certain psychotic features during the active phase of the illness, such as delusions or hallucinations\n
-        \u2022 Psychotic experiences, for example hallucinations or delusions \n
-        \u2022 Disorganised thinking \n
-        \u2022 A lack of interest in things\n
-        \u2022 Wanting to avoid people\n
+        የግለሰቡ አስተሳሰብ እና ባህሪ ላይ ጫና በማሳደር የአንጎልን ችሎታ ሙሉ
+በሙሉ የሚሳጣ በጣም አደገኛ በሽታ ነው፡፡ የሚከተሉት የህምም ምልክቶች ካጋጠሙዎት
+ስኬዞፍሬኒያ በሽታ ምርመራ ሊያደርጉ ይችላሉ፡-\n
+        \u2022 በሽታው በሚነሳበት ወቅት የተወሰኑ የአእምሮ ጤና ማጣት ሁኔታዎች እንደ የቁም
+ቅዠት ወይም የሚያስፈራሩ ከእወነታ የራቁ ምስሎች የሚጋጥሙዎት ከሆነ፡፡\n
+        \u2022 Pእንደ የቁም ቅዠት ወይም የሚያስፈራሩ ከእወነታ የራቁ ምስሎች መከሰትን የመሳሰሉ
+የአእምሮ በትክክል ያለመሰራት ምልክቶች ካጋጠሙዎት፡፡\n
+        \u2022 የሃሳብ መበታተን\n
+        \u2022 ለነገሮች ፍላጎት ማጣት\n
+        \u2022 ሰዎችን መራቅ\n
     </string>
-    <string name="mh_causes">Causes</string>
+    <string name="mh_causes">የአእምሮ ጤና ማጣት መንስዔዎች</string>
     <string name="mh_causes_details">
-    Mental health problems can have a wide range of causes. The following factors could potentially trigger a period of poor mental health:\n
-    \u2022 Social isolation or loneliness  \n
-    \u2022 Experiencing discrimination and stigma\n
-    \u2022 The death of someone close to you\n
-    \u2022 Severe or long-term stress\n
-    \u2022 Social disadvantage, poverty or debt\n
-    \u2022 Caring for a family member or friend\n
-    \u2022 A long-term physical health condition\n
-    \u2022 Drug, chat and alcohol misuse\n
-    \u2022 Physical causes – for example, a head injury or a condition such as  epilepsy can have an impact on behaviour and mood\n
+    የአእምሮ ጤና ማጣት ችግሮች መጠነ-ሰፊ መንሰኤዎች ሊኖሯቸው ይችላሉ፡፡ የሚከተሉት
+ምክኒቶች የአእምሮ ጤና በጣም ዝቅ እንዲል የሚችለባቸውን ወቅቶች የሚፈጥሩ እምቅ ምክኒቶች
+ናቸው፡፡\n
+    \u2022 ማህበራዊ መነጠል፣ ወይም ብቸኝነት  \n
+    \u2022 ማግለል እና መድሎ ሲያጋጥም \n
+    \u2022 የቅርብ ሰው በሞት መለየት \n
+    \u2022 በጣም አደገኛ ወይም ለረጅም ጊዜ የዘለቀ ጭንቀት \n
+    \u2022 ማህበራዊ ድህነት፣ የሃብት ድህነት ወይም ዕዳ \n
+    \u2022 ለቤተሰብ አባል ወይም ለጓደኛ የሚደረገ ዕንክብካቤ \n
+    \u2022 ለረጅም ጊዜ የዘለቀ አካላዊ ጤና ማጣት \n
+    \u2022 የአደንዛዥ ዕጽ፣ የጫት እና የአልኮል አላግባብ አጠቃቀም \n
+    \u2022 በጉልምስና ወቅት ሚደርስ የቤት ውስጥ ትቃት ወይም ሌላ አይነት ጥቃት
+    \u2022 አካላዊ መንስዔዎች - ለምሳሌ በጭንቅላት ላይ የሚደርስ ጉዳት ወይም የሚጥል በሽታ እና
+የመሳሰሉት የጤና ችግሮች በባህሪ እና በወቅታዊ ስሜቶች ላይ ተጽዕኖዎችን ሊሳድሩ
+ይችላሉ፡፡\n
     </string>
-    <string name="mh_diagnoses">Diagnoses</string>
+    <string name="mh_diagnoses">የጤና ምረመራዎች</string>
     <string name="mh_diagnoses_details">
-        Despite these challenges, it is possible to recover from a mental health problem and live a productive and fulfilling life. There are a lot of different approaches to how mental health problems should be diagnosed, what causes them and which treatments are most effective. To diagnose a mental health problem, doctors will look at: \n
-        \u2022 What symptoms you\'re experiencing (groupings of certain symptoms  suggest different diagnoses)  \n
-        \u2022 How long you\'ve been experiencing these symptoms \n
-        \u2022 The impact they\'re having on your life\n
+        እነዚህ ችግሮች እንዳሉ ሆነው ከአእምሮ ጤና ማጣት ችግሮች መዳን እና ውጤታማ እና የተሳካ
+ህይወት መኖር ይቻላል፡፡ የአእምሮ ጤና ችግሮች ምርመራዎች የችገሮቹ መንሰዔዎች እና የህክምና
+ዓይነቶች ውጤታማነት ላይ መሰረት በማድረግ
+የአእምሮ ጤና ችግሮች ምርመራዎች የሚከናወኑባቸው ፈርጀ ብዙ እና የተለያዩ ዘዴዎች ይገኛሉ፡፡ የእእምሮ ጤና ማጣት ችግር ምርመራ
+ለማከናወን ዶክተሮች የሚከተሉትን ከግምት ያስገባሉ፡- \n
+        \u2022 ያጋጠሙዎት የህምም ምልክቶች ዓይነት ( የተወሰኑ የህመም ምልክቶችን በአንድ መደብ
+በመመደብ ልዩ የምርመራ ዓይነት እንዲያደርጉ ለመጠቆም)  \n
+        \u2022 የህመም ምልክቶቹ ለምን ያህል የጊዜ ቆይታ ያጋጠሙ መሆኑ \n
+        \u2022 በህይወትዎ ላይ እያሳደሩ የሚገኙት ጫና\n
     </string>
-    <string name="mh_diagnose_who">Who can diagnose me? </string>
+    <string name="mh_diagnose_who">ምርመራውን ማን ሊያደርግልኝ ይችላል? </string>
     <string name="mh_diagnose_who_details">
-        For common problems such as depression and anxiety, your GP may be able to give you a diagnosis after one or two appointments. For less common problems you’ll need to be referred to a mental health specialist.\n
+        በመደበኛነት ለማጋጥሙ ለሚችሉ እንደ ድብርት እና ጭንቀት ለመሳሰሉት ችግሮች ጠቅላላ ሃኪምዎ
+ከአንድ ወይም ሁለት ቀጠሮዎች በኋላ ምርምራ ሊያደርጉልዎ ይእላሉ፡፡ መደበኛ ላልሆኑ ችግሮች
+ወደ አዕምሮ ቴና ስፔሻሊስት ሪፈራል ሊጻፍልዎ ይገባል፡፡\n
     </string>
-    <string name="mh_diagnose_selfhelp">Self Help</string>
+    <string name="mh_diagnose_selfhelp">ራሰን መርዳ</string>
     <string name="mh_diagnose_selfhelp_detail">
-        Self-care techniques and general lifestyle changes can help manage the symptoms of many mental health problems, and may also help to prevent some problems from developing or getting worse. Recovering from a mental health problem is likely to take time, energy and work. Here are some tips for looking after yourself that you might nd helpful. \n\n
-        <b><i>Nourish your social life: </i></b> Feeling connected to other people is important. It can help you to feel valued and con dent about yourself, and can give you a different perspective on things. \n
-        <b><i>Try peer support: </i></b> Peer support brings together people who’ve had similar experiences to support each other. This can offer many benefits, such as: \n
-        \u2022 Feeling accepted for who you are \n
-        \u2022 Increased self-confidence \n
-        \u2022 Meeting new people and using your experiences to help others \n
-        \u2022 Finding out new information and places for support \n
-        \u2022 Challenging stigma and discrimination.\n
-
-        <b><i>Make time for therapeutic activities </i></b> such as:\n
-        \u2022 <b><i>Relaxation:</i></b> like having a bath, listening to music or taking your dog for a walk. If you know that a certain activity helps you feel more relaxed, make sure you set aside time to do it. \
-        \u2022 <b><i>Mindfulness:</i></b> mindfulness is a therapeutic technique that involves being more aware of the present moment. Practising mindfulness can help you become more aware of your own moods and reactions. \n
-        \u2022 <b><i>Ecotherapy:</i></b> getting out into a green environment, such as the park or the countryside, is especially helpful.  
-        <b><i>Look after your physical health </i></b> by:\n
-        \u2022 <b><i>Getting enough sleep</i></b> – this can help you have the energy to cope with dif cult feelings and experiences. \n
-        \u2022 <b><i>Eating healthily</i></b> – what you eat, and when you eat, can make a big difference to how well you feel. \n
-        \u2022 <b><i>Keeping physically active:</i></b> – doing regular exercise can be very effective in lifting your mood and increasing your energy levels. \n
-        \u2022 <b><i>Looking after yourself</i></b> – when you're experiencing a mental health problem, it's easy for personal care to not feel like a priority.  \n
-        \u2022 <b><i>Avoiding drugs, chat and alcohol</i></b> – while you might want to use chats, drugs or alcohol to cope with difficult feelings, in the long run they can make you feel a lot worse. \n
+        ራስን መንከባከብ ዘዴዎች እና ጠቅላላ የአኗኗር ዘይቤ ለውጦች የማንኛውንም የአእምሮ ጤና
+ማጣት ችግር ዓይነቶች የህመም ምልክቶች ለማዳን ሊረዱ ይችላሉ፡፡ እንዲሁም የተወሰኑ ችግሮችን
+ከመፈጠር ወይም ከመባባስ ለመግታት ጠቃሚ ሊሆኑ ይቻላሉ፡፡ ከአእምሮ ቴና ማጣት ችግሮች
+ለመዳን ጊዜዎትን፣ ጉለበትን እና ስራን መ ስዋት ማድረግ የሚጠይቅ ነው፡፡ እራሶን ለመንከባከብ
+ሊረዱዎት የሚችሉ ጥቂት ጠቋሚዎች ከዚህ በታች ቀርበዋል፡፡\n\n
+        <b><i>መሕበራዊ ሕይወትዎን የተሟላ ያድርጉ </i></b> ከሌሎች ሰዎች ጋር ግንኙነት የመፍጠር ስሜት በጣም ጠቃሚ ነው፡፡ ለርስዎ የሚሰጠው ግምት
+ከፍ ያለ ሆኖ እንዲሰማዎ እና በራስ መተማመንዎን ለማደበር ይ ረዳዎታል፡፡ እንዲሁም ነገሮችን
+የሚያዩበት የተለየ አተያይ እንዲኖረዎ ያደርጋል፡፡ \n
+        <b><i>የአቻዎን ድጋፍ ይሞክሩ </i></b> የአቻ ለአቻ ድጋፍ እርስ በእርሳቸው የመደጋገፍ ተሞክሮዎች ያላቸውን አቻዎች በአንድ ላይ
+ያሰባስባል፡፡ ይህም ብዙ ጥቅሞችን የሚሰጥ ሲሆን እንደ፡- \n
+        \u2022 በማንነትዎ ተቀባይነት ማግኘት\n
+        \u2022 ከፍ ያለ በራስ መተማመን\n
+        \u2022 ከአዳዲስ ሰዎች ጋር መተዋወቅ እና የራስዎን ተሞክሮዎች በመጠቀም ሌሎችን
+መርዳት \n
+        \u2022 ለድጋፍ የሚረዱ አዳዲስ መረጃዎችን እና ቦታዎችን ማወቅ \n
+        \u2022 መገለልና መድሎን መቆቂም\n
+        <b><i>ለማገገሚያ ተግባራት ጊዜ ይስጡ </i></b> ለምሳሌ፦\n
+        \u2022 <b><i>መንፈስዎን ማደስ፡-</i></b> እንደ ገላዎን መታጠብ፣ ሙዚቃ ማዳመጥ ወይም ውሻዎን እንደ ማሸራሸር የመሳሰሉ ተግባራት ማድረግ፡፡ የተወሰኑ ተግባራት የበለጠ ዘና እንደሚደርጉዎት የሚሰማዎት ከሆነ እነሱን ለማከናወን ጊዜ መመድብዎን እርግጠኛ
+ይሁኑ፡፡ \n
+        \u2022 <b><i>ማስተዋል፡-</i></b> ማስተዋል ያሁኑን ወቅት በንቃት ማወቅን መሰረት የሚያደርግ የማገገሚ ዘደዴ ነው፡፡ ማስተዋልን ተግባራዊ ማድረግ የራስዎን ወቅታዊ ስሜቶች እና ለሁኔታዎች የሚሰጡትን ምላሽ በንቃት እንዲውቁ ይረዳዎታል፡፡\n
+        \u2022 <b><i>የተፈጥሮ ሃብት ማገገሚያ፡-</i></b> እንደ ፓርክ በተለይም የገጠር አካባቢዎች በመሳሰሉ አረንጓዴ ተፈጽሯዊ አካባቢዎች መገኘት በጣም ጠቃሚ ነው፡፡\n
+        <b><i>የሚከተሉትንግ በማድግ አካለዊ ጤናዎን ይንከባከቡ:- </i></b>\n
+        \u2022 <b><i>በቂ እንቅልፍ ያግኙ፡- </i></b> ይህ አስቸጋሪ ስሜቶችን እና ሁኔታዎችን ለመቋቋም አቅም እንዲያገኙ ይረዳዎታል፡፡ \n
+        \u2022 <b><i>ጤናማ አመጋገብ ይመገቡ፡-</i></b> የሚመገቡት የምግብ አይነት፣ እና የሚመገቡበት ሰዓት በሚሰማዎ የጤንነት ስሜት ላይ ትልቅ ልዩነት ያመጣል፡፡ \n
+        \u2022 <b><i>አካላዊ ብቃት ይኑርዎ፡-</i></b> በመደበኛነት የአካል ብቃት እንቅስቃሴ ማድረግ ወቅታዊ ስሜትዎን ለማስተካከል እና የኃይልዎን መጠን ለማበልጸግ በጣም ጠቃሚ ሊሆን ይችላል፡፡ \n
+        \u2022 <b><i>እራስዎን ይንከባከቡ፡-</i></b> የአእምሮ ጤና ችግር ሲያጋጥምዎ እራስዎን መንከባከብ ቅድሚያ ሚሰጠው ተግባር እንደሆነ በቀላሉ ላይሰማዎ ይችላል፡፡ \n
+        \u2022 <b><i>አደንዛዥ እጾችን፣ ጫት እና አልኮል መውሰድ ያቁሙ፡-</i></b> አስቸጋሪ ስሜቶችን ለመቋቋም አደንዛዥ እጾችን፣ ጫት እና አልኮል መውሰድ ሊፈልጉ ይችላሉ ነገር ግን ወደፊት የበለጠ አስቸጋሪ የጤና ማጣት ስሜቶች ሊያስከተሉብዎት ይችላሉ፡፡\n
     </string>
-    <string name="mh_treatments">What treatments are available? </string>
+    <string name="mh_treatments">ምን አይነት የህክምና እርዳታዎችን ማግኘት ይቻላል?</string>
     <string name="mh_treatments_details">
-        The two most common forms of treatment offered are talking treatments and medication\n\n
-        <b><i>Talking treatments: </i></b> provide a regular time and space for you to talk about your thoughts and experiences and explore difficult feelings with a trained professional. This could help you to: \n
-        \u2022 Deal with a specific problem \n
-        \u2022 Cope with upsetting memories or experiences \n
-        \u2022 Improve your relationships \n
-        \u2022 Develop more helpful ways of living day-to-day\n\n
-        <b><i>Medication:</i></b> The most common type of treatment available is prescription medication. These drugs don’t cure mental health problems, but they can ease many symptoms. \n
+        በኤንኤችኤስ አማካኝነት ሁለቱ አብዛኛወን ጊዜ መደበኛ የሆኑ የህክምና እርዳታዎች ሚሰጡባቸው ዘዴዎች በማዋራት ሚሰጡ ህክምናዎች እና የመድሃኒት ህክምናዎች ናቸው፡፡\n\n
+        <b><i>በንግግር የሚሰጡ የህክምና እርዳታዎች </i></b> በማዋራት ሚሰጡ ህክምናዎች ከሰለጠነ ባለሙያ ጋር ስለ ሃሳቦችዎ እና ያጋጠሙ ችግሮችዎ እንዲያወሩ መደበኛ ጊዜ እና ቦታ ያቀርቡልዎታል፡፡ ይህም የሚረዳዎት፡- \n
+        \u2022 የተለዩ ችግሮችዎን ለመፍታት፣ \n
+        \u2022 የሚያበሳጩ ትውስታዎችዎን እና ገጠመኞችዎን መቋቋም እንዲችሉ፣ \n
+        \u2022 የእርስ በእርስ ግንኙነቶችዎን ለማሻሻል እና \n
+        \u2022 በየዕለቱ ጠቃሚ የአኗኗር ዘዴዎችን ለማጎልበት ነው፡፡\n
+        <b><i>የመድሃኒት ህክምናዎች:-</i></b> በአብዛኛው መደበኛ ከሆኑ የህክምና እርዳታዎች ውስጥ አንዱ የሆነው በመድሃኒት ማዘዣ የሚሰጥ የመድሃኒት ህክምና ነው፡፡ እነዚህ መድሃኒቶች የአእምሮ ጤና ማጣት ችግርን አያድኑም፡፡ ነገር ግን ብዙ የህመም ምልክቶችን ያቀላሉ፡፡ \n
     </string>
-    <string name="mh_faqs">Frequently Asked Questions</string>
+    <string name="mh_faqs">አዘውትረው ሚጠየቁ ጥያቄዎች</string>
     <string name="mh_faqs_details">
-        \u2022 <b><i>Are brain disorders genetic?</i></b> Genetic abnormalities are merely one factor that may contribute to the onset of mental illness.\n
-        \u2022 <b><i>Do people recover from brain disorders?</i></b> Recovery rates from anxiety and eating disorders are high. With new medications 80 percent of people who have major depression and 60 percent of people who have schizophrenia, will recover meaningful lives. \n
-        \u2022 <b><i>How do I get better?</i></b> Learn as much as you can about your disorder.
+        \u2022 <b><i>የአእምሮ ጤና ችግሮች በዘር የሚተላለፉ ናቸው? </i></b> በዘር የሚተላለፉ የጤና ችግሮች በጠቅላላው የአእምሮ ጤና ማጣት ችግር ላይ ተራ አስተወጾ ያላቸው መንስዔዎች ናቸው፡፡\n
+        \u2022 <b><i>ሰዎች ከአእምሮ ጤና ችግሮች መዳን ይችላሉ?</i></b> ከጭንቀት እና ከአመጋገብ ጤና ማጣት ችግሮች የመዳን እድል ከፍተኛ ነው፡፡ በአዲስ የመድሃኒት ህክምና 80 በመቶ ከፍተኛ ድብርት ያለባቸው እና 60 በመቶ ስኪዞፍሬኒያ ያለባቸው ሰዎች ድነው ትርጉም ያለው ህይወት መኖር ይችላሉ፡፡ \n
+        \u2022 <b><i>እንዴት ማገገም እችላለሁ?</i></b> ስለ አእምሮ ጤና ማጣት ችግርዎ የቻሉትን ያህል ለማወቅ ይሞክሩ፡፡
     </string>
     <!-- End of Mental Health Content -->
     <!-- Start of Unwanted Pregnancy Content -->
-    <string name="upregnancy">Unintended Pregnancy</string>
-    <string name="unintended_pregnancy">Introduction</string>
+    <string name="upregnancy">ያልታቀዱ እርግዝናዎች</string>
+    <string name="unintended_pregnancy">መግቢያ</string>
     <string name="unintended_pregnancy_detail">
-        Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception. Unintended pregnancies may also result from.
+        ያልታቀዱ እርግዝናዎች በስህተት፣ ሳይታቀድ ወይም ሳይፈለግ የሚጸነስባቸው እርግዝናዎች ናቸው፡፡
     </string>
-    <string name="upregnancy_causes">Causes</string>
+    <string name="upregnancy_causes">ያልታቀዱ እርግዝናዎች መንስኤዎች</string>
     <string name="upregnancy_causes_detail">
-        \u2022 Rape, incest or various other forms of forced or unwanted sex\n
-        \u2022 Not using contraception or family planning services\n
-        \u2022 Using contraception inconsistently or incorrectly\n
-        \u2022 Contraceptive failure (the method was used correctly, but did not work.) Contraceptive failure accounts for a relatively small fraction of unintended pregnancies when modern highly effective contraceptives are used.\n
+        \u2022 አስገድዶ መድፈር፣ በማታለል ወይም ሌላ አይነት በማስገደድ ወይም ያለ ፍላጎት የሚፈጸም ግብረ ስጋ ግንኙነት\n
+        \u2022 የወሊድ መከላከያ ወይም የቤተሰብ እቅድ አገልግሎቶች ባለመጠቀም\n
+        \u2022 የወሊድ መከላከያ ወጥ በሆነ መልኩ ወይም በትክክል ባለመጠቀም\n
+        \u2022 የወሊድ መከላከያ አለመስራት ( ዘዴው በትክክል ጥቅም ላይ ቢውልም ካልሰራ) የወሊድ መከላከያ አለመስራት ዘመናዊ የሆኑ እግ ውጤታማ የወሊድ መከላከያ ዘዴዎች ጥቅም ላይ በሚውልበት ሁኔታ ላልታቀደ እርግዝና ያላቸው አስተዋጽኦ አነስተኛ ነው\n
     </string>
-    <string name="upregnancy_consequences">Consequences</string>
+    <string name="upregnancy_consequences">ያልታቀደ እርግዝና ውጤቶች</string>
     <string name="upregnancy_consequences_detail">
-        \u2022 Prenatal care initiated later, and less adequate. Adversely affects health of woman and of child and less preparation for parenthood. Delay from unintended pregnancy is in addition to that from other risk factors for delay.\n
-        \u2022 Unintended pregnancies preclude chance to resolve sexually transmitted diseases (STD) before pregnancy. Untreated STD in pregnant woman can result in premature delivery, infection in newborn or infant death.\n
-        \u2022 Women with an unintended pregnancy are more likely to suffer depression during or after pregnancy.\n
-        \u2022 Reduced likelihood of breastfeeding, resulting in less healthy children\n
-        \u2022 Lower mother-child relationship quality.\n
+        \u2022 አስቀድሞ ያልተጀመረ እና በቂ ያልሆነ የቅደመ ወሊድ ህክምና ክትትል፡ የህ በአንፃራዊ ሁኔታ ያሴቶችን እና የህጻትን ጤና የሚጎዳ እና የወላጅነት ቅድመ ዝግጅት እንዳኖር የሚደርግ ነው፡፡ ያልታቀደ እርግዝና ለመዘግየት ስጋት ከሆኑ ሌሎች ምክኒቶች በተጨማሪ፡፡\n
+        \u2022 ያልታቀዱ እርግዝናዎች በግብረ ስጋ ግንኙነት አማካኝነት የሚተላለፉ በሽታዎችን (ኤስቲዲ) ከእርግዝና በፊት አንዳይከሰቱ የማድረግ ዕድልን ያካትታሉ፡፡ ህክምና እንክብካቤ ያልተደረገለት በግብረስጋ ግንኙነት የሚተላለፍ በሽታ በእርጉዝ ሴቶች ላይ ከወሊድ ቀን በፊት ያልደረሰ ጽንስ እንዲወለድ እንዲሁም አዲስ በተወለዱ ህጻናት ላይ ኢንፌክሽን ወይም ጨቅላ ህጻን ሞትን ሊያሰከትል ይችላል፡፡\n
+        \u2022 የህክምና ክትትል ያልተደረገለት እርግዝና በእርግዝና ወቅት ወይም ከእርግዝና ወቅት በኋላ የድብርት የአእምሮ ጤና ችግርን ሊያስከትል ይችላል፡፡\n
+        \u2022 ዝቅተኛ የእናትና ልጅ የእርስ በርስ ግንኙነትን ያስከትላል፡፡\n
+        \u2022 ከፍተኛ የጨቅላ ህጻናት ሞትን ያስከትላል፡፡\n
         \u2022 Greater infant mortality\n
-        \u2022 Abortion, termination of pregnancy\n
+        \u2022 ጽንስ ማስወረድ\n
     </string>
-    <string name="unsafe_abortion">Unsafe Abortion</string>
-    <string name="unsafe_abortion_detail">WHO defines an unsafe abortion as \" a procedure for terminating an unwanted pregnancy either by persons lacking the necessary skills or in an environment lacking the minimal medical standards, or both\".
-Unsafe and illegal abortion is among the main causes of death worldwide.
+    <string name="unsafe_abortion">ደህንነቱ ያልተጠበቀ ጽንስ ማስወረድ</string>
+    <string name="unsafe_abortion_detail">የአለም ጤና ድርጅት ደህንነቱ ያልተጠበቀ የጽንስ ማሰወረድን እንደሚከተለው ይገልጸዋ \" ያልተፈለገ ዕርግዝናን ጽንስ ማስወረድ ተገቢው ሙያዊ ችሎታ በሌላቸው ግለሰቦች ሲከናወን ወይም ዝቅተኛው የህክምና ደረጃን በማያሟላ ስፍራ ሲከናወን ወይም ሁለቱንም ባካተተ መልኩ ሲከከናወን ማለት ነው፡፡\" በአለም ዙሪያ የሞት መንስዔዎች ከሆኑት ምክኒያቶች አንዱ ደህንነቱ ልተጠበቀ እና ህገ- ወጥ ጽንስ
+ማስወረድ ነው፡፡
     </string>
-    <string name="unsafe_method_abortion">Unsafe Methods of Abortion</string>
+    <string name="unsafe_method_abortion">አደገኛ የጽስ ማስወረጃ መንገዶ</string>
     <string name="unsafe_method_abortion_detail">
-        \u2022 Swallowing large doses of drugs, such as antimalarials or oral contraceptives.\n
-        \u2022 Inserting a sharp object into the uterus.\n
-        \u2022 Drinking or flushing the vagina with caustic liquids such as bleach.\n
-        \u2022 Physical abuse such as jumping or falling from high places, vigorous dancing, or sustained and vigorous sexual intercourse over long periods.\n
-        \u2022 Prolonged and hard massage to manipulate the uterus, or repeated blows to the stomach.\n
+        \u2022 እንደ ጸረወባ ወይም በአፍ የሚዋጥ የወሊድ መከላከያ እንክብሎችን የመሳሰሉ መጠናቸው በጣም ብዙ የሆኑ መድሃኒቶችን መዋጥ \n
+        \u2022 ወደ ማህጸን ወስጥ ስለታም ነገሮችን ማስገባት፡፡ \n
+        \u2022 አሲዳማ ፈሳሽ ንጥረ ነገሮችን ወደ ሴት ብልት መጨመር እና ማጠብ፡፡\n
+        \u2022 አካላዊ ጉዳቶችን በመፈጸም ወይም ከከፍታ ርቀት ላይ በመዝለል፤ ያላቋረጠ ዳንስ በመደነስ ወይም ፤ ያላቋረጠ ዳንስ በመደነስ ወይም ለረጅም ጊዜታ ያልተቋረጠ የግብረ- ሥጋ ግንኙነት በመፈጸም፡፡ \n
+        \u2022 ማህጸንን ለማሟማት ለረጅም ጊዜ የሚፈጸም ከባድ ማሸት ወይም በተደጋጋሚ ሆድን መደበደብ፡፡\n
     </string>
-    <string name="safe_method_abortion">Safe Methods of Abortion</string>
+    <string name="safe_method_abortion">ደህንነቱ የተጠበቀ ፅንስ የማስወረድ ዘዴዎች</string>
     <string name="safe_method_abortion_detail">
-        \u2022 Safe methods of abortion used during the first trimester (12 weeks) of pregnancy are vacuum aspiration, dilation and curettage, and medication abortion. (The length of a pregnancy is measured from the first day of a woman’s last menstrual period.)\n
-        \u2022 For pregnancies of more than 12 completed weeks since the woman’s last menstrual period, the two most widely used abortion methods are dilation and evacuation (D and E) and medication abortion.\n
+        \u2022 ደህንነቱ ተጠበቀ ጽንስ ማስወረድ ዘዴዎች ጥቅም ላይ የሚውሉት በመጀመሪያው የእርግዝና ክፍለ ጊዜ (12 ሳምንታት) ጊዜ ወስጥ በቫኪዩም ወደውጭ በመሳብ፣ በማሟት፣ እና በመፈንቀል አንዲሁም ህክምናን መሰረት ያደረገ የጽንስ ማስወረድን በመጠቀም ነው፡፡ ( የእርግዝና ቆይታ ጊዜ የሚለካው ከመጨረሻው የወር አበባ መስፍሰስ መጨረሻ ወቅት) ጀምሮ ነው፡፡\n
+        \u2022 ከመጨረሻው የወር አበባ መስፍሰስ መጨረሻ ወቅት ከ 12 ሳምንታት ለጨረሱ እርግዝናዎች ሁለቱ ተመራጭ የጽንስ ማስወረድ ዘዴዎች ማሟማት እና በአየር አልባ መሳቢያ መጠቀም ( ዲ እና ኢ) እና በህክምና እርዳታ ጽንስ ማስወረድ ናቸው፡፡\n
     </string>
-    <string name="unsafe_abortion_issues">Unsafe Abortion Issues</string>
+    <string name="unsafe_abortion_issues">ደህንነቱ ያልተጠበቀ የንስ ማስወረጽ ችግሮች</string>
     <string name="unsafe_abortion_issues_detail">
-        <b><i>Incomplete abortion</i></b> occurs when some tissue remains in the uterus.\n
-        \u2022 Symptoms include abdominal pain; vaginal bleeding; and a soft, enlarged uterus.\n
-        \u2022 Treatment involves removing the remaining tissue in the uterus with vacuum aspiration or, if that is not available, with dilation and curettage.\n
-        <b><i>Infection</i></b> of uterine tissue can result from use of contaminated instruments or when tissue remains in the uterus.\n
-        \u2022 Symptoms include those of incomplete abortion as well as fever, chills, and foul-smelling vaginal discharge and uterine tenderness. Most often, symptoms appear two to three days after the abortion.\n
-        \u2022 Treatment involves antibiotics and vacuum aspiration if needed to remove the remaining tissue in the uterus.
-        <b><i>Heavy bleeding</i></b> results when an incomplete abortion is not treated or from some abortion techniques such as dilation and curettage or insertion of sticks or other objects into the cervix.\n
-        \u2022 Heavy bleeding also can be triggered by toxic reactions caused by herbs, drugs, or chemicals that are swallowed or placed in the vagina.\n
-        \u2022 Treatment may require removing remaining tissue in the uterus and administration of drugs to stop the bleeding, intravenous fluid replacement, and, in severe cases, blood transfusion or surgery.\n
-        <b><i>Uterine perforation</i></b> can occur when a sharp object or instrument is inserted into the uterus.\n
-        \u2022 Other organs also can be injured, including the cervix, ovaries, bowel, bladder, and rectum.\n
-        \u2022 Observation and antibiotics may be all that is needed as treatment, but in more severe cases, surgery may be needed to repair damage to bowel, blood vessels, or other organs.\n
-        NB: Untreated, these complications can cause disabilities and chronic conditions that include: chronic pelvic pain; pelvic inflammatory disease, an infection of the reproductive organs; and infertility.\n
+        <b><i>ሒደቱ ያልተጠናቀቀ የጽንስ ማስወረድ፡-</i></b> በማህጸን ውስጥ የቀረ ጥቂት የጽንስ ቅሪት ስጋ ሲኖር ነው፡፡\n
+        \u2022 የህመም ምልክቶቹ የሚያተቃልሉት የሆድ ቁርጠትን፣ የሴት ብልት የደም ፈሳሽ መፍሰስን፣ ሰፊ ማህጸን\n
+        \u2022 የህክምና እርዳታው የቀረውን የጽንስ ቅሪተ ስጋ ከማህጸን በቫኪዩም ወደውጭ መሳቢያ ዘዴ በመጠቀም ወይም የማይገኝ ከሆነ በመሟማት ወይም በመቅረፍ ማስወገድን ነው፡፡\n
+        <b><i>ኢንፌክሽኖች፡-</i></b> በማህጸን ውስጥ የሚፈጠሩ ኢንፌክሽኖች በተወህሲን የተበከሉ መሰዳሪያዎችን በመጠቀም ወይም የጽንስ ቅሪተ ስጋ ከጽንስ ማስወረድ በኋላ በማህጸን ውስጥ ሲቀር ነው፡፡\n
+        \u2022 ያልተጠናቀቀ የጽንስ ማስወረድ ምልክቶች የሚያካትቱት ብርደ ብርድ ማለት፣ ፍረሃት፣ እና ከሴት ብልት የሚወጡ ፈሳሾች መጥፎ ጠረን እና የማኅጸን መክበድ ስሜቶች ናቸው፡፡\n
+        \u2022 ከማህጸን ውስጥ የቀረ የጽንስ ቅሪተ ስጋን ለማውጣት እና ለማስወገድ የአንቲባዮቲክስ መድሃኒት እና የቫኪዩም ወደውጭ መሳቢያ ህክምናዎች አስፈላጊ ናቸው፡፡\n
+        <b><i>ከባድ የደም መፍሰስ</i></b> ይህ የሚከሰተው ያልተጠናቀቀ የጽንስ ማስወረድ በህክምና ካልተረዳ፣ ወይም በማህጸን ወስጥ የቀሩ እንደ ማሟት እና ማፍረስ የጸንስ ማስወረድ ዘዴዎች ወይም ዘንግ የማስገባት ወይም ሌሎች ነገሮች ምክኒያት ነው፡፡\n
+        \u2022 ከባድ የደም መፍሰስ እንደ ቅጠላቅጠል፣ መድሃኒቶች፣ ወይም ኪሚካሎች በመሳሰሉት በአፍ የተዋጡ ወይም ወደ ሴት ብልት በገቡ መርዛማ ነገሮች ምክኒያት ሊከሰት ይችላል፡፡\n
+        \u2022 ህክምናው በማህጸን ውስጥ የቀረን የጽንስ ስጋ ማውጣትን እና መድሃኒቶችን በመጠቀም የደም መፍሰስን ማቆምን እና ተተኪ ጠቃሚ ፈሳሾችን በመተካት እንዲሁም ችግሩ በጣም ከባድ ከሆነ የድም መተካት ወይም ቀዶ ህክምናን ያካትታል፡፡\n
+        <b><i>የማህጸን መቀደድ</i></b> ይህ ሊከሰት የሚችለው በማህጸን ውስጥ ስለታም ነገር ወይም መሳሪያ በማስገባት ምክኒያት ሊሆን ይችላል፡፡\n
+        \u2022 የማህጸን በርን፣ ኦቫሪዎችን፣ ሆድዕቃን፣ የሃሞት ከረጢትን እና ፍንጢጣን ጨምሮ ሌሎች የአካል ክፍሎችም ሊጎዱ ይችላሉ፡፡\n
+        \u2022 በህክምና እርዳታነት ሊሰጡ የሚችሉት በምልከታ መመርመር እና አንቲባዮቲክሶች ብቻ ሊሆኑ ችላሉ፡፡ ነገር ግን በጣም ከባድ ችግር ያጋጠመ ከሆነ በሆድ ዕቃ ላይ፣ በደም ቧንቧዎች ላይ ወይም በሌሎች የአካል ክፍሎች ላይ የደረሱ ጉዳቶችን ለማከም የቀዶ ህክምና አስፈላጊ ሊሆን ይችላል፡፡\n
+        እነዚህ ውስብስብ የጤና ችግሮች ካልታከሙ የአካል መጉደል እና እንደ ዘላቂ የብልት እና መቀመጫ አካባቢ ህመምን፣ የብልት እና መቀመጫ አካባቢ የሚለበልብ ህመምን እና የመራቢ አካላት ኢንፌክሽኖችን እንዲሁም መሃንነትን የመሳሰሉ የማይድኑ ዘላቂ የጤና ችግሮችን ሊያስከትሉ ይችላሉ፡፡\n
     </string>
     <!-- end of content of Unintended Pregnancy -->
     <!-- star of Sexually Transmitted Infections -->
-    <string name="stis">Sexually Transmitted Infections (STIs)</string>
-    <string name="sti_intro">Introduction</string>
+    <string name="stis">በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎች (ኤስቲአይስ)</string>
+    <string name="sti_intro">መግቢያ</string>
     <string name="sti_intro_detail">
-    Sexually transmitted infections (STIs), also called sexually transmitted diseases (STDs), are infections that are passed from one person to another through sexual contact.
+   በግብረ- ሥጋ ግንኙነት የሚተላለፉ ኢንፌክሽኖች (ኤስቲአይስ) በሌላ አጠራር በግብረ-ሥጋ
+ግንኙነት የሚተላለፉ በሽታዎች (ኤስቲዲስ) ተብለው ሚታወቁ ሲሆን በግብረ- ሥጋ ግንኙነት
+አማካኝነት ከአንድ ሰው ወደ ሌላ ሰው የሚተላለፉ ኢንፌክሽኖች ናቸው፡፡\n
     </string>
-    <string name="sti_causes">Causes</string>
+    <string name="sti_causes">መንስዔዎች</string>
     <string name="sti_causes_detail">
-        More than 30 different bacteria, viruses and parasites are known to be transmitted through sexual contact. Eight of these pathogens are linked to the greatest incidence of sexually transmitted disease. Of these 8 infections, 4 are currently curable: syphilis, gonorrhoea, chlamydia and trichomoniasis. The other 4 are viral infections and are incurable: hepatitis B, herpes simplex virus (HSV or herpes), HIV, and human papillomavirus (HPV).
+        ዓይነታቸው ከ 30 በላይ የሆኑ ባክቴሪያዎች፣ ቫይረሶች እና ሌሎች ጥገኛ ተዋሲን በግብረ-ሥጋ
+ግንኙነት አማካኝነት እንደሚተላለፉ ይታወቃል፡፡ ከነዚህ ውስጥ ስምንቱ ፓቶጂኖች በከፍተኛ
+ደረጃ በግብረ- ሥጋ ግንኙነት ከሚተላለፉ በሽታዎች የመተላለፍ እድል ጋር ተያያዥ ናቸው፡፡
+ከነዚህ 8 ኢንፌክሽኖች ውስጥ 4 ቱ ባሁኑ ወቅት በህክምና የሚድኑ ናቸው፡፡ እነዚህም ቂጥኝ፣
+ጨብጥ፣ ክላሜዲያ እና ተሪኮሞኒያሲስ ናቸው፡፡ ቀሪዎቹ 4 ቱ ተላላፊ በሽታ አምጪ ቫረሶች ኢንፌክሽኖች ሲሆኑ በህክምና አይድኑም፡፡ እነዚህም ሄፒታይተስ ቢ፣ ኸርፕስ ሲምፕሌክስ ቫይረስ
+( ኤችኤስቪ ወይም ኸርፕስ) ፣ ኤችአይቪ እና ሂዩማንፓፒሎማቫረስ (ኤችፒቪ) ናቸው፡፡\n
     </string>
-    <string name="sti_transmission">Transmission</string>
+    <string name="sti_transmission">የመተላለፊያ መንገዶች</string>
     <string name="sti_transmission_detail">
-            STIs are spread from one person to another person in the following ways:\n
-        \u2022 Having unprotected (without a condom) vaginal, oral, or anal sex with someone who has an STI. NB. STIs can be spread even if there are no signs or symptoms.\n
-        \u2022 During genital touching. It is possible to get some STIs, such as syphilis and herpes, without having sex.\n
-        \u2022 From a pregnant woman to her baby.\n
+           ኤስቲአይስ ከአንድ ሰው ወደ ሌላ ሰው የሚተላለፉባቸው መንገዶች የሚከተሉት ናቸው፡-\n
+        \u2022 የ ኤስቲአይስ ኢንፌክሽን ተጠቂ ከሆነ ግለሰብ ጋር በሴት ብልት፣ በአፍ ወይም በቂጥ የሚደረግ
+ልቅ (ኮንደም ባለ መጠቀም) የግብረ-ሥጋ ግንኙነት፣ ማስታወሻ፡ ኤስቲአይስ ምንም የህመም
+ምልክት ወይም ጠቋሚ ባይኖረም ይተላለፋል፡፡\n
+        \u2022 በብልት እርስ በእርስ ንክኪ አማካኝነት፡፡ ከግብረ- ሥጋ ግንኙነት ውጭ እንደ ቂጥኝ እና ኸርፕስ
+ወዘተ ኤስቲአይስ ኢንፌክሽኖች ሊተላለፉ ይችላሉ፡፡\n
+        \u2022 ከእርጉዝ እናት ወደ ልጅ፡፡\n
     </string>
-    <string name="sti_syptoms">Signs and Syptoms</string>
+    <string name="sti_syptoms">በግብረ- ሥጋ ግንኙነት የሚተላለፉ ኢንፌክሽኖች የህመም ምልክቶች</string>
     <string name="sti_syptoms_detail">
-        Different STIs have different manifestations. Many STIs have only mild symptoms or no signs or symptoms at all. When women have symptoms, the symptoms may be mistaken for something else, such as a urinary tract infection or yeast infection. The common signs/symptoms of STIs.\n
-        \u2022 Itching around the vagina and/or discharge from the vagina for women.\n
-        \u2022 Discharge from the penis for men.\n
-        \u2022 Pain during sex or when urinating.\n
-        \u2022 Pain in the pelvic area.\n
-        \u2022 Chancre sores (painless red sores) on the genital area, anus, tongue and/or throat.\n
-        \u2022 A scaly rash on the palms of your hands and the soles of your feet.\n
-        \u2022 Dark urine, loose, light-colored stools, and yellow eyes and skin.\n
-        \u2022 Small blisters that turn into scabs on the genital area.\n
-        \u2022 Swollen glands, fever and body aches.\n
-        \u2022 Unusual infections, unexplained fatigue, night sweats and weight loss.\n
-        \u2022 Soft, flesh-colored warts (growth) around the genital area.\n
+        የተለያዩ የኤስቲአይስ ኢንፌክሽኖች ዓይነቶች ተለያዩ አይነት መገለጫዎች አሏቸው፡፡ በዙ
+የኤስቲአይስ ኢንፌክሽን ዓይነቶች ጉልህ ያልሆኑ የህመም ምልክቶች ያሏቸው ወይም ምንም
+አይነት ጠቋሚዎች ወይም የህመም ምልከቶች የሌሏቸው ናቸው፡፡ ሴቶች የህመም ምልክቶቹ
+ሲኖሩባቸው እንደ የሽንት ቧንቧ ኢንፌክሽን ወይም የፈንገስ ኢንፌክሽን የመሳሰሉ የህመም
+ምልከቶች እንደሆኑ በስህተት ይወሰዳሉ፡፡ የኤስቲአይስ ኢንፌክሽኖች መደበኛ ጠቋሚዎች/
+የህመም ምልክቶች፡-\n
+        \u2022 በሴቶች ላይ በብልት ዙሪያ ማሳከክ እና/ ወይም ከብልት የሚፈስ ፈሳሽ\n
+        \u2022 በወንዶች ላይ ከብልት የሚፈስ ፈሳሽ\n
+        \u2022 በግብረ- ሥጋ ግንኙነት ወይም መሽናት ወቅት የህመ ስሜት\n
+        \u2022 በመቀመጫ እና ብልት ዙሪያ የሚሰማ ህመም\n
+        \u2022 በብልት አፍ ዙሪያ መምገል ( ህመም አልባ ቀይ ፈሳሽ) በብልት አካባቢ፣ በቂጥ፣ በምላስ
+እና/ ወይም በጉሮሮ\n
+        \u2022 በእጅ መዳፎች እና በውስጥ እግር ላይ ጉልህ ባለመሰመር ምልክት\n
+        \u2022 ደብዛዛ የሽንት ቀለም፣ የላላ፣ ባለ ደብዛዛ ቀለም መቀመጫ እና ቢጫ የአይን እና የቆዳ
+ቀለም፣\n
+        \u2022 በብልት አካባቢ ወደ ደደረ ቁስልነት የሚቀየሩ ትናንሽ ነጠብጣቦች\n
+        \u2022 ያበጡ እጢዎች፣ ትኩሳት እና የሰውነት ህመሞች፣\n
+        \u2022 ያልተለመዱ ኢንፌክሽኖች፣ ማስረዳት የማይቻል ድካም፣ የሌሊት ላብ እና ክብደት
+መቀነስ\n
+        \u2022 በብልት አካባቢ የሚያድጉ ለስላሳ፣ ስጋ መሰል ቀለም ያላቸው ሽፍታዎች\n
     </string>
-    <string name="sti_complications">Complications</string>
+    <string name="sti_complications">የጤና ውስብስብ ችግሮች</string>
     <string name="sti_complications_detail">
-        STIs can have serious consequences beyond the immediate impact of the infection itself. Women often have more serious health problems from STIs than men, including infertility.\n
-        \nEach STI causes different health problems. Certain types of untreated STIs can cause or lead to:\n
-        \u2022 Problems getting pregnant or permanent infertility. STIs such as gonorrhoea and chlamydia are major causes of pelvic inflammatory disease (PID) and infertility in women.\n
-        \u2022 Problems during pregnancy and health problems for the unborn baby.\n
-        \u2022 Infection in other parts of the body\n
-        \u2022 Organ damage\n
-        \u2022 HPV infection can causes cervical cancer and related deaths each year\n
-        \u2022 STIs like herpes and syphilis can increase the risk of HIV acquisition three-fold or more.\n
-        \u2022 Mother-to-child transmission of STIs can result in stillbirth, neonatal death, low-birth-weight and prematurity, sepsis, pneumonia, neonatal conjunctivitis, and congenital deformities.\n
-        \u2022 Death.\n
+       የኤስቲአይስ ኢንፌክሽኖች በቀጥታ ከሚያስከትሏቸው ተጽዕኖዎች በላይ ከባድ የሆኑ ውጤቶችን
+ያስከትላሉ፡፡ ሴቶች ከወንዶች የበለጠ በኤስቲአይስ ኢንፌክሽኖች ምክኒያት መሃንነትን ጨምሮ ከባድ የሆኑ
+የጤና ችግሮች ይከሰቱባቸዋል፡፡\n
+        \nእያንዳንዳቸው ኤስቲአይስ ኢንፌክሽኖች የተሌዩ የጤና ችግሮችን ያከትላሉ፡፡ የተወሰኑ በህክምና ያልተረዱ
+የኤስቲአይስ ኢንፌክሽኖች ለሚከተሉት ችግሮች መንሰዔ ይሆናሉ፡\n
+        \u2022 ማርገዝ ያለመቻል ወይም ዘላቂ የሆነ መሃንነት፡፡ እንደ ጨብጥ እና ክላሜዲያ የመሳሰሉት
+የኤስቲአይስ ኢንፌክሽኖች ዋና ዋና የብልት አካባቢን የሚለበልቡ በሽታዎች (ፒአይዲ) እና
+ለሴቶች መሃንነት መንስዔ የሆኑ ኢንፌክሽኖች ናቸው፡፡\n
+        \u2022 በዕርግዝና ወቅት የሚያጋጥሙ ችግሮች እና በማህጸን ውሰጥ በሚገኙ ህጻናት ላይ የሚከሰቱ
+የጤና ችግሮች፤\n
+        \u2022 በሌላ የሰውነት ክፍሎች ላይ ሚፈጠሩ ኢንፌክሽኖች፤\n
+        \u2022 የሰውነት ክፍል ከጥቅም ውጭ መሆን፤\n
+        \u2022 የኤችፒቪ ኢንፌክሽኖች የአንገት ዙሪያ ካንሰርን እና ተያያዥ ሞቶችን በያመቱ
+የሚያስከትል ነው\n
+        \u2022 እንደ ኸርፕስ እና ቂጥኝ የመሳሰሉ የኤስቲአይስ ኢንፌክሽኖች ከሶስት እጥፍ በላይ
+በኤችአይቪ መያዝ አጋጣሚን ከፍ ያደርጋሉ፡፡\n
+        \u2022የኤስቲአይስ ኢንፌክሽኖች ከእናት ወደ ልጅ መተላለፍ ከወሊድ በፊት ሞትን፣ በወሊድ
+ወቅት ሞትን፣ በወሊድ ወቅት የህጻኑ ክብደት መቀነስን እና ያለጊዜ መገላገልን፣ ሴፕሲስን፣
+ኒሞኒያን፣ በወሊድ ወቅት የመገጣጠሚያ አካላት ክፍሎችን እና የብልትን ቅርጽ መዛባት
+ጉድለቶችን የመሳሰሉ የጤና እክሎችን ሊያስከትሉ ይችላሉ፡፡\n
+        \u2022 ሞት፡፡\n
     </string>
-    <string name="sti_prevention">Prevention</string>
+    <string name="sti_prevention">መከላከያ መንገዶች</string>
     <string name="sti_prevention_detail">
-        The best way to prevent an STI is to not have vaginal, oral, or anal sex.\n\n
-        If you do have sex, lower your risk of getting an STI with the following steps:\n
-        \u2022 <b><i>Get vaccinated:</i></b> There are vaccines to protect against HPV and hepatitis B. (but not practiced in our country)\n
-        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex. NB. Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
-with some sores (such as those that can occur with herpes) or warts (which can be caused by HPV infection).\n
-        \u2022 <b><i>Be monogamous (faithful to each other):</i></b> Having sex with just one partner can lower your risk for STIs. Your risk of getting STIs goes up with the number of partners you have.\n
-        NB. The steps work best when used together. No single step can protect you from every single type of STI.\n
+        የኤስቲአይስ ኢንፌክሽኖች የመከላከያ ተመራጩ መንገድ በሴት ብለት፣ በአፍ፣ ወይም በቂጥ የግብረ-ሥጋ
+ግንኙነት አለመፈጸም ነው፡፡\n\n
+        የግብረ- ሥጋ ግንኙነት የሚፈጽሙ ከሆነ በኤስቲአይስ ኢንፌክሽኖች የመያዝ እድሎችዎን ለመቀነስ
+የሚከተሉትን እርምጃዎች ይከተሉ፡-\n
+        \u2022 <b><i>ክትባት ይከተቡ፡</i></b> ኤችፒቪ እና ሄፒታተስ ቢን ለመከላከል የሚስችሉ ክትባቶች ይገኛሉ ( ነገር ግን
+በሃገራችን ተግባራዊ አልሆኑም)\n
+        \u2022 <b><i>ኮንደም ይጠቀሙ፡</i></b> የኤስቲአይስ ኢንፌክሽኖችን በግብረ- ሥጋ ግንኙነት ወቅት ለመከላከል ኮንደም
+መጠቀም በጣም ተመራጭ ነው፡፡\n\n
+        <b><i>ማስታወሻ፡</i></b> ሆኖም ግን ኮንደሞች 100 በመቶ አስተማማኝ ባይሆኑም ከአንዳንድ ፈሳሾች
+( ከኸርፕስ የሚመነጩ የመሳሰሉት መግሎች ፈሳሽ) ወይም ( በኤችፒቪ ኢንፌክሽን ከሚፈጠሩ)
+የሽፈታ ቁሰለቶች ጋር ንክኪ እንዳይኖርዎት ሊከላከሉ አይችሉም፡፡\n
+        \u2022 <b><i>በአንድ የጾታ አጋር ይወሰኑ፡</i></b> ( እርስ በእርስ መተማመን ይኑራችሁ) ከአንድ የጾታ አጋር ጋር ብቻ
+የግብረ- ሥጋ ግንኙነት መፈጸም ለኤስቲአይስ ኢንፌክሽኖች የመጋለጥ አጋጣሚን ይቀንሳል፡፡
+በኤስቲአይስ ኢንፌክሽኖች የመያዝ ስጋት የጾታ አጋሮችዎ ብዛት ላይ የተመረኮዘ ነው፡፡\n
+        <b><i>ማስታወሻ፡</i></b>እርምጃዎቹ ውጤታማ የሚሆኑት በአንድ ላይ ሲተገበሩ ነው፡፡ ነጠላ እርምጃን
+ተግባራዊ ማድረግ በምንም ዓይነት ነጠላ የኤስቲአይስ ኢንፌክሽን ከመያዝ አያድንዎትም፡፡\n
     </string>
-    <string name="sti_treatment">Treatment</string>
+    <string name="sti_treatment">ህክምና እርዳታ</string>
     <string name="sti_treatment_detail">
-        Some STIs are curable while few are not. STIs that are caused by bacteria, like chlamydia, syphilis and Gonorrhoea, can be cured with antibiotics. But STIs caused by a virus (like HIV or herpes) can’t be cured. Your doctor can only treat the symptoms that the virus causes. Don’t wait to be treated. Early treatment helps prevent serious health problems.\n\n
-        See your doctor if you’re at risk for having an STI, if you have any of the symptoms, or if you have concerns about whether you have one. STIs can cause serious health problems if left untreated. For example, chlamydia can lead to problems that can cause women not to be able to have children (infertility). HPV can lead to cancer of the cervix or penis, and syphilis can lead to paralysis, mental problems, heart damage, blindness and even death.
+        አንዳንድ የኤስቲአይስ ኢንፌክሽኖች በህክምና ሊድኑ የሚችሉ ሲሆን ጥቂቶቹ ደግሞ መዳን የሚችሉ
+አይደሉም፡፡ እንደ ክላሜዲያ፣ ቂጥኝ እና ጨብጥ መሳሰሉት በባክቴሪያ አማካኘነት የሚመጡ የኤስቲአይስ
+ኢንፌክሽኖች በአንቲባዮቲክ መድሃኒቶች ሊድኑ ይችላሉ፡፡ ነገር ግን በቫይረስ አማካኝነት የሚመጡ (እንደ
+ኤችአይቪ ወይም ኸርፕስ) የመሳሰሉ የኤስቲአይስ ኢንፌክሽኖች በህክምና አይድኑም፡፡ ዶክተርዎ ሊያክም
+የሚችለው በቫይረሱ አማካኝነት የሚከሰቱ የህመም ምልክቶችን ብቻ ነው፡፡\n\n
+        የኤስቲአይስ ኢንፌክሽኖች የመጋለጥ ስጋት ያለቦት ከሆነ የነዚህ ኢንፌክሽኖች የህመም ምልክቶች ብቻ
+ያሉቦት ከሆነ ወይም በሽታው እንዳለቦት የሚጠራጠሩ ከሆነ ዶክተርዎን ያማክሩ፡፡
+የኤስቲአይስ
+ኢንፌክሽኖች በህክምና ካለተረዱ ከባድ የጤና ችግሮችን ስከትላሉ፡፡ ለምሳሌ ክላሜዲያ ሴቶች ልጅ
+መውለድ እንዳይችሉ (መሃንነትን) ሊያስከትል ይችላል፡፡ ኤችፒቪ አንገት ወየም ወንድ ብልት ካንሰርን
+ሊያስከትል የሚችል ሲሆን ቂጥኝ ሽባነትን፣ የአእምሮ ጤና ማጣትን፣ የልብ ጉዳትን፣ ዐይነ-ስውርነት
+እንዲሁም ሞትን ሊያስከትል ይችላል፡፡\n
     </string>
     <!-- end of Sexually Transmitted Infections -->
 </resources>
