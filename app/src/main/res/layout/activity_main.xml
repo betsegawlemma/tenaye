@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
-    <FrameLayout
-        android:id="@+id/content_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
 
 <android.support.design.widget.AppBarLayout
     android:layout_width="match_parent"
@@ -29,12 +29,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
+            <include
+                layout="@layout/toolbar"
+                android:id="@+id/toolbar_main"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
-                android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+                android:layout_height="wrap_content"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -236,7 +235,7 @@
         </android.support.v7.widget.CardView>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
-    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
     <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -245,7 +244,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:foregroundGravity="right"
-        app:menu="@menu/drawer_view"
+        app:menu="@menu/drawer_menu"
         app:headerLayout="@layout/nav_header" />
 
 </android.support.v4.widget.DrawerLayout>
