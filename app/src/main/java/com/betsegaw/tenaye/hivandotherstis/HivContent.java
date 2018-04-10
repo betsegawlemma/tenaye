@@ -17,37 +17,37 @@ import com.betsegaw.tenaye.R;
 
 public class HivContent extends Fragment {
 
-    // Hiv introduction
+    // HivAndSTIs introduction
     TextView hivIntroHeader;
     TextView hivIntroArrow;
     ConstraintLayout hivIntroDetail;
 
-    // Hiv stages
+    // HivAndSTIs stages
     TextView hivStagesHeader;
     TextView hivStagesArrow;
     ConstraintLayout hivStagesDetail;
 
-    // Hiv syptoms
+    // HivAndSTIs syptoms
     TextView hivSyptomsHeader;
     TextView hivSyptomsArrow;
     ConstraintLayout hivSyptomsDetail;
 
-    // Hiv misconceptions
+    // HivAndSTIs misconceptions
     TextView hivMisconceptionsHeader;
     TextView hivMisconceptionsArrow;
     ConstraintLayout hivMisconceptionsDetail;
 
-    // Hiv diagnosis
+    // HivAndSTIs diagnosis
     TextView hivDiagnosisHeader;
     TextView hivDiagnosisArrow;
     ConstraintLayout hivDiagnosisDetail;
 
-    // Hiv transmission
+    // HivAndSTIs transmission
     TextView hivTransmissionHeader;
     TextView hivTransmissionArrow;
     ConstraintLayout hivTransmissionDetail;
 
-    // Hiv prevention
+    // HivAndSTIs prevention
     TextView hivPreventionHeader;
     TextView hivPreventionArrow;
     ConstraintLayout hivPreventionDetail;
@@ -57,7 +57,7 @@ public class HivContent extends Fragment {
 
         View view = inflater.inflate(R.layout.hiv_content_tab, container, false);
 
-        // Hiv Introduction
+        // HivAndSTIs Introduction
         hivIntroHeader = view.findViewById(R.id.hiv_intro_header);
         hivIntroDetail = view.findViewById(R.id.hiv_intro_details);
         hivIntroArrow = view.findViewById(R.id.hiv_intro_arrow);
@@ -78,7 +78,7 @@ public class HivContent extends Fragment {
             }
         });
 
-       // Hiv Stages
+       // HivAndSTIs Stages
         hivStagesHeader = view.findViewById(R.id.hiv_stages_header);
         hivStagesDetail = view.findViewById(R.id.hiv_stages_detail);
         hivStagesArrow = view.findViewById(R.id.hiv_stages_arrow);
@@ -99,7 +99,7 @@ public class HivContent extends Fragment {
             }
         });
 
-        // Hiv Syptoms
+        // HivAndSTIs Syptoms
         hivSyptomsHeader = view.findViewById(R.id.hiv_syptoms_header);
         hivSyptomsDetail = view.findViewById(R.id.hiv_syptoms_details);
         hivSyptomsArrow = view.findViewById(R.id.hiv_syptoms_arrow);
@@ -119,7 +119,7 @@ public class HivContent extends Fragment {
             }
         });
 
-        // Hiv Misconceptions
+        // HivAndSTIs Misconceptions
         hivMisconceptionsHeader = view.findViewById(R.id.hiv_misconceptions_header);
         hivMisconceptionsArrow = view.findViewById(R.id.hiv_misconceptions_arrow);
         hivMisconceptionsDetail = view.findViewById(R.id.hiv_misconceptions_details);
@@ -139,7 +139,7 @@ public class HivContent extends Fragment {
             }
         });
 
-        // Hiv Diagnosis
+        // HivAndSTIs Diagnosis
         hivDiagnosisHeader = view.findViewById(R.id.hiv_diagnosis_header);
         hivDiagnosisArrow = view.findViewById(R.id.hiv_diagnosis_arrow);
         hivDiagnosisDetail = view.findViewById(R.id.hiv_diagnosis_details);
@@ -159,7 +159,7 @@ public class HivContent extends Fragment {
             }
         });
 
-        // Hiv Transmission
+        // HivAndSTIs Transmission
         hivTransmissionHeader = view.findViewById(R.id.hiv_transmission_header);
         hivTransmissionArrow = view.findViewById(R.id.hiv_transmission_arrow);
         hivTransmissionDetail = view.findViewById(R.id.hiv_transmission_details);
@@ -179,7 +179,7 @@ public class HivContent extends Fragment {
             }
         });
 
-        // Hiv Prevention
+        // HivAndSTIs Prevention
         hivPreventionHeader = view.findViewById(R.id.hiv_prevention_header);
         hivPreventionArrow = view.findViewById(R.id.hiv_prevention_arrow);
         hivPreventionDetail = view.findViewById(R.id.hiv_prevention_details);

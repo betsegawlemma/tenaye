@@ -3,12 +3,15 @@
 
     <string name="up_arrow">\u25B2</string>
     <string name="down_arrow">\u25BC</string>
-    <string name="pro">Pros</string>
+    <string name="pros">Pros</string>
     <string name="cons">Cons</string>
-
+    <string name="description">Description</string>
+    <string name="quiz">Quiz</string>
+    <string name="hiv">HIV</string>
+    <string name="sti">STIs</string>
     <!-- Start of Contraceptive content -->
-    <string name="contraceptive">Contraceptive</string>
-    <string name="cntra_intro">Introduction</string>
+    <string name="contraceptive_head">Contraceptive</string>
+    <string name="cntra_intro_head">Introduction</string>
     <string name="contraceptive_introduction">Contraception is essential to secure the well-being and autonomy of women, while supporting the health and development of communities. Contraception allows spacing of pregnancies and can delay pregnancies in young women at increased risk of health problems and death from early childbearing. </string>
     <string name="cocs">Combined Oral Contraceptive</string>
     <string name="cocs_details">
@@ -183,7 +186,7 @@
     <!-- End of Contraceptive content -->
 
    <!-- Start of HIV content -->
-    <string name="hiv">HIV/AIDS</string>
+    <string name="hiv_head">HIV and Other STIs</string>
     <string name="hiv_intro">Introduction</string>
     <string name="hiv_introduction">HIV (human immunodeficiency virus) is a retrovirus that infects the vital organs and cells of the human immune system (CD4 cells), which is our body’s natural defence against illness. HIV infection is one of none-curable sexually transmitted infections. If HIV is left untreated, it may take up to 10 or 15 years for the immune system to be so severely damaged it can no longer defend itself at all. However, the speed HIV progresses will vary depending on age, health and background.\n
         \u2022 AIDS (acquired immunodeficiency syndrome) is a refers to a set of symptoms and illnesses, (or syndrome) that occur at the very final stage of HIV infection. \n
@@ -271,7 +274,7 @@
     </string>
     <!-- End of HIV content -->
     <!-- Start of Mental Health content -->
-    <string name="mh">Mental Health</string>
+    <string name="mh_head">Mental Health</string>
     <string name="mental_health">Introduction</string>
     <string name="mental_health_details">
         A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave. \n\n
@@ -390,7 +393,7 @@
     </string>
     <!-- End of Mental Health Content -->
     <!-- Start of Unwanted Pregnancy Content -->
-    <string name="upregnancy">Unintended Pregnancy</string>
+    <string name="upregnancy_head">Unintended Pregnancy</string>
     <string name="unintended_pregnancy">Introduction</string>
     <string name="unintended_pregnancy_detail">
         Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception. Unintended pregnancies may also result from.
@@ -447,7 +450,7 @@ Unsafe and illegal abortion is among the main causes of death worldwide.
     </string>
     <!-- end of content of Unintended Pregnancy -->
     <!-- star of Sexually Transmitted Infections -->
-    <string name="stis">Sexually Transmitted Infections (STIs)</string>
+    <string name="stis_head">Sexually Transmitted Infections (STIs)</string>
     <string name="sti_intro">Introduction</string>
     <string name="sti_intro_detail">
     Sexually transmitted infections (STIs), also called sexually transmitted diseases (STDs), are infections that are passed from one person to another through sexual contact.
@@ -463,7 +466,7 @@ Unsafe and illegal abortion is among the main causes of death worldwide.
         \u2022 During genital touching. It is possible to get some STIs, such as syphilis and herpes, without having sex.\n
         \u2022 From a pregnant woman to her baby.\n
     </string>
-    <string name="sti_syptoms">Signs and Syptoms</string>
+    <string name="sti_syptoms">Signs and Symptoms</string>
     <string name="sti_syptoms_detail">
         Different STIs have different manifestations. Many STIs have only mild symptoms or no signs or symptoms at all. When women have symptoms, the symptoms may be mistaken for something else, such as a urinary tract infection or yeast infection. The common signs/symptoms of STIs.\n
         \u2022 Itching around the vagina and/or discharge from the vagina for women.\n

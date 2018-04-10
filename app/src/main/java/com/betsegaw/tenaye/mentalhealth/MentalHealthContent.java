@@ -22,10 +22,10 @@ public class MentalHealthContent extends Fragment {
     TextView mhIntroArrow;
     ConstraintLayout mhIntroDetail;
 
-    // Mental health issues stages
-    TextView mhIssuesHeader;
-    TextView mhIssuesArrow;
-    ConstraintLayout mhIssuesDetail;
+    // Mental health kinds
+    TextView mhKindsHeader;
+    TextView mhKindsArrow;
+    ConstraintLayout mhKindsDetail;
 
     // Mental health issues causes
     TextView mhCausesHeader;
@@ -83,23 +83,24 @@ public class MentalHealthContent extends Fragment {
             }
         });
 
-       // Mental health issues
-        mhIssuesHeader = view.findViewById(R.id.mh_issues_header);
-        mhIssuesDetail = view.findViewById(R.id.mh_issues_detail);
-        mhIssuesArrow = view.findViewById(R.id.mh_issues_arrow);
 
-        mhIssuesHeader.setOnClickListener(new View.OnClickListener() {
+        // Mental health issue kinds
+        mhKindsHeader = view.findViewById(R.id.mh_kinds_header);
+        mhKindsDetail = view.findViewById(R.id.mh_kinds_detail);
+        mhKindsArrow = view.findViewById(R.id.mh_kinds_arrow);
+
+        mhKindsHeader.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                TransitionManager.beginDelayedTransition(mhIssuesDetail);
+                TransitionManager.beginDelayedTransition(mhKindsDetail);
 
-                if(mhIssuesDetail.getVisibility()==View.VISIBLE){
-                    mhIssuesArrow.setText(R.string.down_arrow);
-                    mhIssuesDetail.setVisibility(View.GONE);
-                }else if(mhIssuesDetail.getVisibility()==View.GONE) {
-                    mhIssuesArrow.setText(R.string.up_arrow);
-                    mhIssuesDetail.setVisibility(View.VISIBLE);
+                if(mhKindsDetail.getVisibility()==View.VISIBLE){
+                    mhKindsArrow.setText(R.string.down_arrow);
+                    mhKindsDetail.setVisibility(View.GONE);
+                }else if(mhKindsDetail.getVisibility()==View.GONE) {
+                    mhKindsArrow.setText(R.string.up_arrow);
+                    mhKindsDetail.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -164,7 +165,7 @@ public class MentalHealthContent extends Fragment {
             }
         });
 
-        // Hiv Transmission
+        // HivAndSTIs Transmission
         mhDiagnoseWhoHeader = view.findViewById(R.id.mh_diagnose_who_header);
         mhDiagnoseWhoArrow = view.findViewById(R.id.mh_diagnose_who_arrow);
         mhDiagnoseWhoDetail = view.findViewById(R.id.mh_diagnose_who_details);

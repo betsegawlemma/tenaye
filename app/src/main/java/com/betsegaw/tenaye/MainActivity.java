@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.betsegaw.tenaye.contraceptive.Contraceptive;
-import com.betsegaw.tenaye.hivandotherstis.Hiv;
+import com.betsegaw.tenaye.hivandotherstis.HivAndSTIs;
 import com.betsegaw.tenaye.mentalhealth.MentalHealth;
 import com.betsegaw.tenaye.upregnancy.UnintendedPregnancy;
 
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu);
+        getSupportActionBar().setTitle("");
 
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
@@ -54,11 +55,13 @@ public class MainActivity extends AppCompatActivity {
                         mDrawerLayout.closeDrawers();
 
                        switch(menuItem.getItemId()){
+                           case R.id.nav_home:
+                               return true;
                            case R.id.nav_contraceptive:
                                startActivity(new Intent(MainActivity.this, Contraceptive.class));
                                return true;
                            case R.id.nav_hiv:
-                               startActivity(new Intent(MainActivity.this, Hiv.class));
+                               startActivity(new Intent(MainActivity.this, HivAndSTIs.class));
                                return true;
                            case R.id.nav_upregnancy:
                                startActivity(new Intent(MainActivity.this, UnintendedPregnancy.class));
@@ -95,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         hivCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Hiv.class));
+                startActivity(new Intent(MainActivity.this, HivAndSTIs.class));
             }
         });
 

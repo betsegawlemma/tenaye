@@ -3,12 +3,16 @@
 
     <string name="up_arrow">\u25B2</string>
     <string name="down_arrow">\u25BC</string>
-    <string name="pro">አውንታዊ ባህሪያት</string>
+    <string name="pros">አውንታዊ ባህሪያት</string>
     <string name="cons">አሉታዊ ባህሪያት</string>
+    <string name="description">ዝርዝር ገለጻ</string>
+    <string name="quiz">ጥያቄ</string>
+    <string name="hiv">ኤችአይቪ</string>
+    <string name="sti">የአባላዘር በሽታዎች</string>
 
     <!-- Start of Contraceptive content -->
-    <string name="contraceptive">የወሊድ መከላከያ ዘዴዎች</string>
-    <string name="cntra_intro">መግቢያ</string>
+    <string name="contraceptive_head">የወሊድ መከላከያ ዘዴዎች</string>
+    <string name="cntra_intro_head">መግቢያ</string>
     <string name="contraceptive_introduction">የማሕበረሰቦችን ጤና እና ልማት በመደገፍ ውስጥ የወሊድ መከላከያ ዘዴ የሴቶችን ደህንነት እና
 ራስን መቻል ለማረጋገጥ መሰረታዊ ጉዳይ ነው፡፡ የወሊድ መከላከያዎች የእርግዝናን ወቅት
 ለማራረቅ እና በወጣት ሴቶች ዘንድ የሚፈጠር እርግዝናን ለማዘግየት እንዲሁም በለጋ ዕድሜ
@@ -241,7 +245,7 @@
     <!-- End of Contraceptive content -->
 
    <!-- Start of HIV content -->
-    <string name="hiv">ኤችአይቪ/ኤድስ</string>
+    <string name="hiv_head">ኤችአይቪ/ኤድስ</string>
     <string name="hiv_intro">መግቢያ</string>
     <string name="hiv_introduction">ኤችአይቪ/ የሰውን በሽታ የመከላከል ተፈጥሯዊ አቅም የሚያዳክም ቫይረስ/ በከፍተኛ ደረጃ ተላላፊ የሆነ
 ተፈጥሯዊውን ሰውነታችንን ከበሽታ የመከላከል ችሎታ ስርዓት በጣም አስፈላጊ ክፍሎችን እና ሴሎችን
@@ -391,8 +395,8 @@
     </string>
     <!-- End of HIV content -->
     <!-- Start of Mental Health content -->
-    <string name="mh">የአዕምሮ ጤና ችግሮች</string>
-    <string name="mental_health">Introduction</string>
+    <string name="mh_head">የአዕምሮ ጤና ችግሮች</string>
+    <string name="mental_health">መግቢያ</string>
     <string name="mental_health_details">
         የአዕምሮ ጤና ችግሮች እርስዎ ላያስተውሉት ቢችሉም እንደሌላ ማንኛውም አካላዊ ህመም መጥፎ
 ስሜትን የሚያስከትል፣ ወይም የባሰ የጤና ችግሮች ናቸው፡፡ የአዕምሮ ጤና ችግሮች የሚስቡበትን
@@ -575,7 +579,7 @@
     </string>
     <!-- End of Mental Health Content -->
     <!-- Start of Unwanted Pregnancy Content -->
-    <string name="upregnancy">ያልታቀዱ እርግዝናዎች</string>
+    <string name="upregnancy_head">ያልታቀዱ እርግዝናዎች</string>
     <string name="unintended_pregnancy">መግቢያ</string>
     <string name="unintended_pregnancy_detail">
         ያልታቀዱ እርግዝናዎች በስህተት፣ ሳይታቀድ ወይም ሳይፈለግ የሚጸነስባቸው እርግዝናዎች ናቸው፡፡
@@ -632,7 +636,7 @@
     </string>
     <!-- end of content of Unintended Pregnancy -->
     <!-- star of Sexually Transmitted Infections -->
-    <string name="stis">በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎች (ኤስቲአይስ)</string>
+    <string name="stis_head">በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎች (ኤስቲአይስ)</string>
     <string name="sti_intro">መግቢያ</string>
     <string name="sti_intro_detail">
    በግብረ- ሥጋ ግንኙነት የሚተላለፉ ኢንፌክሽኖች (ኤስቲአይስ) በሌላ አጠራር በግብረ-ሥጋ

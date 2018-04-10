@@ -15,49 +15,8 @@
             android:background="@android:color/holo_green_light"
             android:orientation="vertical">
 
-            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-                style="@style/CardView.Light"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp">
 
-                <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/mh_primary_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:text="Mental Health Issues"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                        android:textColor="#DE000000"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="@id/mh_media_image"
-                        app:layout_constraintHorizontal_bias="0.505"
-                        app:layout_constraintStart_toStartOf="@id/mh_media_image" />
-
-                    <ImageView
-                        android:id="@+id/mh_media_image"
-                        android:layout_width="65dp"
-                        android:layout_height="65dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
-                        android:src="@drawable/mental"
-                        app:layout_constraintBottom_toTopOf="@id/mh_primary_text"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </android.support.constraint.ConstraintLayout>
-            </android.support.v7.widget.CardView>
-            <!-- Start of Hiv CardViews -->
+            <!-- Start of HivAndSTIs CardViews -->
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/CardView.Light"
                 android:layout_width="match_parent"
@@ -163,7 +122,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/mh_issues_header"
+                            android:id="@+id/mh_kinds_header"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
@@ -181,7 +140,7 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <TextView
-                            android:id="@+id/mh_issues_arrow"
+                            android:id="@+id/mh_kinds_arrow"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
@@ -197,13 +156,13 @@
                             android:textStyle="bold"
                             android:typeface="monospace"
                             app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="@id/mh_issues_header"
+                            app:layout_constraintEnd_toEndOf="@id/mh_kinds_header"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="0.473" />
                     </android.support.constraint.ConstraintLayout>
 
                     <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-                        android:id="@+id/mh_issues_detail"
+                        android:id="@+id/mh_kinds_detail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:visibility="gone">
@@ -273,7 +232,7 @@
                             android:layout_marginRight="16dp"
                             android:layout_marginTop="8dp"
                             android:lineSpacingExtra="8dp"
-                            android:text="@string/stage2_details"
+                            android:text="@string/mh_kinds_anxiety_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="#00003b"
                             android:visibility="visible"
@@ -299,7 +258,7 @@
                             app:layout_constraintBottom_toTopOf="@id/mh_social_phobias_detail"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/mh_social_phobias" />
+                            app:layout_constraintTop_toBottomOf="@id/mh_anxiety_detail" />
 
                         <TextView
                             android:id="@+id/mh_social_phobias_detail"
@@ -333,10 +292,10 @@
                             android:text="@string/mh_kinds_eating_disorder"
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                             android:textColor="#0000ff"
-                            app:layout_constraintBottom_toTopOf="@id/mh_social_phobias_detail"
+                            app:layout_constraintBottom_toTopOf="@id/mh_eating_disorder_detail"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/mh_eating_disorder_detail" />
+                            app:layout_constraintTop_toBottomOf="@id/mh_social_phobias_detail" />
 
                         <TextView
                             android:id="@+id/mh_eating_disorder_detail"
@@ -495,7 +454,7 @@
                             android:layout_marginRight="16dp"
                             android:layout_marginTop="8dp"
                             android:lineSpacingExtra="8dp"
-                            android:text="@string/stage2_details"
+                            android:text="@string/mh_kinds_schizophrenia_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="#00003b"
                             android:visibility="visible"

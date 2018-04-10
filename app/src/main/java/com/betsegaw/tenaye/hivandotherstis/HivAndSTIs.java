@@ -1,4 +1,4 @@
-package com.betsegaw.tenaye.mentalhealth;
+package com.betsegaw.tenaye.hivandotherstis;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -16,7 +16,7 @@ import android.view.View;
 import com.betsegaw.tenaye.MainActivity;
 import com.betsegaw.tenaye.R;
 import com.betsegaw.tenaye.contraceptive.Contraceptive;
-import com.betsegaw.tenaye.hivandotherstis.HivAndSTIs;
+import com.betsegaw.tenaye.mentalhealth.MentalHealth;
 import com.betsegaw.tenaye.upregnancy.UnintendedPregnancy;
 
 import java.util.Locale;
@@ -25,18 +25,18 @@ import java.util.Locale;
  * Created by betsegaw on 4/1/18.
  */
 
-public class MentalHealth extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
+public class HivAndSTIs extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
 
     private DrawerLayout mDrawerLayout;
 
-    TabLayout mentalHealthTabLayout;
-    ViewPager mentalHealthViewPager;
-    MentalHealthViewPagerAdapter mentalHealthViewPagerAdapter;
+    TabLayout hivAndSTIsTabLayout;
+    ViewPager hivAndSTIsViewPager;
+    HivAndOtherSTIsViewPagerAdapter hivAndOtherSTIsViewPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mentalhealth_main);
+        setContentView(R.layout.hiv_sti_main);
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -59,18 +59,18 @@ public class MentalHealth extends AppCompatActivity implements TabLayout.OnTabSe
 
                         switch(menuItem.getItemId()){
                             case R.id.nav_home:
-                                startActivity(new Intent(MentalHealth.this, MainActivity.class));
+                                startActivity(new Intent(HivAndSTIs.this, MainActivity.class));
                                 return true;
                             case R.id.nav_contraceptive:
-                                startActivity(new Intent(MentalHealth.this, Contraceptive.class));
+                                startActivity(new Intent(HivAndSTIs.this, Contraceptive.class));
                                 return true;
                             case R.id.nav_hiv:
-                                startActivity(new Intent(MentalHealth.this, HivAndSTIs.class));
                                 return true;
                             case R.id.nav_upregnancy:
-                                startActivity(new Intent(MentalHealth.this, UnintendedPregnancy.class));
+                                startActivity(new Intent(HivAndSTIs.this, UnintendedPregnancy.class));
                                 return true;
                             case R.id.nav_mhealth:
+                                startActivity(new Intent(HivAndSTIs.this, MentalHealth.class));
                                 return true;
                             case R.id.nav_amharic:
                                 setLocaleLanguage("am");
@@ -90,21 +90,22 @@ public class MentalHealth extends AppCompatActivity implements TabLayout.OnTabSe
 
     private void init() {
 
-        mentalHealthTabLayout = findViewById(R.id.mh_tab_layout);
-        mentalHealthTabLayout.addTab(mentalHealthTabLayout.newTab().setText(R.string.description));
-        mentalHealthTabLayout.addTab(mentalHealthTabLayout.newTab().setText(R.string.quiz));
-        mentalHealthTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        hivAndSTIsTabLayout = findViewById(R.id.hiv_tab_layout);
+        hivAndSTIsTabLayout.addTab(hivAndSTIsTabLayout.newTab().setText(R.string.hiv));
+        hivAndSTIsTabLayout.addTab(hivAndSTIsTabLayout.newTab().setText(R.string.sti));
+        hivAndSTIsTabLayout.addTab(hivAndSTIsTabLayout.newTab().setText(R.string.quiz));
+        hivAndSTIsTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        mentalHealthViewPager = findViewById(R.id.mh_pager);
-        mentalHealthViewPagerAdapter = new MentalHealthViewPagerAdapter(getSupportFragmentManager(), mentalHealthTabLayout.getTabCount());
-        mentalHealthViewPager.setAdapter(mentalHealthViewPagerAdapter);
-        mentalHealthViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mentalHealthTabLayout));
-        mentalHealthTabLayout.addOnTabSelectedListener(this);
+        hivAndSTIsViewPager = findViewById(R.id.hiv_pager);
+        hivAndOtherSTIsViewPagerAdapter = new HivAndOtherSTIsViewPagerAdapter(getSupportFragmentManager(), hivAndSTIsTabLayout.getTabCount());
+        hivAndSTIsViewPager.setAdapter(hivAndOtherSTIsViewPagerAdapter);
+        hivAndSTIsViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(hivAndSTIsTabLayout));
+        hivAndSTIsTabLayout.addOnTabSelectedListener(this);
 
     }
     @Override
     public void onTabSelected(TabLayout.Tab tab) {
-            mentalHealthViewPager.setCurrentItem(tab.getPosition());
+            hivAndSTIsViewPager.setCurrentItem(tab.getPosition());
     }
 
     @Override

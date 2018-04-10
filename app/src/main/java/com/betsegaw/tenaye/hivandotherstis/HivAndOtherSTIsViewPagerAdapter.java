@@ -24,6 +24,9 @@ public class HivAndOtherSTIsViewPagerAdapter extends FragmentStatePagerAdapter {
             case 0:
                 HivContent hivContent = new HivContent();
                 return hivContent;
+            case 1:
+                STIsContent stIsContent = new STIsContent();
+                return stIsContent;
             case 2:
                 HivAndOtherSTIsQuiz hivAndOtherSTIsQuiz = new HivAndOtherSTIsQuiz();
                 return hivAndOtherSTIsQuiz;
