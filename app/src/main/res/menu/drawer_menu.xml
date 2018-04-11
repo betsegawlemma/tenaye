@@ -5,37 +5,37 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
-            android:title="Home" />
+            android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_contraceptive"
             android:icon="@drawable/ic_contraceptive"
-            android:title="Contraceptive" />
+            android:title="@string/menu_contra" />
         <item
             android:id="@+id/nav_hiv"
             android:icon="@drawable/ic_hiv"
-            android:title="HIV/Other STIs" />
+            android:title="@string/menu_hiv" />
         <item
             android:id="@+id/nav_upregnancy"
             android:icon="@drawable/ic_pregnancy"
-            android:title="Unintended Pregnancy" />
+            android:title="@string/menu_upreg" />
         <item
             android:id="@+id/nav_mhealth"
             android:icon="@drawable/ic_mental"
-            android:title="Mental Health" />
+            android:title="@string/menu_mhealth" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_settings_black_24dp"
-            android:title="Languages">
+            android:title="@string/menu_language">
             <menu>
                 <item
                     android:id="@+id/nav_amharic"
                     android:icon="@drawable/ic_et"
-                    android:title="Amharic"
+                    android:title="@string/menu_amharic"
                     />
                 <item
                     android:id="@+id/nav_english"
                     android:icon="@drawable/ic_gb"
-                    android:title="English"
+                    android:title="@string/menu_english"
                     />
             </menu>
         </item>

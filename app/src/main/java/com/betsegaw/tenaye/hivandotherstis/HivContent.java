@@ -70,10 +70,11 @@ public class HivContent extends Fragment {
 
                 if(hivIntroDetail.getVisibility()==View.VISIBLE){
                     hivIntroArrow.setText(R.string.down_arrow);
-                    hivIntroDetail.setVisibility(View.GONE);
+                   setGone(hivIntroDetail);
                 }else if(hivIntroDetail.getVisibility()==View.GONE) {
+                    setVisible(hivIntroDetail);
                     hivIntroArrow.setText(R.string.up_arrow);
-                    hivIntroDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -91,10 +92,11 @@ public class HivContent extends Fragment {
 
                 if(hivStagesDetail.getVisibility()==View.VISIBLE){
                     hivStagesArrow.setText(R.string.down_arrow);
-                    hivStagesDetail.setVisibility(View.GONE);
+                    setGone(hivStagesDetail);
                 }else if(hivStagesDetail.getVisibility()==View.GONE) {
+                    setVisible(hivStagesDetail);
                     hivStagesArrow.setText(R.string.up_arrow);
-                    hivStagesDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -111,10 +113,11 @@ public class HivContent extends Fragment {
 
                 if(hivSyptomsDetail.getVisibility()==View.VISIBLE){
                     hivSyptomsArrow.setText(R.string.down_arrow);
-                    hivSyptomsDetail.setVisibility(View.GONE);
+                    setGone(hivSyptomsDetail);
                 }else if(hivSyptomsDetail.getVisibility()==View.GONE) {
+                    setVisible(hivSyptomsDetail);
                     hivSyptomsArrow.setText(R.string.up_arrow);
-                    hivSyptomsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -131,10 +134,11 @@ public class HivContent extends Fragment {
 
                 if(hivMisconceptionsDetail.getVisibility()==View.VISIBLE){
                     hivMisconceptionsArrow.setText(R.string.down_arrow);
-                    hivMisconceptionsDetail.setVisibility(View.GONE);
+                    setGone(hivMisconceptionsDetail);
                 }else if(hivSyptomsDetail.getVisibility()==View.GONE) {
+                    setVisible(hivMisconceptionsDetail);
                     hivMisconceptionsArrow.setText(R.string.up_arrow);
-                    hivMisconceptionsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -151,10 +155,11 @@ public class HivContent extends Fragment {
 
                 if(hivDiagnosisDetail.getVisibility()==View.VISIBLE){
                     hivDiagnosisArrow.setText(R.string.down_arrow);
-                    hivDiagnosisDetail.setVisibility(View.GONE);
+                    setGone(hivDiagnosisDetail);
                 }else if(hivDiagnosisDetail.getVisibility()==View.GONE) {
+                    setVisible(hivDiagnosisDetail);
                     hivDiagnosisArrow.setText(R.string.up_arrow);
-                    hivDiagnosisDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -171,10 +176,11 @@ public class HivContent extends Fragment {
 
                 if(hivTransmissionDetail.getVisibility()==View.VISIBLE){
                     hivTransmissionArrow.setText(R.string.down_arrow);
-                    hivTransmissionDetail.setVisibility(View.GONE);
+                    setGone(hivTransmissionDetail);
                 }else if(hivTransmissionDetail.getVisibility()==View.GONE) {
+                    setVisible(hivTransmissionDetail);
                     hivTransmissionArrow.setText(R.string.up_arrow);
-                    hivTransmissionDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -191,14 +197,40 @@ public class HivContent extends Fragment {
 
                 if(hivPreventionDetail.getVisibility()==View.VISIBLE){
                     hivPreventionArrow.setText(R.string.down_arrow);
-                    hivPreventionDetail.setVisibility(View.GONE);
+                    setGone(hivPreventionDetail);
                 }else if(hivPreventionDetail.getVisibility()==View.GONE) {
+                    setVisible(hivPreventionDetail);
                     hivPreventionArrow.setText(R.string.up_arrow);
-                    hivPreventionDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
 
         return view;
+    }
+
+    void setVisible(ConstraintLayout constraintLayout) {
+
+        hivIntroDetail.setVisibility(View.GONE);
+        hivIntroArrow.setText(R.string.down_arrow);
+        hivStagesDetail.setVisibility(View.GONE);
+        hivStagesArrow.setText(R.string.down_arrow);
+        hivSyptomsDetail.setVisibility(View.GONE);
+        hivSyptomsArrow.setText(R.string.down_arrow);
+        hivMisconceptionsDetail.setVisibility(View.GONE);
+        hivMisconceptionsArrow.setText(R.string.down_arrow);
+        hivDiagnosisDetail.setVisibility(View.GONE);
+        hivDiagnosisArrow.setText(R.string.down_arrow);
+        hivTransmissionDetail.setVisibility(View.GONE);
+        hivTransmissionArrow.setText(R.string.down_arrow);
+        hivPreventionDetail.setVisibility(View.GONE);
+        hivPreventionArrow.setText(R.string.down_arrow);
+
+        constraintLayout.setVisibility(View.VISIBLE);
+
+    }
+
+    void setGone(ConstraintLayout constraintLayout) {
+        constraintLayout.setVisibility(View.GONE);
     }
 }

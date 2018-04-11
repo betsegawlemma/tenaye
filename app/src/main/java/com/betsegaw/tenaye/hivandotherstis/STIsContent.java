@@ -34,7 +34,7 @@ public class STIsContent extends Fragment {
 
     // STI Syptoms
     TextView stiSyptomsHeader;
-    TextView stiSyptomsrrow;
+    TextView stiSyptomsArrow;
     ConstraintLayout stiSyptomsDetail;
 
     // STI Complications
@@ -70,10 +70,11 @@ public class STIsContent extends Fragment {
 
                 if(stiIntroDetail.getVisibility()==View.VISIBLE){
                     stiIntroArrow.setText(R.string.down_arrow);
-                    stiIntroDetail.setVisibility(View.GONE);
+                    setGone(stiIntroDetail);
                 }else if(stiIntroDetail.getVisibility()==View.GONE) {
+                    setVisible(stiIntroDetail);
                     stiIntroArrow.setText(R.string.up_arrow);
-                    stiIntroDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -91,10 +92,11 @@ public class STIsContent extends Fragment {
 
                 if(stiCausesDetail.getVisibility()==View.VISIBLE){
                     stiCausesArrow.setText(R.string.down_arrow);
-                    stiCausesDetail.setVisibility(View.GONE);
+                    setGone(stiCausesDetail);
                 }else if(stiCausesDetail.getVisibility()==View.GONE) {
+                    setVisible(stiCausesDetail);
                     stiCausesArrow.setText(R.string.up_arrow);
-                    stiCausesDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -111,17 +113,18 @@ public class STIsContent extends Fragment {
 
                 if(stiTransmissionDetail.getVisibility()==View.VISIBLE){
                     stiTransmissionArrow.setText(R.string.down_arrow);
-                    stiTransmissionDetail.setVisibility(View.GONE);
+                    setGone(stiTransmissionDetail);
                 }else if(stiTransmissionDetail.getVisibility()==View.GONE) {
+                    setVisible(stiTransmissionDetail);
                     stiTransmissionArrow.setText(R.string.up_arrow);
-                    stiTransmissionDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
 
         // STI Syptoms
         stiSyptomsHeader = view.findViewById(R.id.sti_syptoms_header);
-        stiSyptomsrrow = view.findViewById(R.id.sti_syptoms_arrow);
+        stiSyptomsArrow = view.findViewById(R.id.sti_syptoms_arrow);
         stiSyptomsDetail = view.findViewById(R.id.sti_syptoms_details);
 
         stiSyptomsHeader.setOnClickListener(new View.OnClickListener() {
@@ -130,11 +133,12 @@ public class STIsContent extends Fragment {
                 TransitionManager.beginDelayedTransition(stiSyptomsDetail);
 
                 if(stiSyptomsDetail.getVisibility()==View.VISIBLE){
-                    stiSyptomsrrow.setText(R.string.down_arrow);
-                    stiSyptomsDetail.setVisibility(View.GONE);
-                }else if(stiTransmissionDetail.getVisibility()==View.GONE) {
-                    stiSyptomsrrow.setText(R.string.up_arrow);
-                    stiSyptomsDetail.setVisibility(View.VISIBLE);
+                    stiSyptomsArrow.setText(R.string.down_arrow);
+                    setGone(stiSyptomsDetail);
+                }else if(stiSyptomsDetail.getVisibility()==View.GONE) {
+                    setVisible(stiSyptomsDetail);
+                    stiSyptomsArrow.setText(R.string.up_arrow);
+
                 }
             }
         });
@@ -151,10 +155,11 @@ public class STIsContent extends Fragment {
 
                 if(stiComplicationsDetail.getVisibility()==View.VISIBLE){
                     stiComplicationsArrow.setText(R.string.down_arrow);
-                    stiComplicationsDetail.setVisibility(View.GONE);
+                    setGone(stiComplicationsDetail);
                 }else if(stiComplicationsDetail.getVisibility()==View.GONE) {
+                    setVisible(stiComplicationsDetail);
                     stiComplicationsArrow.setText(R.string.up_arrow);
-                    stiComplicationsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -171,10 +176,11 @@ public class STIsContent extends Fragment {
 
                 if(stiPreventionDetail.getVisibility()==View.VISIBLE){
                     stiPreventionArrow.setText(R.string.down_arrow);
-                    stiPreventionDetail.setVisibility(View.GONE);
+                    setGone(stiPreventionDetail);
                 }else if(stiPreventionDetail.getVisibility()==View.GONE) {
+                    setVisible(stiPreventionDetail);
                     stiPreventionArrow.setText(R.string.up_arrow);
-                    stiPreventionDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -191,14 +197,41 @@ public class STIsContent extends Fragment {
 
                 if(stiTreatmentDetail.getVisibility()==View.VISIBLE){
                     stiTreatmentArrow.setText(R.string.down_arrow);
-                    stiTreatmentDetail.setVisibility(View.GONE);
+                    setGone(stiTreatmentDetail);
                 }else if(stiTreatmentDetail.getVisibility()==View.GONE) {
+                    setVisible(stiTreatmentDetail);
                     stiTreatmentArrow.setText(R.string.up_arrow);
-                    stiTreatmentDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
 
         return view;
+    }
+
+    void setVisible(ConstraintLayout constraintLayout) {
+
+
+        stiIntroDetail.setVisibility(View.GONE);
+        stiIntroArrow.setText(R.string.down_arrow);
+        stiCausesDetail.setVisibility(View.GONE);
+        stiCausesArrow.setText(R.string.down_arrow);
+        stiTransmissionDetail.setVisibility(View.GONE);
+        stiTransmissionArrow.setText(R.string.down_arrow);
+        stiSyptomsDetail.setVisibility(View.GONE);
+        stiSyptomsArrow.setText(R.string.down_arrow);
+        stiComplicationsDetail.setVisibility(View.GONE);
+        stiComplicationsArrow.setText(R.string.down_arrow);
+        stiPreventionDetail.setVisibility(View.GONE);
+        stiPreventionArrow.setText(R.string.down_arrow);
+        stiTreatmentDetail.setVisibility(View.GONE);
+        stiTreatmentArrow.setText(R.string.down_arrow);
+
+        constraintLayout.setVisibility(View.VISIBLE);
+
+    }
+
+    void setGone(ConstraintLayout constraintLayout) {
+        constraintLayout.setVisibility(View.GONE);
     }
 }

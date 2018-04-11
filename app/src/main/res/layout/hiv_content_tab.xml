@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_light"
             android:orientation="vertical">
 
 
-            <!-- Start of HivAndSTIs CardViews -->
+            <!-- Start of Contraceptive CardViews -->
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/CardView.Light"
                 android:layout_width="match_parent"
@@ -24,7 +24,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -41,12 +41,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_intro"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -93,7 +93,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/hiv_introduction"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -109,7 +109,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -126,12 +126,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_stages"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -175,12 +175,12 @@
                             android:layout_marginLeft="16dp"
                             android:layout_marginRight="16dp"
                             android:layout_marginTop="8dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/subtitile_background"
                             android:gravity="center"
                             android:padding="10dp"
                             android:text="@string/stage1"
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                            android:textColor="#0000ff"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toTopOf="@id/hiv_stage1_detail"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -197,7 +197,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/stage1_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             android:visibility="visible"
                             app:layout_constraintBottom_toTopOf="@id/hiv_stage2"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -212,12 +212,12 @@
                             android:layout_marginLeft="16dp"
                             android:layout_marginRight="16dp"
                             android:layout_marginTop="8dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/subtitile_background"
                             android:gravity="center"
                             android:padding="10dp"
                             android:text="@string/stage2"
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                            android:textColor="#0000ff"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toTopOf="@id/hiv_stage2_detail"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -234,7 +234,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/stage2_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             android:visibility="visible"
                             app:layout_constraintBottom_toTopOf="@id/hiv_stage3"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -249,12 +249,12 @@
                             android:layout_marginLeft="16dp"
                             android:layout_marginRight="16dp"
                             android:layout_marginTop="8dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/subtitile_background"
                             android:gravity="center"
                             android:padding="10dp"
                             android:text="@string/stage1"
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                            android:textColor="#0000ff"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toTopOf="@id/hiv_stage3_detail"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -271,7 +271,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/stage1_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             android:visibility="visible"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -279,6 +279,7 @@
                     </android.support.constraint.ConstraintLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/CardView.Light"
                 android:layout_width="match_parent"
@@ -286,7 +287,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -303,12 +304,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_syptoms"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -355,7 +356,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/hiv_syptoms_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -371,7 +372,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -388,12 +389,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_misconceptions"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -440,7 +441,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/hiv_misconceptions_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -456,7 +457,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -473,12 +474,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_diagnosis"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -525,7 +526,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/hiv_diagnosis_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -533,6 +534,7 @@
                     </android.support.constraint.ConstraintLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/CardView.Light"
                 android:layout_width="match_parent"
@@ -540,7 +542,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -557,12 +559,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_transmission"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -609,7 +611,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/hiv_transmission_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -617,6 +619,7 @@
                     </android.support.constraint.ConstraintLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/CardView.Light"
                 android:layout_width="match_parent"
@@ -624,7 +627,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/hivBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -641,12 +644,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/hiv_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/hiv_prevention"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/hivTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -693,7 +696,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/hiv_prevention_details"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/hivText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"

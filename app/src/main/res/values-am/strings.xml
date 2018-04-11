@@ -10,7 +10,18 @@
     <string name="hiv">ኤችአይቪ</string>
     <string name="sti">የአባላዘር በሽታዎች</string>
 
-    <!-- Start of Contraceptive content -->
+
+    <!-- Menu content -->
+    <string name="menu_home">መጅመሪያ ገጽ</string>
+    <string name="menu_contra">የወሊድ መከላከያ ዘዴዎች</string>
+    <string name="menu_hiv">ኤችአይቪ/የአባላዘር በሽታዎች</string>
+    <string name="menu_upreg">ያልታቀዱ እርግዝናዎች</string>
+    <string name="menu_mhealth">የአዕምሮ ጤና ችግሮች</string>
+    <string name="menu_amharic">አማርኛ</string>
+    <string name="menu_english">English</string>
+    <string name="menu_language">ቋንቋ ለውጥ</string>
+
+   <!-- Start of Contraceptive content -->
     <string name="contraceptive_head">የወሊድ መከላከያ ዘዴዎች</string>
     <string name="cntra_intro_head">መግቢያ</string>
     <string name="contraceptive_introduction">የማሕበረሰቦችን ጤና እና ልማት በመደገፍ ውስጥ የወሊድ መከላከያ ዘዴ የሴቶችን ደህንነት እና
@@ -245,7 +256,7 @@
     <!-- End of Contraceptive content -->
 
    <!-- Start of HIV content -->
-    <string name="hiv_head">ኤችአይቪ/ኤድስ</string>
+    <string name="hiv_head">ኤችአይቪ/የአባላዘር በሽታዎች </string>
     <string name="hiv_intro">መግቢያ</string>
     <string name="hiv_introduction">ኤችአይቪ/ የሰውን በሽታ የመከላከል ተፈጥሯዊ አቅም የሚያዳክም ቫይረስ/ በከፍተኛ ደረጃ ተላላፊ የሆነ
 ተፈጥሯዊውን ሰውነታችንን ከበሽታ የመከላከል ችሎታ ስርዓት በጣም አስፈላጊ ክፍሎችን እና ሴሎችን
@@ -662,7 +673,7 @@
 ወዘተ ኤስቲአይስ ኢንፌክሽኖች ሊተላለፉ ይችላሉ፡፡\n
         \u2022 ከእርጉዝ እናት ወደ ልጅ፡፡\n
     </string>
-    <string name="sti_syptoms">በግብረ- ሥጋ ግንኙነት የሚተላለፉ ኢንፌክሽኖች የህመም ምልክቶች</string>
+    <string name="sti_syptoms">የህመም ምልክቶች</string>
     <string name="sti_syptoms_detail">
         የተለያዩ የኤስቲአይስ ኢንፌክሽኖች ዓይነቶች ተለያዩ አይነት መገለጫዎች አሏቸው፡፡ በዙ
 የኤስቲአይስ ኢንፌክሽን ዓይነቶች ጉልህ ያልሆኑ የህመም ምልክቶች ያሏቸው ወይም ምንም

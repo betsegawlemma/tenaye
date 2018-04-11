@@ -3,10 +3,32 @@
     <color name="colorPrimary">#32CD32</color>
     <color name="colorPrimaryDark">#036D19</color>
     <color name="colorAccent">#0A2E36</color>
+
     <color name="contraBack">#FFF1D0</color>
     <color name="contraTitle">#07A0C3</color>
     <color name="contraText">#086788</color>
     <color name="contraTitleBack">#FCFCFC</color>
+
+    <color name="hivBack">#FFF1D0</color>
+    <color name="hivTitle">#07A0C3</color>
+    <color name="hivText">#086788</color>
+    <color name="hivTitleBack">#FCFCFC</color>
+
+    <color name="pregBack">#FFF1D0</color>
+    <color name="pregTitle">#07A0C3</color>
+    <color name="pregText">#086788</color>
+    <color name="pregTitleBack">#FCFCFC</color>
+
+    <color name="mentalBack">#FFF1D0</color>
+    <color name="mentalTitle">#07A0C3</color>
+    <color name="mentalText">#086788</color>
+    <color name="mentalTitleBack">#FCFCFC</color>
+
+    <color name="stiBack">#FFF1D0</color>
+    <color name="stiTitle">#07A0C3</color>
+    <color name="stiText">#086788</color>
+    <color name="stiTitleBack">#FCFCFC</color>
+
     <color name="white">#ffffff</color>
     <color name="gray">#e8f1f1</color>
     <color name="green">#32CD32</color>

@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
+
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,7 +22,9 @@
                 android:fitsSystemWindows="true"
                 app:contentScrim="@color/colorAccent"
                 app:expandedTitleTextAppearance="@android:color/transparent"
-                app:layout_scrollFlags="exitUntilCollapsed">
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:layout_collapseParallaxMultiplier="0.7">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -37,7 +40,8 @@
 
                         <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/pregTitleBack">
 
                             <TextView
                                 android:id="@+id/upregnancy_primary_text"
@@ -46,9 +50,9 @@
                                 android:layout_marginBottom="8dp"
                                 android:layout_marginStart="8dp"
                                 android:layout_marginLeft="8dp"
-                                android:text="Unintended Pregnancy"
-                                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                                android:textColor="#DE000000"
+                                android:text="@string/upregnancy_head"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                android:textColor="@color/pregTitle"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="@id/upregnancy_media_image"
                                 app:layout_constraintHorizontal_bias="0.505"
@@ -72,27 +76,27 @@
                 </LinearLayout>
             </android.support.design.widget.CollapsingToolbarLayout>
         </android.support.design.widget.AppBarLayout>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context=".MainActivity"
-        tools:showIn="@layout/activity_main">
-        <android.support.design.widget.TabLayout
-            android:id="@+id/upregnancy_tab_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/background_dark"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
-        <android.support.v4.view.ViewPager
-            android:id="@+id/upregnancy_pager"
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/upregnancy_tab_layout"/>
-    </RelativeLayout>
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".MainActivity"
+            tools:showIn="@layout/activity_main">
+            <android.support.design.widget.TabLayout
+                android:id="@+id/upregnancy_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+            <android.support.v4.view.ViewPager
+                android:id="@+id/upregnancy_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/upregnancy_tab_layout"/>
+        </RelativeLayout>
     </android.support.design.widget.CoordinatorLayout>
     <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
     <android.support.design.widget.NavigationView
@@ -100,8 +104,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        app:itemIconTint="@color/drawer_item"
+        app:itemTextColor="@color/drawer_item"
+        app:itemBackground="@android:color/transparent"
         android:fitsSystemWindows="true"
         android:foregroundGravity="right"
         app:menu="@menu/drawer_menu"
         app:headerLayout="@layout/nav_header" />
+
 </android.support.v4.widget.DrawerLayout>

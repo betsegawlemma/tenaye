@@ -138,7 +138,7 @@ public class MentalHealth extends AppCompatActivity implements TabLayout.OnTabSe
         Configuration config = new Configuration();
         config.locale = locale;
         getResources().updateConfiguration(config, getResources().getDisplayMetrics());
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, this.getClass());
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }

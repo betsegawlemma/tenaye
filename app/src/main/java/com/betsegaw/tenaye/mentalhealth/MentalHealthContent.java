@@ -75,10 +75,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhIntroDetail.getVisibility()==View.VISIBLE){
                     mhIntroArrow.setText(R.string.down_arrow);
-                    mhIntroDetail.setVisibility(View.GONE);
+                    setGone(mhIntroDetail);
                 }else if(mhIntroDetail.getVisibility()==View.GONE) {
+                    setVisible(mhIntroDetail);
                     mhIntroArrow.setText(R.string.up_arrow);
-                    mhIntroDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -97,10 +98,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhKindsDetail.getVisibility()==View.VISIBLE){
                     mhKindsArrow.setText(R.string.down_arrow);
-                    mhKindsDetail.setVisibility(View.GONE);
+                    setGone(mhKindsDetail);
                 }else if(mhKindsDetail.getVisibility()==View.GONE) {
+                    setVisible(mhKindsDetail);
                     mhKindsArrow.setText(R.string.up_arrow);
-                    mhKindsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -117,10 +119,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhCausesDetail.getVisibility()==View.VISIBLE){
                     mhCausesArrow.setText(R.string.down_arrow);
-                    mhCausesDetail.setVisibility(View.GONE);
+                    setGone(mhCausesDetail);
                 }else if(mhCausesDetail.getVisibility()==View.GONE) {
+                    setVisible(mhCausesDetail);
                     mhCausesArrow.setText(R.string.up_arrow);
-                    mhCausesDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -137,10 +140,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhFAQsDetail.getVisibility()==View.VISIBLE){
                     mhFAQsArrow.setText(R.string.down_arrow);
-                    mhFAQsDetail.setVisibility(View.GONE);
+                    setGone(mhFAQsDetail);
                 }else if(mhCausesDetail.getVisibility()==View.GONE) {
+                    setVisible(mhFAQsDetail);
                     mhFAQsArrow.setText(R.string.up_arrow);
-                    mhFAQsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -157,10 +161,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhDiagnosisDetail.getVisibility()==View.VISIBLE){
                     mhDiagnosisArrow.setText(R.string.down_arrow);
-                    mhDiagnosisDetail.setVisibility(View.GONE);
+                    setGone(mhDiagnosisDetail);
                 }else if(mhDiagnosisDetail.getVisibility()==View.GONE) {
+                    setVisible(mhDiagnosisDetail);
                     mhDiagnosisArrow.setText(R.string.up_arrow);
-                    mhDiagnosisDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -177,10 +182,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhDiagnoseWhoDetail.getVisibility()==View.VISIBLE){
                     mhDiagnoseWhoArrow.setText(R.string.down_arrow);
-                    mhDiagnoseWhoDetail.setVisibility(View.GONE);
+                    setGone(mhDiagnoseWhoDetail);
                 }else if(mhDiagnoseWhoDetail.getVisibility()==View.GONE) {
+                    setVisible(mhDiagnoseWhoDetail);
                     mhDiagnoseWhoArrow.setText(R.string.up_arrow);
-                    mhDiagnoseWhoDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -197,10 +203,11 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhDiagnoseSelfhelpDetail.getVisibility()==View.VISIBLE){
                     mhDiagnoseSelfhelpArrow.setText(R.string.down_arrow);
-                    mhDiagnoseSelfhelpDetail.setVisibility(View.GONE);
+                    setGone(mhDiagnoseSelfhelpDetail);
                 }else if(mhDiagnoseSelfhelpDetail.getVisibility()==View.GONE) {
+                    setVisible(mhDiagnoseSelfhelpDetail);
                     mhDiagnoseSelfhelpArrow.setText(R.string.up_arrow);
-                    mhDiagnoseSelfhelpDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -217,14 +224,42 @@ public class MentalHealthContent extends Fragment {
 
                 if(mhTreatmentDetail.getVisibility()==View.VISIBLE){
                     mhTreatmentArrow.setText(R.string.down_arrow);
-                    mhTreatmentDetail.setVisibility(View.GONE);
+                    setGone(mhTreatmentDetail);
                 }else if(mhTreatmentDetail.getVisibility()==View.GONE) {
+                    setVisible(mhTreatmentDetail);
                     mhTreatmentArrow.setText(R.string.up_arrow);
-                    mhTreatmentDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
 
         return view;
+    }
+
+    void setVisible(ConstraintLayout constraintLayout) {
+
+        mhIntroDetail.setVisibility(View.GONE);
+        mhIntroArrow.setText(R.string.down_arrow);
+        mhKindsDetail.setVisibility(View.GONE);
+        mhKindsArrow.setText(R.string.down_arrow);
+        mhCausesDetail.setVisibility(View.GONE);
+        mhCausesArrow.setText(R.string.down_arrow);
+        mhFAQsDetail.setVisibility(View.GONE);
+        mhFAQsArrow.setText(R.string.down_arrow);
+        mhDiagnosisDetail.setVisibility(View.GONE);
+        mhDiagnosisArrow.setText(R.string.down_arrow);
+        mhDiagnoseWhoDetail.setVisibility(View.GONE);
+        mhDiagnoseWhoArrow.setText(R.string.down_arrow);
+        mhDiagnoseSelfhelpDetail.setVisibility(View.GONE);
+        mhDiagnoseSelfhelpArrow.setText(R.string.down_arrow);
+        mhTreatmentDetail.setVisibility(View.GONE);
+        mhTreatmentArrow.setText(R.string.down_arrow);
+
+        constraintLayout.setVisibility(View.VISIBLE);
+
+    }
+
+    void setGone(ConstraintLayout constraintLayout) {
+        constraintLayout.setVisibility(View.GONE);
     }
 }

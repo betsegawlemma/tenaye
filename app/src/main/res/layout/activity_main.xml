@@ -8,6 +8,7 @@
 <android.support.design.widget.CoordinatorLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:fitsSystemWindows="true">
 
 <android.support.design.widget.AppBarLayout
@@ -66,7 +67,7 @@
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/contraBack">
+                android:background="@color/contraTitleBack">
 
                 <TextView
                     android:id="@+id/contra_primary_text"
@@ -112,7 +113,8 @@
             <android.support.constraint.ConstraintLayout
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@color/hivTitleBack">
                 <TextView
                     android:id="@+id/hiv_primary_text"
                     android:text="@string/hiv_head"
@@ -123,7 +125,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                    android:textColor="#DE000000"
+                    android:textColor="@color/hivTitle"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.17"
@@ -156,7 +158,8 @@
             <android.support.constraint.ConstraintLayout
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@color/pregTitleBack">
                 <TextView
                     android:id="@+id/pregnancy_primary_text"
                     android:text="@string/upregnancy_head"
@@ -167,7 +170,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                    android:textColor="#DE000000"
+                    android:textColor="@color/pregTitle"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.17"
@@ -200,7 +203,8 @@
             <android.support.constraint.ConstraintLayout
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@color/mentalTitleBack">
                 <TextView
                     android:id="@+id/mental_primary_text"
                     android:text="@string/mh_head"
@@ -211,7 +215,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                    android:textColor="#DE000000"
+                    android:textColor="@color/mentalTitle"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.17"

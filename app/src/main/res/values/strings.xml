@@ -9,6 +9,17 @@
     <string name="quiz">Quiz</string>
     <string name="hiv">HIV</string>
     <string name="sti">STIs</string>
+
+    <!-- Menu content -->
+    <string name="menu_home">Home</string>
+    <string name="menu_contra">Contraceptive</string>
+    <string name="menu_hiv">HIV/Other STIs</string>
+    <string name="menu_upreg">Uninteded Pregnancy</string>
+    <string name="menu_mhealth">Mental Health</string>
+    <string name="menu_amharic">አማርኛ</string>
+    <string name="menu_english">English</string>
+    <string name="menu_language">Language Setting</string>
+
     <!-- Start of Contraceptive content -->
     <string name="contraceptive_head">Contraceptive</string>
     <string name="cntra_intro_head">Introduction</string>

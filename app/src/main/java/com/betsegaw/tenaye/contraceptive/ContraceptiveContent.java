@@ -75,7 +75,7 @@ public class ContraceptiveContent extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view =  inflater.inflate(R.layout.contraceptive_content_tab, container, false);
+        View view = inflater.inflate(R.layout.contraceptive_content_tab, container, false);
 
         // Contraceptive Introduction
         contraIntroHeader = view.findViewById(R.id.contra_intro_header);
@@ -86,15 +86,16 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
 
-               TransitionManager.beginDelayedTransition(contraIntroDetail);
+                TransitionManager.beginDelayedTransition(contraIntroDetail);
 
-               if(contraIntroDetail.getVisibility()==View.VISIBLE){
-                   contraIntroArrow.setText(R.string.down_arrow);
-                   contraIntroDetail.setVisibility(View.GONE);
-               }else if(contraIntroDetail.getVisibility()==View.GONE) {
-                   contraIntroArrow.setText(R.string.up_arrow);
-                   contraIntroDetail.setVisibility(View.VISIBLE);
-               }
+                if (contraIntroDetail.getVisibility() == View.VISIBLE) {
+                    contraIntroArrow.setText(R.string.down_arrow);
+                    setGone(contraIntroDetail);
+                } else if (contraIntroDetail.getVisibility() == View.GONE) {
+                    setVisible(contraIntroDetail);
+                    contraIntroArrow.setText(R.string.up_arrow);
+
+                }
             }
         });
 
@@ -108,12 +109,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraCocsDetail);
-                if(contraCocsDetail.getVisibility()==View.VISIBLE){
+                if (contraCocsDetail.getVisibility() == View.VISIBLE) {
                     contraCocsArrow.setText(R.string.down_arrow);
-                    contraCocsDetail.setVisibility(View.GONE);
-                }else if(contraCocsDetail.getVisibility()==View.GONE){
+                    setGone(contraCocsDetail);
+                } else if (contraCocsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraCocsDetail);
                     contraCocsArrow.setText(R.string.up_arrow);
-                    contraCocsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -128,12 +130,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraPopsDetail);
-                if(contraPopsDetail.getVisibility()==View.VISIBLE){
+                if (contraPopsDetail.getVisibility() == View.VISIBLE) {
                     contraPopsArrow.setText(R.string.down_arrow);
-                    contraPopsDetail.setVisibility(View.GONE);
-                }else if (contraPopsDetail.getVisibility()==View.GONE){
+                    setGone(contraPopsDetail);
+                } else if (contraPopsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraPopsDetail);
                     contraPopsArrow.setText(R.string.up_arrow);
-                    contraPopsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -147,12 +150,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraEcpsDetail);
-                if(contraEcpsDetail.getVisibility()==View.VISIBLE){
+                if (contraEcpsDetail.getVisibility() == View.VISIBLE) {
                     contraEcpsArrow.setText(R.string.down_arrow);
-                    contraEcpsDetail.setVisibility(View.GONE);
-                } else if (contraEcpsDetail.getVisibility()==View.GONE){
+                    setGone(contraEcpsDetail);
+                } else if (contraEcpsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraEcpsDetail);
                     contraEcpsArrow.setText(R.string.up_arrow);
-                    contraEcpsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -166,12 +170,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraPoiDetail);
-                if(contraPoiDetail.getVisibility()==View.VISIBLE){
+                if (contraPoiDetail.getVisibility() == View.VISIBLE) {
                     contraPoiArrow.setText(R.string.down_arrow);
-                    contraPoiDetail.setVisibility(View.GONE);
-                }else if(contraPoiDetail.getVisibility()==View.GONE){
+                    setGone(contraPoiDetail);
+                } else if (contraPoiDetail.getVisibility() == View.GONE) {
+                    setVisible(contraPoiDetail);
                     contraPoiArrow.setText(R.string.up_arrow);
-                    contraPoiDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -185,12 +190,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraImplantsDetail);
-                if(contraImplantsDetail.getVisibility()==View.VISIBLE){
+                if (contraImplantsDetail.getVisibility() == View.VISIBLE) {
                     contraImplantsArrow.setText(R.string.down_arrow);
-                    contraImplantsDetail.setVisibility(View.GONE);
-                }else if(contraImplantsDetail.getVisibility()==View.GONE){
+                    setGone(contraImplantsDetail);
+                } else if (contraImplantsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraImplantsDetail);
                     contraImplantsArrow.setText(R.string.up_arrow);
-                    contraImplantsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -205,12 +211,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraIudDetail);
-                if(contraIudDetail.getVisibility()==View.VISIBLE){
+                if (contraIudDetail.getVisibility() == View.VISIBLE) {
                     contraIudArrow.setText(R.string.down_arrow);
-                    contraIudDetail.setVisibility(View.GONE);
-                }else if(contraIudDetail.getVisibility()==View.GONE){
+                    setGone(contraIudDetail);
+                } else if (contraIudDetail.getVisibility() == View.GONE) {
+                    setVisible(contraIudDetail);
                     contraIudArrow.setText(R.string.up_arrow);
-                    contraIudDetail.setVisibility(View.VISIBLE);
+
                 }
 
             }
@@ -225,12 +232,13 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraMcsDetail);
-                if(contraMcsDetail.getVisibility()==View.VISIBLE){
+                if (contraMcsDetail.getVisibility() == View.VISIBLE) {
                     contraMcsArrow.setText(R.string.down_arrow);
-                    contraMcsDetail.setVisibility(View.GONE);
-                }else if(contraMcsDetail.getVisibility()==View.GONE){
+                    setGone(contraMcsDetail);
+                } else if (contraMcsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraMcsDetail);
                     contraMcsArrow.setText(R.string.up_arrow);
-                    contraMcsDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -244,12 +252,12 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraFcsDetail);
-                if(contraFcsDetail.getVisibility()==View.VISIBLE){
+                if (contraFcsDetail.getVisibility() == View.VISIBLE) {
                     contraFcsArrow.setText(R.string.down_arrow);
-                    contraFcsDetail.setVisibility(View.GONE);
-                }else if(contraFcsDetail.getVisibility()==View.GONE){
+                    setGone(contraFcsDetail);
+                } else if (contraFcsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraFcsDetail);
                     contraFcsArrow.setText(R.string.up_arrow);
-                    contraFcsDetail.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -263,12 +271,12 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraMsDetail);
-                if(contraMsDetail.getVisibility()==View.VISIBLE){
+                if (contraMsDetail.getVisibility() == View.VISIBLE) {
                     contraMsArrow.setText(R.string.down_arrow);
-                    contraMsDetail.setVisibility(View.GONE);
-                }else if(contraMsDetail.getVisibility()==View.GONE){
+                    setGone(contraMsDetail);
+                } else if (contraMsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraMsDetail);
                     contraMsArrow.setText(R.string.up_arrow);
-                    contraMsDetail.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -282,12 +290,12 @@ public class ContraceptiveContent extends Fragment {
             @Override
             public void onClick(View v) {
                 TransitionManager.beginDelayedTransition(contraFsDetail);
-                if(contraFsDetail.getVisibility()==View.VISIBLE){
+                if (contraFsDetail.getVisibility() == View.VISIBLE) {
+                    setGone(contraFsDetail);
                     contraFsArrow.setText(R.string.down_arrow);
-                    contraFsDetail.setVisibility(View.GONE);
-                }else if(contraFsDetail.getVisibility()==View.GONE){
+                } else if (contraFsDetail.getVisibility() == View.GONE) {
+                    setVisible(contraFsDetail);
                     contraFsArrow.setText(R.string.up_arrow);
-                    contraFsDetail.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -295,5 +303,38 @@ public class ContraceptiveContent extends Fragment {
         return view;
 
 
+    }
+
+    void setVisible(ConstraintLayout constraintLayout) {
+
+        contraIntroDetail.setVisibility(View.GONE);
+        contraIntroArrow.setText(R.string.down_arrow);
+        contraCocsDetail.setVisibility(View.GONE);
+        contraCocsArrow.setText(R.string.down_arrow);
+        contraPopsDetail.setVisibility(View.GONE);
+        contraPopsArrow.setText(R.string.down_arrow);
+        contraEcpsDetail.setVisibility(View.GONE);
+        contraEcpsArrow.setText(R.string.down_arrow);
+        contraPoiDetail.setVisibility(View.GONE);
+        contraPoiArrow.setText(R.string.down_arrow);
+        contraImplantsDetail.setVisibility(View.GONE);
+        contraImplantsArrow.setText(R.string.down_arrow);
+        contraIudDetail.setVisibility(View.GONE);
+        contraIudArrow.setText(R.string.down_arrow);
+        contraMcsDetail.setVisibility(View.GONE);
+        contraMcsArrow.setText(R.string.down_arrow);
+        contraFcsDetail.setVisibility(View.GONE);
+        contraFcsArrow.setText(R.string.down_arrow);
+        contraMsDetail.setVisibility(View.GONE);
+        contraMsArrow.setText(R.string.down_arrow);
+        contraFsDetail.setVisibility(View.GONE);
+        contraFsArrow.setText(R.string.down_arrow);
+
+        constraintLayout.setVisibility(View.VISIBLE);
+
+    }
+
+    void setGone(ConstraintLayout constraintLayout) {
+        constraintLayout.setVisibility(View.GONE);
     }
 }

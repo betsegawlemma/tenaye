@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_light"
             android:orientation="vertical">
 
             <!-- Start of HivAndSTIs CardViews -->
@@ -23,7 +23,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -40,12 +40,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/unintended_pregnancy"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -92,7 +92,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/unintended_pregnancy_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -108,7 +108,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -125,12 +125,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/upregnancy_causes"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -177,7 +177,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/upregnancy_causes_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -193,7 +193,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -210,12 +210,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/upregnancy_consequences"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -262,7 +262,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/upregnancy_consequences_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -278,7 +278,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -295,12 +295,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/unsafe_abortion"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -347,7 +347,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/unsafe_abortion_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -362,7 +362,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -379,12 +379,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/unsafe_method_abortion"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -431,7 +431,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/unsafe_method_abortion_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -446,7 +446,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -463,12 +463,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/safe_method_abortion"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -515,7 +515,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/safe_method_abortion_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -530,7 +530,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:cardBackgroundColor="#80ff00">
+                app:cardBackgroundColor="@color/pregBack">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -547,12 +547,12 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="1dp"
-                            android:background="@drawable/txt_background"
+                            android:background="@drawable/upreg_title_background"
                             android:gravity="center"
                             android:padding="15dp"
                             android:text="@string/unsafe_abortion_issues"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="#0000ff"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/pregTitle"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -599,7 +599,7 @@
                             android:lineSpacingExtra="8dp"
                             android:text="@string/unsafe_abortion_issues_detail"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="#00003b"
+                            android:textColor="@color/pregText"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"

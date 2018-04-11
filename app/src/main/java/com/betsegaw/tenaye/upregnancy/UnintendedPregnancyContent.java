@@ -70,10 +70,11 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(upregnancyIntroDetail.getVisibility()==View.VISIBLE){
                     upregnancyIntroArrow.setText(R.string.down_arrow);
-                    upregnancyIntroDetail.setVisibility(View.GONE);
+                    setGone(upregnancyIntroDetail);
                 }else if(upregnancyIntroDetail.getVisibility()==View.GONE) {
+                    setVisible(upregnancyIntroDetail);
                     upregnancyIntroArrow.setText(R.string.up_arrow);
-                    upregnancyIntroDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -91,10 +92,11 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(upregnancyCausesDetail.getVisibility()==View.VISIBLE){
                     upregnancyCausesArrow.setText(R.string.down_arrow);
-                    upregnancyCausesDetail.setVisibility(View.GONE);
+                    setGone(upregnancyCausesDetail);
                 }else if(upregnancyCausesDetail.getVisibility()==View.GONE) {
+                    setVisible(upregnancyCausesDetail);
                     upregnancyCausesArrow.setText(R.string.up_arrow);
-                    upregnancyCausesDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -110,10 +112,11 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(upregnancyConsequencesDetail.getVisibility()==View.VISIBLE){
                     upregnancyConsequencesArrow.setText(R.string.down_arrow);
-                    upregnancyConsequencesDetail.setVisibility(View.GONE);
+                    setGone(upregnancyConsequencesDetail);
                 }else if(upregnancyConsequencesDetail.getVisibility()==View.GONE) {
+                    setVisible(upregnancyConsequencesDetail);
                     upregnancyConsequencesArrow.setText(R.string.up_arrow);
-                    upregnancyConsequencesDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -129,10 +132,11 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(unsafeAbortionDetail.getVisibility()==View.VISIBLE){
                     unsafeAbortionArrow.setText(R.string.down_arrow);
-                    unsafeAbortionDetail.setVisibility(View.GONE);
+                    setGone(unsafeAbortionDetail);
                 }else if(upregnancyConsequencesDetail.getVisibility()==View.GONE) {
+                    setVisible(unsafeAbortionDetail);
                     unsafeAbortionArrow.setText(R.string.up_arrow);
-                    unsafeAbortionDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -148,10 +152,11 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(unsafeAbortionMethodDetail.getVisibility()==View.VISIBLE){
                     unsafeAbortionMethodArrow.setText(R.string.down_arrow);
-                    unsafeAbortionMethodDetail.setVisibility(View.GONE);
+                    setGone(unsafeAbortionMethodDetail);
                 }else if(unsafeAbortionMethodDetail.getVisibility()==View.GONE) {
+                    setVisible(unsafeAbortionMethodDetail);
                     unsafeAbortionMethodArrow.setText(R.string.up_arrow);
-                    unsafeAbortionMethodDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -167,10 +172,11 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(safeAbortionMethodDetail.getVisibility()==View.VISIBLE){
                     safeAbortionMethodArrow.setText(R.string.down_arrow);
-                    safeAbortionMethodDetail.setVisibility(View.GONE);
+                    setGone(safeAbortionMethodDetail);
                 }else if(safeAbortionMethodDetail.getVisibility()==View.GONE) {
+                    setVisible(safeAbortionMethodDetail);
                     safeAbortionMethodArrow.setText(R.string.up_arrow);
-                    safeAbortionMethodDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
@@ -186,14 +192,40 @@ public class UnintendedPregnancyContent extends Fragment {
 
                 if(unsafeAbortionIssuesDetail.getVisibility()==View.VISIBLE){
                     unsafeAbortionIssuesArrow.setText(R.string.down_arrow);
-                    unsafeAbortionIssuesDetail.setVisibility(View.GONE);
+                    setGone(unsafeAbortionIssuesDetail);
                 }else if(unsafeAbortionIssuesDetail.getVisibility()==View.GONE) {
+                    setVisible(unsafeAbortionIssuesDetail);
                     unsafeAbortionIssuesArrow.setText(R.string.up_arrow);
-                    unsafeAbortionIssuesDetail.setVisibility(View.VISIBLE);
+
                 }
             }
         });
 
         return view;
+    }
+
+    void setVisible(ConstraintLayout constraintLayout) {
+
+        upregnancyIntroDetail.setVisibility(View.GONE);
+        upregnancyIntroArrow.setText(R.string.down_arrow);
+        upregnancyCausesDetail.setVisibility(View.GONE);
+        upregnancyCausesArrow.setText(R.string.down_arrow);
+        upregnancyConsequencesDetail.setVisibility(View.GONE);
+        upregnancyConsequencesArrow.setText(R.string.down_arrow);
+        unsafeAbortionDetail.setVisibility(View.GONE);
+        unsafeAbortionArrow.setText(R.string.down_arrow);
+        unsafeAbortionMethodDetail.setVisibility(View.GONE);
+        unsafeAbortionMethodArrow.setText(R.string.down_arrow);
+        safeAbortionMethodDetail.setVisibility(View.GONE);
+        safeAbortionMethodArrow.setText(R.string.down_arrow);
+        unsafeAbortionIssuesDetail.setVisibility(View.GONE);
+        unsafeAbortionIssuesArrow.setText(R.string.down_arrow);
+
+        constraintLayout.setVisibility(View.VISIBLE);
+
+    }
+
+    void setGone(ConstraintLayout constraintLayout) {
+        constraintLayout.setVisibility(View.GONE);
     }
 }
