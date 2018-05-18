@@ -15,6 +15,6 @@ import com.betsegaw.tenaye.R;
 public class MentalHealthQuiz extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.hiv_sti_quiz_tab, container, false);
+        return inflater.inflate(R.layout.mentalhealth_quiz_tab, container, false);
     }
 }

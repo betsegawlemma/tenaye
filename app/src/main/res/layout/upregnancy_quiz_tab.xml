@@ -1,15 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/upregnancy_quiz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Unintended Pregnancy Quiz"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Start of Contraceptive CardViews -->
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/pregBack">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/preg_question"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/question_background"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/preg_q1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/pregTitle"
+                    app:layout_constraintBottom_toTopOf="@id/preg_firstChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+
+                <TextView
+                    android:id="@+id/preg_firstChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/pregText"
+                    app:layout_constraintBottom_toTopOf="@+id/preg_secondChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/preg_question" />
+
+                <TextView
+                    android:id="@+id/preg_choiceA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:text="A"
+                    android:textColor="@color/pregText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/preg_firstChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/preg_firstChoice" />
+
+                <TextView
+                    android:id="@+id/preg_secondChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/pregText"
+                    app:layout_constraintBottom_toTopOf="@id/preg_thirdChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/preg_firstChoice" />
+
+                <TextView
+                    android:id="@+id/preg_choiceB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="B"
+                    android:textColor="@color/hivText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/preg_secondChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/preg_secondChoice" />
+
+
+                <TextView
+                    android:id="@+id/preg_thirdChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/pregText"
+                    app:layout_constraintBottom_toTopOf="@id/preg_fourthChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/preg_secondChoice" />
+
+                <TextView
+                    android:id="@+id/preg_choiceC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="C"
+                    android:textColor="@color/pregText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/preg_thirdChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/preg_thirdChoice" />
+
+                <TextView
+                    android:id="@+id/preg_fourthChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/pregText"
+                    app:layout_constraintBottom_toTopOf="@id/preg_next"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/preg_thirdChoice" />
+
+                <TextView
+                    android:id="@+id/preg_choiceD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="D"
+                    android:textColor="@color/hivText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/preg_fourthChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/preg_fourthChoice" />
+
+                <TextView
+                    android:id="@+id/preg_next"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/next"
+                    android:textColor="@color/pregText"
+                    android:background="@drawable/next_background"
+                    app:layout_constraintBottom_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/preg_fourthChoice" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
 
 </RelativeLayout>

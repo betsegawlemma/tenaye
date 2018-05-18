@@ -743,7 +743,25 @@ minimal medical standards, or both</string>
         <item>Vacuum aspiration</item>
     </string-array>
     <string name="preg_q3">Which one of the following is issues of unsafe abortion?</string>
-
+    <string-array name="preg_q3_choices">
+        <item>Infection</item>
+        <item>Heavy Bleeding</item>
+        <item>Uterine Perforation</item>
+        <item>All</item>
+        <item>All</item>
+    </string-array>
+    <string name="preg_q4">Rape can be a cause for unintended pregnancy</string>
+    <string-array name="preg_q4_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="preg_q5">Unintended pregnancy can lead to depression</string>
+    <string-array name="preg_q5_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
     <!-- END: Pregnancy -->
 
     <!-- START: Mental Health-->
