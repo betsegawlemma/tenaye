@@ -766,5 +766,49 @@ minimal medical standards, or both</string>
 
     <!-- START: Mental Health-->
 
+    <string name="myth_description">Description</string>
+    <string-array name="myth_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="myth_1">Myth#1: People with mental health problems are violent and unpredictable.</string>
+    <string name="myth_1_description">
+        The vast majority of people with mental health problems are no more likely to be violent
+than anyone else. Most people with mental illness are not violent and only 3%–5% of violent
+acts can be attributed to individuals living with a serious mental illness.
+    </string>
+    <string name="myth_2">Myth#2: People with mental health needs, even those who are managing their mental illness, cannot
+tolerate the stress of being a student.</string>
+    <string name="myth_2_description">
+        People with mental health problems are just as productive as handworker as other students.
+    </string>
+    <string name="myth_3">Myth#3: There is no hope for people with mental health problems. Once a friend or family member
+develops mental health problems, he or she will never recover.</string>
+    <string name="myth_3_description">
+        Studies show that people with mental health problems get better and many recover
+completely.
+    </string>
+    <string name="myth_4">Myth#4: Therapy and self-help are a waste of time. Why bother when you can just take a pill?</string>
+    <string name="myth_4_description">
+        Treatment for mental health problems varies depending on the individual and could include
+medication, therapy, or both.
+    </string>
+    <string name="myth_5">Myth#5: I can\'t do anything for a person with a mental health problem.</string>
+    <string name="myth_5_description">
+        Friends and loved ones can make a big difference. Friends and family can be important
+influences to help someone get the treatment and services they need.
+    </string>
+    <string name="myth_6">Myth#6: Prevention doesn\'t work. It is impossible to prevent mental illnesses.</string>
+    <string name="myth_6_description">
+        Prevention of mental, emotional, and behavioral disorders focuses on addressing known risk
+factors such as exposure to trauma that can affect the chances that children, youth, and
+young adults will develop mental health problems.
+    </string>
+    <string name="myth_7">Myth#7: People with a mental illness lack intelligence.</string>
+    <string name="myth_7_description">
+        Intelligence has nothing to do with mental illnesses or brain disorders. On one hand, many
+people with mental disorders are brilliant, creative, productive people.
+    </string>
     <!-- END: Mental Health -->
 </resources>

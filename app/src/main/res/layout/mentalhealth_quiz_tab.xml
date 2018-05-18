@@ -28,7 +28,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:id="@+id/mental_question"
+                    android:id="@+id/mental_myth"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
                     android:layout_marginBottom="1dp"
@@ -61,7 +61,7 @@
                     app:layout_constraintBottom_toTopOf="@+id/mental_secondChoice"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mental_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/mental_myth" />
 
                 <TextView
                     android:id="@+id/mental_choiceA"
@@ -92,7 +92,7 @@
                     android:background="@drawable/choice_background"
                     android:text="TextView"
                     android:textColor="@color/mentalText"
-                    app:layout_constraintBottom_toTopOf="@id/mental_thirdChoice"
+                    app:layout_constraintBottom_toTopOf="@id/mental_description"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/mental_firstChoice" />
@@ -111,81 +111,21 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/mental_secondChoice" />
 
-
                 <TextView
-                    android:id="@+id/mental_thirdChoice"
+                    android:id="@+id/mental_description"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginRight="32dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="8dp"
-                    android:gravity="left|center"
-                    android:paddingLeft="40dp"
-                    android:background="@drawable/choice_background"
-                    android:text="TextView"
-                    android:textColor="@color/mentalText"
-                    app:layout_constraintBottom_toTopOf="@id/mental_fourthChoice"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mental_secondChoice" />
-
-                <TextView
-                    android:id="@+id/mental_choiceC"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/question_background"
                     android:gravity="center"
-                    android:text="C"
-                    android:textColor="@color/mentalText"
-                    android:textSize="20sp"
-                    android:background="@drawable/question_choices"
-                    app:layout_constraintBottom_toBottomOf="@+id/mental_thirdChoice"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/mental_thirdChoice" />
-
-                <TextView
-                    android:id="@+id/mental_fourthChoice"
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginRight="32dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="8dp"
-                    android:gravity="left|center"
-                    android:paddingLeft="40dp"
-                    android:background="@drawable/choice_background"
-                    android:text="TextView"
-                    android:textColor="@color/mentalText"
+                    android:padding="15dp"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/mentalTitle"
                     app:layout_constraintBottom_toTopOf="@id/mental_next"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mental_thirdChoice" />
-
-                <TextView
-                    android:id="@+id/mental_choiceD"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
-                    android:gravity="center"
-                    android:text="D"
-                    android:textColor="@color/mentalText"
-                    android:textSize="20sp"
-                    android:background="@drawable/question_choices"
-                    app:layout_constraintBottom_toBottomOf="@+id/mental_fourthChoice"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/mental_fourthChoice" />
+                    app:layout_constraintTop_toBottomOf="@id/mental_secondChoice" />
 
                 <TextView
                     android:id="@+id/mental_next"
@@ -201,7 +141,7 @@
                     android:background="@drawable/next_background"
                     app:layout_constraintBottom_toTopOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mental_fourthChoice" />
+                    app:layout_constraintTop_toBottomOf="@+id/mental_description" />
 
             </android.support.constraint.ConstraintLayout>
 
