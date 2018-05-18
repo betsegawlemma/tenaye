@@ -135,7 +135,7 @@ public class HivContent extends Fragment {
                 if(hivMisconceptionsDetail.getVisibility()==View.VISIBLE){
                     hivMisconceptionsArrow.setText(R.string.down_arrow);
                     setGone(hivMisconceptionsDetail);
-                }else if(hivSyptomsDetail.getVisibility()==View.GONE) {
+                }else if(hivMisconceptionsDetail.getVisibility()==View.GONE) {
                     setVisible(hivMisconceptionsDetail);
                     hivMisconceptionsArrow.setText(R.string.up_arrow);
 

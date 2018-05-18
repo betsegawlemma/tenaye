@@ -1,15 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/mentalhealth_quiz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="MentalHealth Quiz"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Start of Contraceptive CardViews -->
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/mentalBack">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/mental_question"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/question_background"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/mental_q1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/mentalTitle"
+                    app:layout_constraintBottom_toTopOf="@id/mental_firstChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+
+                <TextView
+                    android:id="@+id/contra_firstChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/hivText"
+                    app:layout_constraintBottom_toTopOf="@+id/contra_secondChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_question" />
+
+                <TextView
+                    android:id="@+id/contra_choiceA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:text="A"
+                    android:textColor="@color/hivText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/contra_firstChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/contra_firstChoice" />
+
+                <TextView
+                    android:id="@+id/contra_secondChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/contraText"
+                    app:layout_constraintBottom_toTopOf="@id/contra_thirdChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_firstChoice" />
+
+                <TextView
+                    android:id="@+id/contra_choiceB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="B"
+                    android:textColor="@color/contraText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/contra_secondChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/contra_secondChoice" />
+
+
+                <TextView
+                    android:id="@+id/contra_thirdChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/contraText"
+                    app:layout_constraintBottom_toTopOf="@id/contra_fourthChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_secondChoice" />
+
+                <TextView
+                    android:id="@+id/contra_choiceC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="C"
+                    android:textColor="@color/contraText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/contra_thirdChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/contra_thirdChoice" />
+
+                <TextView
+                    android:id="@+id/contra_fourthChoice"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:background="@drawable/choice_background"
+                    android:text="TextView"
+                    android:textColor="@color/contraText"
+                    app:layout_constraintBottom_toTopOf="@id/contra_next"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_thirdChoice" />
+
+                <TextView
+                    android:id="@+id/contra_choiceD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="D"
+                    android:textColor="@color/contraText"
+                    android:textSize="20sp"
+                    android:background="@drawable/question_choices"
+                    app:layout_constraintBottom_toBottomOf="@+id/contra_fourthChoice"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/contra_fourthChoice" />
+
+                <TextView
+                    android:id="@+id/contra_next"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/next"
+                    android:textColor="@color/hivText"
+                    android:background="@drawable/next_background"
+                    app:layout_constraintBottom_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contra_fourthChoice" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
 
 </RelativeLayout>
