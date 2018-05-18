@@ -755,4 +755,292 @@
 እንዲሁም ሞትን ሊያስከትል ይችላል፡፡\n
     </string>
     <!-- end of Sexually Transmitted Infections -->
+    <!-- Questions -->
+    <string name="cross_mark">\u2717</string>
+    <string name="check_mark">\u2713 </string>
+    <string name="next"><b>Next</b></string>
+
+    <!-- START: HIV and STI Questions -->
+
+    <string name="hiv_sti_q1">Which one <b>is not</b> the benefit of using contraceptive methods for sexually active youths?</string>
+    <string-array name="hiv_sti_q1_choices">
+        <item>HIV</item>
+        <item>Syphilis</item>
+        <item>Gonorrhoea</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string name="hiv_sti_q2">You can prevent sexually transmitted infections (STIs) <b>except</b>?</string>
+    <string-array name="hiv_sti_q2_choices">
+        <item>Using Contraceptive methods</item>
+        <item>Using condoms</item>
+        <item>Through Abstinence</item>
+        <item>Through being faithful</item>
+        <item>Using Contraceptive methods</item>
+    </string-array>
+    <string name="hiv_sti_q3">What can be a sign/symptom for sexually transmitted infections <b>except</b>?</string>
+    <string-array name="hiv_sti_q3_choices">
+        <item>Headache</item>
+        <item>Lower abdominal crumpy pain in female</item>
+        <item>Abnormal vaginal discharge</item>
+        <item>Urethral discharge in male</item>
+        <item>Headache</item>
+    </string-array>
+    <string name="hiv_sti_q4">Which STI <b>is not</b> correctly matched with sign and symptom</string>
+    <string-array name="hiv_sti_q4_choices">
+        <item>Syphilis, Vaginal discharge</item>
+        <item>Gonorrhoea, Vaginal discharge</item>
+        <item>Gonorrhoea, urethral discharge in male</item>
+        <item>Chancroid, Ulcer</item>
+        <item>Syphilis, Vaginal discharge</item>
+    </string-array>
+    <string name="hiv_sti_q5">One <b>is not</b> recommended if you experience sign/symptom of STIs</string>
+    <string-array name="hiv_sti_q5_choices">
+        <item>Visit health institutions for medical care as early as possible</item>
+        <item>Take the prescribed medicine/drugs completely</item>
+        <item>Your partner should also take the drugs though asymptomatic</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string name="hiv_sti_q6">Using double condom can prevent HIV and other STIs than using single condom for each sexual contact.</string>
+    <string-array name="hiv_sti_q6_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="hiv_sti_q7">Presence of other STIs like Syphilis can increase the chance of acquiring HIV infection</string>
+    <string-array name="hiv_sti_q7_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="hiv_sti_q8">All sexually transmitted infections are preventable</string>
+    <string-array name="hiv_sti_q8_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="hiv_sti_q9">All sexually transmitted infections are curable</string>
+    <string-array name="hiv_sti_q9_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="hiv_sti_q10">Syphilis can be transmitted from one person to another through shared pants</string>
+    <string-array name="hiv_sti_q10_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+
+    <!-- END: HIV and STI Questions -->
+
+    <!-- START: Contraception -->
+
+    <string name="contra_q1">Which one <b>is not</b> the benefit of using contraceptive methods for sexually active youths?</string>
+    <string-array name="contra_q1_choices">
+        <item>Prevents unplanned pregnancies</item>
+        <item>Induces abortion for unplanned pregnancy</item>
+        <item>Reduces school dropout rate</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string name="contra_q2">Which contraceptive method can prevent both pregnancy and sexually transmitted diseases?</string>
+    <string-array name="contra_q2_choices">
+        <item>Implants</item>
+        <item>Intrauterine device (IUCD)</item>
+        <item>Emergency Pills</item>
+        <item>Condoms</item>
+        <item>Condoms</item>
+    </string-array>
+    <string name="contra_q3">Which contraceptive method is highly effective than the others?</string>
+    <string-array name="contra_q3_choices">
+        <item>Implants</item>
+        <item>Emergency Pills</item>
+        <item>Regular pills</item>
+        <item>Condoms</item>
+        <item>Implants</item>
+    </string-array>
+    <string name="contra_q4">Which method is least effective in preventing pregnancy?</string>
+    <string-array name="contra_q4_choices">
+        <item>Implants</item>
+        <item>Condoms</item>
+        <item>IUCD</item>
+        <item>Injection</item>
+        <item>Condoms</item>
+    </string-array>
+    <string name="contra_q5">Which contraceptive is no t correctly matched with regard to duration of pregnancy protection?</string>
+    <string-array name="contra_q5_choices">
+        <item>Implants, 3-5 years</item>
+        <item>Intrauterine device (IUCD), 12 years</item>
+        <item>Emergency Pills, 1 cycle for one month</item>
+        <item>Condoms, 1 condom for a single sexual contact</item>
+        <item>Emergency Pills, 1 cycle for one month</item>
+    </string-array>
+    <string name="contra_q6">Identify a permanent contraceptive method done in females</string>
+    <string-array name="contra_q6_choices">
+        <item>Implants</item>
+        <item>Intrauterine device (IUCD)</item>
+        <item>Tubaligation</item>
+        <item>Vasectomy</item>
+        <item>Vasectomy</item>
+    </string-array>
+    <string name="contra_q7">Which contraceptive method demands professional skill?</string>
+    <string-array name="contra_q7_choices">
+        <item>Intrauterine device (IUCD)</item>
+        <item>Emergency Pills</item>
+        <item>Regular pills</item>
+        <item>Condoms</item>
+        <item>Intrauterine device (IUCD)</item>
+    </string-array>
+    <string name="contra_q8">What is the maximum duration of time an emergency contraceptive can protect/prevent pregnancy?</string>
+    <string-array name="contra_q8_choices">
+        <item>1 day</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>5 days</item>
+    </string-array>
+    <string name="contra_q9">The effectiveness of "emergency contraceptive" relay on the duration of time between unsafe/unprotected
+sex and the method taken</string>
+    <string-array name="contra_q9_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="contra_q10">The earlier that the emergency contraceptive method taken after unsafe sex, the higher the effectiveness
+of the method.</string>
+    <string-array name="contra_q10_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="contra_q11">It is acceptable to use an emergency contraceptive as a regular contraceptive method</string>
+    <string-array name="contra_q11_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="contra_q12">Long acting reversible contraceptives (Implants and IUCD) have severe side effects than short acting
+ones (Pills and injectable)</string>
+    <string-array name="contra_q12_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="contra_q13">Intrauterine device (IUCD) <b>is not</b> recommended for unmarried girls</string>
+    <string-array name="contra_q13_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="contra_q14">Implants can have a chance of embedding in to the brain</string>
+    <string-array name="contra_q14_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="contra_q15">Intrauterine device (IUCD) can cause discomfort during sex</string>
+    <string-array name="contra_q15_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+    <string name="contra_q16">Implants can cause arthritis (joint pain)</string>
+    <string-array name="contra_q16_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+
+    <!-- END: Contraception -->
+
+    <!-- START: Pregnancy -->
+
+    <string name="preg_q1">____________ is a procedure for terminating an unwanted pregnancy either by persons lacking the
+minimal medical standards, or both</string>
+    <string-array name="preg_q1_choices">
+        <item>Safe Abortion</item>
+        <item>STI</item>
+        <item>Unsafe Abortion</item>
+        <item>All</item>
+        <item>Unsafe Abortion</item>
+    </string-array>
+    <string name="preg_q2">One of the following is safe method of abortion</string>
+    <string-array name="preg_q2_choices">
+        <item>Inserting a sharp object into the uterus</item>
+        <item>Vacuum aspiration</item>
+        <item>Prolonged and hard massage</item>
+        <item>Swallowing large doses of drugs</item>
+        <item>Vacuum aspiration</item>
+    </string-array>
+    <string name="preg_q3">Which one of the following is issues of unsafe abortion?</string>
+    <string-array name="preg_q3_choices">
+        <item>Infection</item>
+        <item>Heavy Bleeding</item>
+        <item>Uterine Perforation</item>
+        <item>All</item>
+        <item>All</item>
+    </string-array>
+    <string name="preg_q4">Rape can be a cause for unintended pregnancy</string>
+    <string-array name="preg_q4_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="preg_q5">Unintended pregnancy can lead to depression</string>
+    <string-array name="preg_q5_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <!-- END: Pregnancy -->
+
+    <!-- START: Mental Health-->
+
+    <string name="myth_description">Description</string>
+    <string-array name="myth_choices">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+    </string-array>
+    <string name="myth_1">Myth#1: People with mental health problems are violent and unpredictable.</string>
+    <string name="myth_1_description">
+        The vast majority of people with mental health problems are no more likely to be violent
+than anyone else. Most people with mental illness are not violent and only 3%–5% of violent
+acts can be attributed to individuals living with a serious mental illness.
+    </string>
+    <string name="myth_2">Myth#2: People with mental health needs, even those who are managing their mental illness, cannot
+tolerate the stress of being a student.</string>
+    <string name="myth_2_description">
+        People with mental health problems are just as productive as handworker as other students.
+    </string>
+    <string name="myth_3">Myth#3: There is no hope for people with mental health problems. Once a friend or family member
+develops mental health problems, he or she will never recover.</string>
+    <string name="myth_3_description">
+        Studies show that people with mental health problems get better and many recover
+completely.
+    </string>
+    <string name="myth_4">Myth#4: Therapy and self-help are a waste of time. Why bother when you can just take a pill?</string>
+    <string name="myth_4_description">
+        Treatment for mental health problems varies depending on the individual and could include
+medication, therapy, or both.
+    </string>
+    <string name="myth_5">Myth#5: I can\'t do anything for a person with a mental health problem.</string>
+    <string name="myth_5_description">
+        Friends and loved ones can make a big difference. Friends and family can be important
+influences to help someone get the treatment and services they need.
+    </string>
+    <string name="myth_6">Myth#6: Prevention doesn\'t work. It is impossible to prevent mental illnesses.</string>
+    <string name="myth_6_description">
+        Prevention of mental, emotional, and behavioral disorders focuses on addressing known risk
+factors such as exposure to trauma that can affect the chances that children, youth, and
+young adults will develop mental health problems.
+    </string>
+    <string name="myth_7">Myth#7: People with a mental illness lack intelligence.</string>
+    <string name="myth_7_description">
+        Intelligence has nothing to do with mental illnesses or brain disorders. On one hand, many
+people with mental disorders are brilliant, creative, productive people.
+    </string>
+    <!-- END: Mental Health -->
 </resources>

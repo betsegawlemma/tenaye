@@ -765,8 +765,6 @@ minimal medical standards, or both</string>
     <!-- END: Pregnancy -->
 
     <!-- START: Mental Health-->
-
-    <string name="myth_description">Description</string>
     <string-array name="myth_choices">
         <item>True</item>
         <item>False</item>
