@@ -146,25 +146,25 @@ public class ContraceptiveQuiz extends Fragment {
         if(size == 5) {
             enableChoices();
             contraceptionFirstChoice.setText(choices[0]);
-            contraceptionChoiceA.setText("A");
+            contraceptionChoiceA.setText(R.string.choiceA);
             contraceptionChoiceA.setBackgroundResource(R.drawable.question_choices);
             contraceptionSecondChoice.setText(choices[1]);
-            contraceptionChoiceB.setText("B");
+            contraceptionChoiceB.setText(R.string.choiceB);
             contraceptionChoiceB.setBackgroundResource(R.drawable.question_choices);
             contraceptionThirdChoice.setText(choices[2]);
-            contraceptionChoiceC.setText("C");
+            contraceptionChoiceC.setText(R.string.choiceC);
             contraceptionChoiceC.setBackgroundResource(R.drawable.question_choices);
             contraceptionFourthChoice.setText(choices[3]);
-            contraceptionChoiceD.setText("D");
+            contraceptionChoiceD.setText(R.string.choiceD);
             contraceptionChoiceD.setBackgroundResource(R.drawable.question_choices);
             contraceptionQnAnswer = choices[4];
         } else if(size == 3){
             disableChoices();
             contraceptionFirstChoice.setText(choices[0]);
-            contraceptionChoiceA.setText("A");
+            contraceptionChoiceA.setText(R.string.choiceA);
             contraceptionChoiceA.setBackgroundResource(R.drawable.question_choices);
             contraceptionSecondChoice.setText(choices[1]);
-            contraceptionChoiceB.setText("B");
+            contraceptionChoiceB.setText(R.string.choiceB);
             contraceptionChoiceB.setBackgroundResource(R.drawable.question_choices);
             contraceptionQnAnswer = choices[2];
         }

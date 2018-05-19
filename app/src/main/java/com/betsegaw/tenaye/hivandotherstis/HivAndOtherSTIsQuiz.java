@@ -149,25 +149,25 @@ public class HivAndOtherSTIsQuiz extends Fragment{
         if(size == 5) {
             enableChoices();
             hivStiFirstChoice.setText(choices[0]);
-            hivStiChoiceA.setText("A");
+            hivStiChoiceA.setText(R.string.choiceA);
             hivStiChoiceA.setBackgroundResource(R.drawable.question_choices);
             hivStiSecondChoice.setText(choices[1]);
-            hivStiChoiceB.setText("B");
+            hivStiChoiceB.setText(R.string.choiceB);
             hivStiChoiceB.setBackgroundResource(R.drawable.question_choices);
             hivStiThirdChoice.setText(choices[2]);
-            hivStiChoiceC.setText("C");
+            hivStiChoiceC.setText(R.string.choiceC);
             hivStiChoiceC.setBackgroundResource(R.drawable.question_choices);
             hivStiFourthChoice.setText(choices[3]);
-            hivStiChoiceD.setText("D");
+            hivStiChoiceD.setText(R.string.choiceD);
             hivStiChoiceD.setBackgroundResource(R.drawable.question_choices);
             hivStiQnAnswer = choices[4];
         } else if(size == 3){
             disableChoices();
             hivStiFirstChoice.setText(choices[0]);
-            hivStiChoiceA.setText("A");
+            hivStiChoiceA.setText(R.string.choiceA);
             hivStiChoiceA.setBackgroundResource(R.drawable.question_choices);
             hivStiSecondChoice.setText(choices[1]);
-            hivStiChoiceB.setText("B");
+            hivStiChoiceB.setText(R.string.choiceB);
             hivStiChoiceB.setBackgroundResource(R.drawable.question_choices);
             hivStiQnAnswer = choices[2];
         }

@@ -124,10 +124,10 @@ public class MentalHealthQuiz extends Fragment{
 
      if(size == 3){
             mentalFirstChoice.setText(choices[0]);
-            mentalChoiceA.setText("A");
+            mentalChoiceA.setText(R.string.choiceA);
             mentalChoiceA.setBackgroundResource(R.drawable.question_choices);
             mentalSecondChoice.setText(choices[1]);
-            mentalChoiceB.setText("B");
+            mentalChoiceB.setText(R.string.choiceB);
             mentalChoiceB.setBackgroundResource(R.drawable.question_choices);
             mentalQnAnswer = choices[2];
         }

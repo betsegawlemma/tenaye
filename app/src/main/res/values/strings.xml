@@ -50,7 +50,7 @@
         \u2022 It can cause temporary side-effects such as headaches, nausea, mood changes and breast tenderness\n
         \u2022 Does not protect against STI\'s\n
     </string>
-    <string name = "pops">Progestogen progesterone-Only Pills</string>
+    <string name = "pops">Progestogen-Only Pills</string>
     <string name="pops_details">
         \u2022 Also known as "the Minipill"\n
         \u2022 It is a daily oral contraceptive that contains only progestogen hormone, not estrogen\n
@@ -557,6 +557,11 @@ with some sores (such as those that can occur with herpes) or warts (which can b
     <string name="cross_mark">\u2717</string>
     <string name="check_mark">\u2713 </string>
     <string name="next"><b>Next</b></string>
+
+    <string name="choiceA">A</string>
+    <string name="choiceB">B</string>
+    <string name="choiceC">C</string>
+    <string name="choiceD">D</string>
 
     <!-- START: HIV and STI Questions -->
 

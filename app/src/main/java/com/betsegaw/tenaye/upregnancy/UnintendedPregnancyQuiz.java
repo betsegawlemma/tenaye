@@ -141,25 +141,25 @@ public class UnintendedPregnancyQuiz extends Fragment {
         if(size == 5) {
             enableChoices();
             pregFirstChoice.setText(choices[0]);
-            pregChoiceA.setText("A");
+            pregChoiceA.setText(R.string.choiceA);
             pregChoiceA.setBackgroundResource(R.drawable.question_choices);
             pregSecondChoice.setText(choices[1]);
-            pregChoiceB.setText("B");
+            pregChoiceB.setText(R.string.choiceB);
             pregChoiceB.setBackgroundResource(R.drawable.question_choices);
             pregThirdChoice.setText(choices[2]);
-            pregChoiceC.setText("C");
+            pregChoiceC.setText(R.string.choiceC);
             pregChoiceC.setBackgroundResource(R.drawable.question_choices);
             pregFourthChoice.setText(choices[3]);
-            pregChoiceD.setText("D");
+            pregChoiceD.setText(R.string.choiceD);
             pregChoiceD.setBackgroundResource(R.drawable.question_choices);
             pregQnAnswer = choices[4];
         } else if(size == 3){
             disableChoices();
             pregFirstChoice.setText(choices[0]);
-            pregChoiceA.setText("A");
+            pregChoiceA.setText(R.string.choiceA);
             pregChoiceA.setBackgroundResource(R.drawable.question_choices);
             pregSecondChoice.setText(choices[1]);
-            pregChoiceB.setText("B");
+            pregChoiceB.setText(R.string.choiceB);
             pregChoiceB.setBackgroundResource(R.drawable.question_choices);
             pregQnAnswer = choices[2];
         }
