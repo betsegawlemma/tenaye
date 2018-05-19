@@ -23,73 +23,91 @@
     <!-- Start of Contraceptive content -->
     <string name="contraceptive_head">Contraception</string>
     <string name="cntra_intro_head">Introduction</string>
-    <string name="contraceptive_introduction">Contraception is essential to secure the well-being and autonomy of women, while supporting the health and development of communities. Contraception allows spacing of pregnancies and can delay pregnancies in young women at increased risk of health problems and death from early childbearing. </string>
+    <string name="contraceptive_introduction">
+        Contraception is essential to secure the well-being and
+        autonomy of women, while supporting the health and development of communities Contraception allows
+        spacing of pregnancies and can delay pregnancies in young women at increased risk of health problems and
+        death from early childbearing
+    </string>
     <string name="cocs">Combined Oral Contraceptive</string>
     <string name="cocs_details">
-        \u2022 Also known as "the Pill"\n
+        \u2022 Also known as "the Pill" or COC\n
         \u2022 The combined Pill is a daily oral contraceptive that contains two hormones (estrogen and progestogen)\n
-        \u2022 It must be taken daily\n
+        \u2022 It must be taken daily at the same time\n
         \u2022 Prevents the release of eggs from the ovaries (ovulation)\n
         \u2022 Effectiveness to prevent pregnancy more than 99% with correct and consistent use and 92% as commonly used\n
         \u2022 Additional benefits: Reduces risk of endometrial and ovarian cancer\n
     </string>
     <string name="cocs_pros">
         \u2022 It\'s easy to take and stop taking\n
-        \u2022 It can make periods lighter and more regular.\n
+        \u2022 It can make periods lighter and more regular\n
+        \u2022 Can serve as a treatment for painful menstruation (dysmenorrhea)\n
     </string>
     <string name="cocs_cons">
         \u2022 It is not suitable for very overweight women or smokers over 35-years-old\n
-        \u2022 Forgetting to take pills, vomiting or severe diarrhoea can make it less effective\n
+        \u2022 Forgetting to take pills, vomiting within 2 hours after taking the pill or severe diarrhoea can make it less effective\n
         \u2022 It has a low risk of serious side-effects such as blood clots, breast and cervical cancer\n
-        \u2022 It can cause temporary side-effects such as headaches, nausea, mood changes and breast tenderness.\n
+        \u2022 It can cause temporary side-effects such as headaches, nausea, mood changes and breast tenderness\n
+        \u2022 Does not protect against STI\'s\n
     </string>
-    <string name = "pops">Progestogen-Only Pills</string>
+    <string name = "pops">Progestogen progesterone-Only Pills</string>
     <string name="pops_details">
         \u2022 Also known as "the Minipill"\n
         \u2022 It is a daily oral contraceptive that contains only progestogen hormone, not estrogen\n
         \u2022 Thickens cervical mucous to block sperm and egg from meeting and prevents ovulation\n
         \u2022 Effectiveness to prevent pregnancy: 99% with correct and consistent use; 90–97%  (91% for average women) as commonly used\n
-        \u2022 Can be used while breastfeeding\n
+        \u2022 Can be used while breastfeeding after 6 weeks of delivery\n
         \u2022 Must be taken at the same time each day\n
     </string>
     <string name="pops_pros">
         \u2022 It can make periods lighter and more regular, or stop them altogether\n
-        \u2022 It can be used by women who smoke and are over 35-years-old.\n
+        \u2022 It can be used by women who smoke and are over 35-years-old\n
     </string>
     <string name="pops_cons">
         \u2022 It must be taken daily at the same time and is not effective if taken over three to 12 hours late\n
-        \u2022 Missing pills, vomiting or severe diarrhoea can make it less effective.\n
-        \u2022 It can cause temporary side-effects such as headaches, nausea, mood changes and breast tenderness.\n
+        \u2022 Missing pills, vomiting or severe diarrhoea can make it less effective\n
+        \u2022 It can cause temporary side-effects such as headaches, nausea, mood changes and breast tenderness\n
     </string>
     <string name="ecps">Emergency Pills</string>
     <string name="ecps_details">
+        \u2022 Also known as morning after pills\n
         \u2022 These are pills taken to prevent pregnancy up to 5 days after unprotected sex\n
-        \u2022 Ulipristal Acetate 30 mg or Levonorgestrel 1.5 mg are the well known emergency contraception pills\n
+        \u2022 Ulipristal Acetate 30 mg or Levonorgestrel 15 mg are the well known emergency contraception pills\n
+        \u2022 Used when no contraceptives have been used\n
+        \u2022 Used when sexually assaulted\n
+        \u2022 Used when condom breaks\n
+        \u2022 Used when pills are missed\n
+        \u2022 Effective when taken within 24 hours 95% effective\n
+        \u2022 Effective when taken 25-48 hours 85% effective\n
+        \u2022 Effective when taken 49-72 hours 58% effective\n
+        \u2022 Effective when taken after 72 hours less than 50% effective\n
+        \u2022 The first pill is taken within 5 days then the next pill is taken after 12 hours of the first pill\n
     </string>
     <string name="ecps_pros">
         \u2022 \n
     </string>
     <string name="ecps_cons">
-        \u2022 \n
+        \u2022 Due to high hormonal dose if taken frequently can lead to serious complications like infertility \n
+        \u2022 Nausea, abdominal pain, fatigue, headache, menstrual changes\n
     </string>
     <string name="pois">Progestogen Only Injectables</string>
     <string name="pois_details">
-        \u2022 Injected into the muscle or under the skin every 2 or 3 months, depending on product\n
+        \u2022 Injected into the muscle (intramuscularly)  every 2 or 3 months, depending on product\n
         \u2022 Thickens cervical mucous to block sperm and egg from meeting and prevents ovulation\n
         \u2022 Effectiveness to prevent pregnancy: >99% with correct and consistent use; 97% as commonly used\n
-        \u2022 Delayed return to fertility (about 1–4 months on the average) after use; irregular vaginal bleeding common, but not harmful\n
+        \u2022 Delayed return to fertility after use; irregular vaginal bleeding common, but not harmful\n
     </string>
     <string name="pois_pros">
-        \u2022 It can be used it you are breastfeeding (though no contraception is required in the first 21 days after birth)\n
+        \u2022 It can be used during breastfeeding after 6 weeks of delivery\n
         \u2022 It does not interrupt sex
         \u2022 You don\'t have to remember to take a pill every day\n
         \u2022 It could reduce painful periods
-        \u2022 It offers some protection from pelvic inflammatory disease (the mucus from the cervix may stop bacteria entering the womb) and may also give some protection against cancer of the womb.\n
+        \u2022 It offers some protection from pelvic inflammatory disease (the mucus from the cervix may stop bacteria entering the womb) and may also give some protection against cancer of the womb\n
     </string>
     <string name="pois_cons">
         \u2022 It cannot be removed from the body once it has been injected so side effects, such as irregular periods or weight gain, may continue for as long as it works and some time afterwards\n
-        \u2022 It can cause some women to gain weight\n
-        \u2022 Periods and fertility may take time to return after stopping it.\n
+        \u2022 Periods and fertility may take longer time to return after stopping it\n
+        \u2022 Does not protect against STI’s\n
     </string>
     <string name="implants">Implants</string>
     <string name="implants_details">
@@ -99,32 +117,37 @@
         \u2022 Can be used for 3–5 years depending on implant; irregular vaginal bleeding common but not harmful\n
     </string>
     <string name="implants_pros">
-        \u2022 The implant lasts for three years but can be taken out sooner\n
+        \u2022 The implant lasts for 3 to 5 years but can be taken out sooner\n
         \u2022 You don\'t have to think about your contraception once it has been inserted\n
+        \u2022 Releases small amount of hormones so minimized side effects\n
         \u2022 When the implant is removed your fertility will return to normal\n
     </string>
     <string name="implants_cons">
         \u2022 You can feel it with your fingers in your arm, though it can\'t be seen, and it is put in using a local anaesthetic\n
-        \u2022 It may increase chances of getting acne.\n
+        \u2022 It may increase chances of getting acne\n
     </string>
-    <string name="iud">Intrauterine device (IUD) levonorgestrel</string>
+    <string name="iud">Intrauterine device (IUD)</string>
     <string name="iud_details">
-        \u2022 A T-shaped plastic device inserted into the uterus that steadily releases small amounts of levonorgestrel each day\n
-        \u2022 Suppresses the growth of the lining of uterus (endometrium)\n
+        \u2022 Also called  cu T380 A or ParaGard
+        \u2022 A T-shaped plastic device inserted into the uterus lasting 10- 12 years\n
+        \u2022 Inhibits fertilization by causing chemical changes that damage both sperm and egg\n
+        \u2022 Inhibits sperm migration in the genital tract\n
+        \u2022 Inhibits ovum transport\n
+        \u2022 When the uterus is exposed to a foreign body, a sterile inflammatory reaction occurs, which is toxic to sperm and ova and impairs implantation\n
         \u2022 Effectiveness to prevent pregnancy: >99%\n
-        \u2022 Decreases amount of blood lost with menstruation over time\n
-        \u2022 Reduces menstrual cramps and symptoms of endometriosis\n
-        \u2022 Amenorrhea (no menstrual bleeding) in a group of users\n
     </string>
     <string name="iud_pros">
         \u2022 It does not contain any hormones\n
+        \u2022 Highly effective and very safe\n
         \u2022 You don\'t have to think about your contraception once it has been inserted\n
-        \u2022 When it is removed, your fertility will return to normal\n
+        \u2022 When it is removed, your fertility will return to normal quickly\n
+        \u2022 Can be used as an emergency contraceptive within 5 days of unprotected sex\n
     </string>
     <string name="iud_cons">
-        \u2022 It could make periods heavier\n
+        \u2022 It could make periods heavier for the first three to six months after insertion \n
         \u2022 Some women do not like having it inserted\n
-        \u2022 There is a small chance of getting an infection in the first 20 days after insertion.\n
+        \u2022 There is a small chance of getting an infection in the first 20 days after insertion, if appropriate infection prevention techniques are not used\n
+        \u2022 Does not protect against STI’s\n
     </string>
     <string name="mcs">Male Condoms</string>
     <string name="mcs_details">
@@ -134,14 +157,15 @@
         \u2022 Additional benefits: protects against sexually transmitted infections, including HIV\n
     </string>
     <string name="mcs_pros">
+        \u2022 Condoms have dual protection effect
         \u2022 Condoms are the best way to protect yourself and your partner against sexually transmitted infections (STIs)\n
         \u2022 When used correctly, they\'re a reliable way of preventing pregnancy\n
         \u2022 You only need to use them when you have sex – they do not need advance preparation\n
-        \u2022 In most cases, there are no medical side-effects.\n
+        \u2022 In most cases, there are no medical side-effects\n
     </string>
     <string name="mcs_cons">
-        \u2022 Condoms may slip off or break if the wrong size is used\n
-        \u2022 Some people may be allergic to latex, plastic or spermicides\n
+        \u2022 Condoms may slip off or break if used incorrectly\n
+        \u2022 Some people may be allergic to latex\n
         \u2022 The man has to pull out immediately after ejaculating before the penis goes soft\n
     </string>
     <string name="fcs">Female Condoms</string>
@@ -150,16 +174,19 @@
         \u2022 Forms a barrier to prevent sperm and egg from meeting\n
         \u2022 Effectiveness to prevent pregnancy: 90% with correct and consistent use; 79% as commonly used\n
         \u2022 Additional benefits: protects against sexually transmitted infections, including HIV\n
+        \u2022 Male condoms should not be used if female condom is used and the reverse\n
     </string>
     <string name="fcs_pros">
+        \u2022 Can be inserted before sexual contact is initiated\n
         \u2022 Condoms are the best way to protect yourself and your partner against sexually transmitted infections (STIs)\n
         \u2022 When used correctly, they\'re a reliable way of preventing pregnancy\n
         \u2022 You only need to use them when you have sex – they do not need advance preparation\n
-        \u2022 In most cases, there are no medical side-effects.\n
+        \u2022 In most cases, there are no medical side-effects\n
     </string>
     <string name="fcs_cons">
-        \u2022 Condoms may slip off or break if the wrong size is used\n
-        \u2022 Some people may be allergic to latex, plastic or spermicides\n
+        \u2022 Is not user friendly and not available easily\n
+        \u2022 Condoms may slip off or break if  used incorrectly\n
+        \u2022 Some people may be allergic to latex\n
     </string>
     <string name="ms">Male Sterilization\n (vasectomy)</string>
     <string name="ms_details">
@@ -171,17 +198,17 @@
     </string>
     <string name="ms_pros">
         \u2022 You\'ll never have to think about contraception again\n
-        \u2022 It\'s usually performed under general anaesthetic\n
+        \u2022 It\'s usually performed under local anaesthetic\n
     </string>
     <string name="ms_cons">
         \u2022 It cannot be easily reversed\n
         \u2022 You may experience some discomfort after the operation\n
-        \u2022 You need to be completely certain - it is important to have counselling beforehand.\n
+        \u2022 You need to be completely certain - it is important to have counselling beforehand\n
     </string>
     <string name="fs">Female Sterilization</string>
     <string name="fs_details">
-        \u2022 It is a permanent method for women who are sure they will never want children.\n
-        \u2022 It works by cutting or sealing the fallopian tubes in an operation.\n
+        \u2022 It is a permanent method for women who are sure they will never want children\n
+        \u2022 It works by cutting or sealing the fallopian tubes by an operation\n
         \u2022 Eggs are blocked from meeting sperm\n
         \u2022 Effectiveness to prevent pregnancy: >99%\n
     </string>
@@ -199,15 +226,18 @@
    <!-- Start of HIV content -->
     <string name="hiv_head">HIV and Other STIs</string>
     <string name="hiv_intro">Introduction</string>
-    <string name="hiv_introduction">HIV (human immunodeficiency virus) is a retrovirus that infects the vital organs and cells of the human immune system (CD4 cells), which is our body’s natural defence against illness. HIV infection is one of none-curable sexually transmitted infections. If HIV is left untreated, it may take up to 10 or 15 years for the immune system to be so severely damaged it can no longer defend itself at all. However, the speed HIV progresses will vary depending on age, health and background.\n
-        \u2022 AIDS (acquired immunodeficiency syndrome) is a refers to a set of symptoms and illnesses, (or syndrome) that occur at the very final stage of HIV infection. \n
-        \u2022 The disease alters the immune system, making people much more vulnerable to infections and diseases. \n
-        \u2022 A person is said to have AIDS when their immune system is too weak to fight off infection, and they develop certain defining symptoms and illnesses. \n
+    <string name="hiv_introduction">HIV (human immunodeficiency virus) is a retrovirus that infects the vital organs and cells of the human immune system (CD4 cells),
+        which is our body’s natural defence against illness. HIV infection is one of non-curable sexually transmitted infections.
+        If HIV is left untreated, it may take up to 10 or 15 years for the immune system to be so severely damaged it can no longer defend itself at all. However, the speed HIV progresses will vary depending on age, health and background\n
+        \u2022 AIDS (acquired immunodeficiency syndrome) refers to a set of symptoms and illnesses, (or syndrome) that occur at the very final stage of HIV infection \n
+        \u2022 The disease alters the immune system, making people much more vulnerable to infections and diseases \n
+        \u2022 A person is said to have AIDS when their immune system is too weak to fight off infection, and they develop certain defining symptoms and illnesses \n
     </string>
     <string name="hiv_stages">Stages</string>
     <string name="stage1">Acute Primary Infection </string>
     <string name="stage1_details">
-        Around one to four weeks after becoming infected with HIV, some people will experience symptoms that can feel a lot like flu. This may not last long (a week or two). These symptoms can happen because your body is reacting to the HIV virus. The symptoms of HIV can differ from person-to-person and some people may not get any symptoms at all for many years.\n\n
+        Around one to four weeks after becoming infected with HIV, some people will experience symptoms that can feel a lot like flu.
+        This may not last long (a week or two) These symptoms can happen because your body is reacting to the HIV virus. The symptoms of HIV can differ from person-to-person and some people may not get any symptoms at all for many years\n\n
         The flu like symptoms of (in the early HIV infection) may include:\n
         \u2022 fever (raised temperature)\n
         \u2022 body rash\n
@@ -220,12 +250,12 @@
     </string>
     <string name="stage2">The Asymptomatic Stage</string>
     <string name="stage2_details">
-        HIV virus may not reveal any other symptoms for up to 10 or even 15 years (depending on age, background and overall health). However, the virus will still be active. \n
-        <b><i>NB:</i></b> Because many people do not have any symptoms for stages 1 and 2, HIV often gets transmitted from people who simply don’t know they are infected. \n
+        HIV virus may not reveal any other symptoms for up to 10 or even 15 years (depending on age, background and overall health). However, the virus will still be active \n
+        <b><i>NB:</i></b> Because many people do not have any symptoms for stages 1 and 2, HIV often gets transmitted from people who simply don’t know they are infected \n
     </string>
     <string name="stage3">Symptomatic HIV Infection\n(Late-stage HIV Infection)</string>
     <string name="stage3_details">
-        At this stage, the immune system has been so badly damaged that it can no longer fight off serious infections and diseases. This stage of infection is known as AIDS.
+        At this stage, the immune system has been so badly damaged that it can no longer fight off serious infections and diseases. This stage of infection is known as AIDS
     </string>
 
     <string name="hiv_syptoms">Symptoms</string>
@@ -241,11 +271,12 @@
         \u2022 Unintentional weight loss\n
         \u2022 Mouth problems (white spots on the tongue or mouth)\n
         \u2022 Skin problems\n
-        During late-stage HIV infection, the risk of developing a life-threatening illness is much greater. Life-threatening illnesses may be controlled, avoided, and/or treated with proper medications, often including HIV treatment. The earlier you have HIV diagnosed and start treatment, the better your likely long-term health.\n
+        During late-stage HIV infection, the risk of developing a life-threatening illness is much greater. Life-threatening illnesses may be controlled, avoided, and/or treated with proper medications, often including HIV treatment.
+        The earlier you have HIV diagnosed and start treatment, the better your long-term health will be\n
     </string>
     <string name="hiv_misconceptions">Misconceptions</string>
     <string name="hiv_misconceptions_details">
-        There are many misconceptions about HIV and AIDS. The virus CANNOT be transmitted from:\n
+        There are many misconceptions about HIV and AIDS The virus CANNOT be transmitted from:\n
         \u2022 shaking hands\n
         \u2022 hugging\n
         \u2022 casual kissing\n
@@ -253,69 +284,70 @@
         \u2022 touching unbroken skin\n
         \u2022 using the same toilet\n
         \u2022 sharing towels\n
-        \u2022 sharing cutlery\n
         \u2022 mouth-to-mouth resuscitation or \n
         \u2022 other forms of "casual contact"\n
     </string>
     <string name="hiv_diagnosis">Diagnosis</string>
     <string name="hiv_diagnosis_details">
-        Diagnosis is made through a blood test that screens specifically for the virus. If the HIV virus has been found, the test result is "positive." The blood is re-tested several times before a positive result is given to the patient.\n\n
-        If a person has been exposed to the virus, it is crucial that they get tested as soon as possible. The earlier HIV is detected, the more likely the treatment will be successful.\n
+        Diagnosis is made through a blood test that screens specifically for the virus. If the HIV virus has been found, the test result is "positive". The blood is re-tested several times before a positive result is given to the patient\n\n
+        If a person has been exposed to the virus, it is crucial that they get tested as soon as possible. A person who is at risk of acquiring HIV should be tested every 3 months. The earlier HIV is detected, the more likely the treatment will be successful\n
     </string>
     <string name="hiv_transmission">Transmission</string>
     <string name="hiv_transmission_details">
         The person-to-person spread of HIV is called HIV transmission. HIV is transmitted (spread) only in certain body fluids from a person infected with HIV\n\n
-        HIV transmission is only possible if these fluids come in contact with a mucous membrane or damaged tissue or are directly injected into the bloodstream (from a needle or syringe).\n\n
-        <b><i>Sexual Transmission:</i></b> it can happen when there is sexual contact with a person infected with HIV. This can happen while having unprotected sex. HIV is transmitted (spread) only in certain body fluids from a person infected with HIV such as Semen, Pre-seminal fluids, Rectal fluids and Vaginal fluids. \n\n
-        <b><i>Perinatal Transmission</i></b> a mother can pass the infection on to her child during childbirth, pregnancy, and also through breastfeeding. HIV can also spread from an HIV-infected woman to her child during pregnancy, childbirth (also called labor and delivery), or breastfeeding. This spread of HIV is called mother-to-child transmission of HIV.\n\n
-        <b><i>Blood Transmission</i></b> the risk of transmitting HIV through blood transfusion is nowadays extremely low in developed countries, thanks to meticulous screening and precautions. However, among injection or IV drug users, sharing and reusing syringes contaminated with HIV-infected blood is extremely hazardous.\n\n
+        HIV transmission is only possible if these fluids come in contact with a mucous membrane or damaged tissue or are directly injected into the bloodstream (from a needle or syringe)\n\n
+        <b><i>Sexual Transmission:</i></b> it can happen when there is sexual contact with a person infected with HIV. This can happen while having unprotected sex HIV is transmitted (spread) only in certain body fluids from a person infected with HIV such as Semen, Pre-seminal fluids, Rectal fluids and Vaginal fluids \n\n
+        <b><i>Perinatal Transmission</i></b> a mother can pass the infection on to her child during childbirth, pregnancy, and also through breastfeeding. This spread of HIV is called mother-to-child transmission of HIV\n\n
+        <b><i>Blood Transmission</i></b> the risk of transmitting HIV through blood transfusion is nowadays extremely low in developed countries, thanks to meticulous screening and precautions However, among injection or IV drug users, sharing and reusing syringes contaminated with HIV-infected blood is extremely hazardous\n\n
     </string>
     <string name="hiv_prevention">Prevention</string>
     <string name="hiv_prevention_details">
         Anyone can get HIV, but you can take steps to protect yourself from HIV infection. The following are list of prevention steps:\n
         \u2022 <b><i>Abstain from sex\n</i></b>
-        \u2022 <b><i>Get tested and know your partner’s HIV status.</i></b> Talk to your partner about HIV testing and get tested before you have sex. \n
-        \u2022 <b><i>Have less risky sex.</i></b> HIV is mainly spread by having anal or vaginal sex without a condom \n
-        \u2022 <b><i>Use condoms.</i></b> Use a condom correctly every time you have sex.\n
-        \u2022 <b><i>Limit your number of sexual partners.</i></b> The more partners you have, the more likely you are to have a partner with HIV whose HIV is not well controlled or to have a partner with a sexually transmitted diseases (STDs). \n
-        \u2022 <b><i>Get tested and treated for STDs.</i></b> Insist that your partners get tested and treated too. Having an STD can increase your risk of becoming infected with HIV or spreading it to others.\n
-        \u2022 <b><i>Don’t inject drugs.</i></b> But if you do, use only sterile drug injection equipment and water and never share your equipment with others.\n
-        \u2022 <b><i>Post-exposure prophylaxis (PEP): </i></b> PEP is the use of HIV medicines to reduce the risk of HIV infection soon after a possible exposure to HIV. PEP may be used, for example, after a person has sex without a condom with a person who is infected with HIV or after a health care worker is accidentally exposed to HIV in the workplace. To be effective, PEP must be started within 3 days after the possible exposure to HIV. PEP involves taking HIV medicines each day for 28 days.\n
-        \u2022 <b><i>Prevention of mother-to-child transmission of HIV:</i></b> Women with HIV take HIV medicines during pregnancy and childbirth to reduce the risk of passing HIV to their babies. Their newborn babies also receive HIV medicine for 4 to 6 weeks after birth.\n
+        \u2022 <b><i>Get tested and know your partner’s HIV status:</i></b> Talk to your partner about HIV testing and get tested before you have sex \n
+        \u2022 <b><i>Have less risky sex:</i></b> HIV is mainly spread by having anal or vaginal sex without a condom \n
+        \u2022 <b><i>Use condoms:</i></b> Use a condom correctly every time you have sex\n
+        \u2022 <b><i>Limit your number of sexual partners:</i></b> The more partners you have, the more likely you are to have a partner with HIV whose HIV is not well controlled or to have a partner with a sexually transmitted diseases (STDs) \n
+        \u2022 <b><i>Get tested and treated for STDs:</i></b> Insist that your partners get tested and treated too. Having an STD can increase your risk of becoming infected with HIV or spreading it to others\n
+        \u2022 <b><i>Don’t inject drugs:</i></b> But if you do, use only sterile drug injection equipment and water and never share your equipment with others\n
+        \u2022 <b><i>Post-exposure prophylaxis (PEP): </i></b> PEP is the use of HIV medicines to reduce the risk of HIV infection soon after a possible exposure to HIV. PEP may be used, for example, after a person has sex without a condom with a person who is infected with HIV or after a health care worker is accidentally exposed to HIV in the workplace. To be effective, PEP must be started within 3 days after the possible exposure to HIV. PEP involves taking HIV medicines each day for 28 days\n
+        \u2022 Every pregnant women is tested for HIV\n
+        \u2022 HIV positive people need to consult their health care provider before getting pregnant\n
+        \u2022 <b><i>Prevention of mother-to-child transmission of HIV:</i></b> Women with HIV take HIV medicines during pregnancy and childbirth to reduce the risk of passing HIV to their babies. Their newborn babies also receive HIV medicine for 4 to 6 weeks after birth\n
     </string>
     <!-- End of HIV content -->
     <!-- Start of Mental Health content -->
     <string name="mh_head">Mental Health</string>
     <string name="mental_health">Introduction</string>
     <string name="mental_health_details">
-        A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave. \n\n
-        There are many different mental health problems, and many symptoms are common to more than one diagnosis. So you may experience the symptoms of more than one mental health problem at once. \n
+        A mental health problem can feel just as bad, or worse, as any other physical illness – only you cannot see it. Mental health problems can affect the way you think, feel and behave \n\n
+        There are many different mental health problems, and many symptoms are common to more than one diagnosis. So you may experience the symptoms of more than one mental health problem at once \n
     </string>
     <string name="mh_kinds">Kinds</string>
     <string name="mh_kinds_depression">Depression</string>
     <string name="mh_kinds_depression_details">
-        Affects your self-esteem, sleep, appetite, sex drive and, sometimes, your physical health. It can make you feel hopeless, despairing, guilty, worthless, unmotivated and exhausted. At its most severe, depression can make you feel suicidal, and be life-threatening. Common specific forms of depression. \n\n
-        <b><i>Postnatal depression (PND):</i></b> depression that can develop from between two weeks to up to two years after becoming a parent. It's usually diagnosed in mothers, but can affect partners too. \n
-        <b><i>Seasonal affective disorder (SAD):</i></b> depression that is related to day length and usually (but not always) occurs in the winter.
+        Affects your self-esteem, sleep, appetite, sex drive and, sometimes, your physical health It can make you feel hopeless, despairing, guilty, worthless, unmotivated and exhausted. At its most severe, depression can make you feel suicidal, and be life-threatening. Common specific forms of depression \n\n
+        <b><i>Postnatal depression (PND):</i></b> depression that can develop from between two weeks to up to two years after becoming a parent. It's usually diagnosed in mothers, but can affect partners too \n
+        <b><i>Seasonal affective disorder (SAD):</i></b> depression that is related to day length and usually (but not always) occurs in the winter
     </string>
     <string name="mh_kinds_anxiety">Anxiety</string>
     <string name="mh_kinds_anxiety_details">
         Refers to strong feelings of unease, worry and fear. You might experience:\n
-        \u2022 Constant worrying about things that are a regular part of everyday life, or about things that aren’t likely to happen. \n
-        \u2022 Unpleasant physical symptoms such as sleep problems, panic attacks, an increased heartbeat, an upset stomach, muscle tension or feeling shaky. \n
-        \u2022 A specific anxiety disorder, such as generalised anxiety disorder (GAD), panic disorder, a phobia, obsessive-compulsive disorder (OCD) or post-traumatic stress disorder (PTSD).\n
+        \u2022 Constant worrying about things that are a regular part of everyday life, or about things that aren’t likely to happen \n
+        \u2022 Unpleasant physical symptoms such as sleep problems, panic attacks, an increased heartbeat, an upset stomach, muscle tension or feeling shaky \n
+        \u2022 A specific anxiety disorder, such as generalised anxiety disorder (GAD), panic disorder, a phobia, obsessive-compulsive disorder (OCD) or post-traumatic stress disorder (PTSD)\n
     </string>
     <string name="mh_kinds_social_phobias">Social Phobias</string>
     <string name="mh_kinds_social_phobias_details">
-        People with social phobia have an intense, chronic fear of being watched and judged by others, and of being humiliated by their own actions.
+        People with social phobia have an intense, chronic fear of being watched and judged by others, and of being humiliated by their own actions
     </string>
     <string name="mh_kinds_eating_disorder">Eating Disorder</string>
     <string name="mh_kinds_eating_disorder_details">
-        Eating problems aren’t just about food. They can be about difficult things in your life and painful feelings, which you may be finding hard to express, face or resolve. Focusing on food can be a way of disguising these problems, even from yourself. The most common:\n\n
-        <b><i>Anorexia </i></b> – not allowing yourself to eat enough food to get the energy and nutrition you need to stay physically healthy. Sometimes people assume that anorexia is about slimming and dieting, but it is often connected to very low self-esteem, negative self-image and feelings of intense distress. \n\n
-        <b><i>Bulimia</i></b> – finding that you eat large amounts of food all in one go, often because you are feeling upset or worried (this is called bingeing); then feeling deeply guilty or ashamed, and taking steps to get rid of the food you have eaten (this is called purging). \n\n
-        <b><i>Binge eating disorder</i></b> – feeling that you can’t stop yourself from eating, even when you want to. This is sometimes described as having a food addiction or compulsive eating.  \n\n
-        <b><i>Eating disorder not otherwise specified (EDNOS)</i></b> – this diagnosis means you meet some of the criteria for one of the above disorders, but not all of them.  \n\n
+        Eating problems aren’t just about food They can be about difficult things in your life and painful feelings, which you may be finding hard to express, face or resolve Focusing on food can be a way of disguising these problems, even from yourself The most common:\n\n
+        <b><i>Anorexia </i></b> – not allowing yourself to eat enough food to get the energy and nutrition you need to stay physically healthy Sometimes people assume that anorexia is about slimming and dieting, but it is often connected to very low self-esteem, negative self-image and feelings of intense distress \n\n
+        <b><i>Bulimia</i></b> – finding that you eat large amounts of food all in one go, often because you are feeling upset or worried (this is called bingeing); then feeling deeply guilty or ashamed, and taking steps to get rid of the food you have eaten (this is called purging) \n\n
+        <b><i>Binge eating disorder</i></b> – feeling that you can’t stop yourself from eating, even when you want to This is sometimes described as having a food addiction or compulsive eating  \n\n
+        <b><i>Eating disorder not otherwise specified (EDNOS)</i></b> – this diagnosis means you meet some of the criteria for one of the above disorders, but not all of them  \n\n
     </string>
     <string name="mh_kinds_bipolar_disorder">Bipolar Disorder</string>
     <string name="mh_kinds_bipolar_disorder_details">
@@ -323,16 +355,16 @@
     </string>
     <string name="mh_kinds_panic_disorder">Panic Disorder</string>
     <string name="mh_kinds_panic_disorder_details">
-        panic disorder is characterized by panic attacks or sudden feelings of terror that strike repeatedly and without warning: chest pain, heart palpitations, shortness of breath, dizziness, abdominal discomfort, feelings of unreality, and fear of dying. \n
+        panic disorder is characterized by panic attacks or sudden feelings of terror that strike repeatedly and without warning: chest pain, heart palpitations, shortness of breath, dizziness, abdominal discomfort, feelings of unreality, and fear of dying \n
     </string>
     <string name="mh_kinds_addictive_disorders">Addictive Disorders</string>
     <string name="mh_kinds_addictive_disorders_details">
-         addiction is a disease that affects both brain and behavior. \n\n
-        <b><i>Substance Related Disorders: </i></b> alcohol, chats or drugs; side effects of medications; or exposure to toxins such as substance-related disorders may be defined as abuse of substances, such as lead, antifreeze, carbon monoxide and inhalants. \n
+         addiction is a disease that affects both brain and behavior \n\n
+        <b><i>Substance Related Disorders: </i></b> alcohol, chats or drugs; side effects of medications; or exposure to toxins such as substance-related disorders may be defined as abuse of substances, such as lead, antifreeze, carbon monoxide and inhalants \n
     </string>
     <string name="mh_kinds_schizophrenia">Schizophrenia</string>
     <string name="mh_kinds_schizophrenia_details">
-        a severe and disabling brain disease that affects a person’s thoughts and behavior. You may receive a diagnosis of schizophrenia if you have symptoms such as:\n
+        a severe and disabling brain disease that affects a person’s thoughts and behavior You may receive a diagnosis of schizophrenia if you have symptoms such as:\n
         \u2022 The presence of certain psychotic features during the active phase of the illness, such as delusions or hallucinations\n
         \u2022 Psychotic experiences, for example hallucinations or delusions \n
         \u2022 Disorganised thinking \n
@@ -341,7 +373,7 @@
     </string>
     <string name="mh_causes">Causes</string>
     <string name="mh_causes_details">
-    Mental health problems can have a wide range of causes. The following factors could potentially trigger a period of poor mental health:\n
+    Mental health problems can have a wide range of causes The following factors could potentially trigger a period of poor mental health:\n
     \u2022 Social isolation or loneliness  \n
     \u2022 Experiencing discrimination and stigma\n
     \u2022 The death of someone close to you\n
@@ -362,29 +394,29 @@
     </string>
     <string name="mh_diagnose_who">Who can diagnose me? </string>
     <string name="mh_diagnose_who_details">
-        For common problems such as depression and anxiety, your GP may be able to give you a diagnosis after one or two appointments. For less common problems you’ll need to be referred to a mental health specialist.\n
+        For common problems such as depression and anxiety, your GP may be able to give you a diagnosis after one or two appointments. For less common problems you’ll need to be referred to a mental health specialist\n
     </string>
     <string name="mh_diagnose_selfhelp">Self Help</string>
     <string name="mh_diagnose_selfhelp_detail">
-        Self-care techniques and general lifestyle changes can help manage the symptoms of many mental health problems, and may also help to prevent some problems from developing or getting worse. Recovering from a mental health problem is likely to take time, energy and work. Here are some tips for looking after yourself that you might nd helpful. \n\n
-        <b><i>Nourish your social life: </i></b> Feeling connected to other people is important. It can help you to feel valued and con dent about yourself, and can give you a different perspective on things. \n
-        <b><i>Try peer support: </i></b> Peer support brings together people who’ve had similar experiences to support each other. This can offer many benefits, such as: \n
+        Self-care techniques and general lifestyle changes can help manage the symptoms of many mental health problems, and may also help to prevent some problems from developing or getting worse. Recovering from a mental health problem is likely to take time, energy and work Here are some tips for looking after yourself that you might nd helpful \n\n
+        <b><i>Nourish your social life: </i></b> Feeling connected to other people is important It can help you to feel valued and con dent about yourself, and can give you a different perspective on things \n
+        <b><i>Try peer support: </i></b> Peer support brings together people who’ve had similar experiences to support each other This can offer many benefits, such as: \n
         \u2022 Feeling accepted for who you are \n
         \u2022 Increased self-confidence \n
         \u2022 Meeting new people and using your experiences to help others \n
         \u2022 Finding out new information and places for support \n
-        \u2022 Challenging stigma and discrimination.\n
+        \u2022 Challenging stigma and discrimination\n
 
         <b><i>Make time for therapeutic activities </i></b> such as:\n
-        \u2022 <b><i>Relaxation:</i></b> like having a bath, listening to music or taking your dog for a walk. If you know that a certain activity helps you feel more relaxed, make sure you set aside time to do it. \
-        \u2022 <b><i>Mindfulness:</i></b> mindfulness is a therapeutic technique that involves being more aware of the present moment. Practising mindfulness can help you become more aware of your own moods and reactions. \n
-        \u2022 <b><i>Ecotherapy:</i></b> getting out into a green environment, such as the park or the countryside, is especially helpful.  
+        \u2022 <b><i>Relaxation:</i></b> like having a bath, listening to music or taking your dog for a walk. If you know that a certain activity helps you feel more relaxed, make sure you set aside time to do it \
+        \u2022 <b><i>Mindfulness:</i></b> mindfulness is a therapeutic technique that involves being more aware of the present moment. Practising mindfulness can help you become more aware of your own moods and reactions \n
+        \u2022 <b><i>Ecotherapy:</i></b> getting out into a green environment, such as the park or the countryside, is especially helpful  
         <b><i>Look after your physical health </i></b> by:\n
-        \u2022 <b><i>Getting enough sleep</i></b> – this can help you have the energy to cope with dif cult feelings and experiences. \n
-        \u2022 <b><i>Eating healthily</i></b> – what you eat, and when you eat, can make a big difference to how well you feel. \n
-        \u2022 <b><i>Keeping physically active:</i></b> – doing regular exercise can be very effective in lifting your mood and increasing your energy levels. \n
-        \u2022 <b><i>Looking after yourself</i></b> – when you're experiencing a mental health problem, it's easy for personal care to not feel like a priority.  \n
-        \u2022 <b><i>Avoiding drugs, chat and alcohol</i></b> – while you might want to use chats, drugs or alcohol to cope with difficult feelings, in the long run they can make you feel a lot worse. \n
+        \u2022 <b><i>Getting enough sleep</i></b> – this can help you have the energy to cope with dif cult feelings and experiences \n
+        \u2022 <b><i>Eating healthily</i></b> – what you eat, and when you eat, can make a big difference to how well you feel \n
+        \u2022 <b><i>Keeping physically active:</i></b> – doing regular exercise can be very effective in lifting your mood and increasing your energy levels \n
+        \u2022 <b><i>Looking after yourself</i></b> – when you're experiencing a mental health problem, it's easy for personal care to not feel like a priority  \n
+        \u2022 <b><i>Avoiding drugs, chat and alcohol</i></b> – while you might want to use chats, drugs or alcohol to cope with difficult feelings, in the long run they can make you feel a lot worse \n
     </string>
     <string name="mh_treatments">What treatments are available? </string>
     <string name="mh_treatments_details">
@@ -394,132 +426,130 @@
         \u2022 Cope with upsetting memories or experiences \n
         \u2022 Improve your relationships \n
         \u2022 Develop more helpful ways of living day-to-day\n\n
-        <b><i>Medication:</i></b> The most common type of treatment available is prescription medication. These drugs don’t cure mental health problems, but they can ease many symptoms. \n
+        <b><i>Medication:</i></b> The most common type of treatment available is prescription medication These drugs don’t cure mental health problems, but they can ease many symptoms \n
     </string>
     <string name="mh_faqs">Frequently Asked Questions</string>
     <string name="mh_faqs_details">
-        \u2022 <b><i>Are brain disorders genetic?</i></b> Genetic abnormalities are merely one factor that may contribute to the onset of mental illness.\n
-        \u2022 <b><i>Do people recover from brain disorders?</i></b> Recovery rates from anxiety and eating disorders are high. With new medications 80 percent of people who have major depression and 60 percent of people who have schizophrenia, will recover meaningful lives. \n
-        \u2022 <b><i>How do I get better?</i></b> Learn as much as you can about your disorder.
+        \u2022 <b><i>Are brain disorders genetic?</i></b> Genetic abnormalities are merely one factor that may contribute to the onset of mental illness\n
+        \u2022 <b><i>Do people recover from brain disorders?</i></b> Recovery rates from anxiety and eating disorders are high With new medications 80 percent of people who have major depression and 60 percent of people who have schizophrenia, will recover meaningful lives \n
+        \u2022 <b><i>How do I get better?</i></b> Learn as much as you can about your disorder
     </string>
     <!-- End of Mental Health Content -->
     <!-- Start of Unwanted Pregnancy Content -->
     <string name="upregnancy_head">Unintended Pregnancy</string>
     <string name="unintended_pregnancy">Introduction</string>
     <string name="unintended_pregnancy_detail">
-        Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception. Unintended pregnancies may also result from.
+        Unintended pregnancies are pregnancies that are mistimed, unplanned or unwanted at the time of conception Unintended pregnancies may also result from rape, incest or various other forms of forced or unwanted sex.\n
     </string>
     <string name="upregnancy_causes">Causes</string>
     <string name="upregnancy_causes_detail">
         \u2022 Rape, incest or various other forms of forced or unwanted sex\n
         \u2022 Not using contraception or family planning services\n
         \u2022 Using contraception inconsistently or incorrectly\n
-        \u2022 Contraceptive failure (the method was used correctly, but did not work.) Contraceptive failure accounts for a relatively small fraction of unintended pregnancies when modern highly effective contraceptives are used.\n
+        \u2022 Contraceptive failure (the method was used correctly, but did not work). Contraceptive failure accounts for a relatively small fraction of unintended pregnancies when modern highly effective contraceptives are used\n
     </string>
     <string name="upregnancy_consequences">Consequences</string>
     <string name="upregnancy_consequences_detail">
-        \u2022 Prenatal care initiated later, and less adequate. Adversely affects health of woman and of child and less preparation for parenthood. Delay from unintended pregnancy is in addition to that from other risk factors for delay.\n
-        \u2022 Unintended pregnancies preclude chance to resolve sexually transmitted diseases (STD) before pregnancy. Untreated STD in pregnant woman can result in premature delivery, infection in newborn or infant death.\n
-        \u2022 Women with an unintended pregnancy are more likely to suffer depression during or after pregnancy.\n
+        \u2022 Prenatal care will not be initiated on time, which may lead to maternal and fetal complications due to inadequate follow up and treatment. \n
+        \u2022 Unintended pregnancies preclude chance to resolve sexually transmitted diseases (STD) before pregnancy. Untreated STD in pregnant woman can result in premature delivery, infection in newborn or infant death\n
+        \u2022 Women with an unintended pregnancy are more likely to suffer depression during or after pregnancy\n
         \u2022 Reduced likelihood of breastfeeding, resulting in less healthy children\n
-        \u2022 Lower mother-child relationship quality.\n
+        \u2022 Lower mother-child relationship quality\n
         \u2022 Greater infant mortality\n
         \u2022 Abortion, termination of pregnancy\n
     </string>
     <string name="unsafe_abortion">Unsafe Abortion</string>
-    <string name="unsafe_abortion_detail">WHO defines an unsafe abortion as \" a procedure for terminating an unwanted pregnancy either by persons lacking the necessary skills or in an environment lacking the minimal medical standards, or both\".
-Unsafe and illegal abortion is among the main causes of death worldwide.
+    <string name="unsafe_abortion_detail">WHO defines an unsafe abortion as \" a procedure for terminating an unwanted pregnancy either by persons lacking the necessary skills or in an environment lacking the minimal medical standards, or both\"
+Unsafe and illegal abortion is among the main causes of death worldwide\n
     </string>
     <string name="unsafe_method_abortion">Unsafe Methods of Abortion</string>
     <string name="unsafe_method_abortion_detail">
-        \u2022 Swallowing large doses of drugs, such as antimalarials or oral contraceptives.\n
-        \u2022 Inserting a sharp object into the uterus.\n
-        \u2022 Drinking or flushing the vagina with caustic liquids such as bleach.\n
-        \u2022 Physical abuse such as jumping or falling from high places, vigorous dancing, or sustained and vigorous sexual intercourse over long periods.\n
-        \u2022 Prolonged and hard massage to manipulate the uterus, or repeated blows to the stomach.\n
+        \u2022 Swallowing large doses of drugs, such as antimalarials or oral contraceptives\n
+        \u2022 Inserting a sharp object into the uterus\n
+        \u2022 Drinking or flushing the vagina with caustic liquids such as bleach\n
+        \u2022 Physical abuse such as jumping or falling from high places, vigorous dancing, or sustained and vigorous sexual intercourse over long periods\n
+        \u2022 Prolonged and hard massage to manipulate the uterus, or repeated blows to the stomach\n
     </string>
     <string name="safe_method_abortion">Safe Methods of Abortion</string>
     <string name="safe_method_abortion_detail">
-        \u2022 Safe methods of abortion used during the first trimester (12 weeks) of pregnancy are vacuum aspiration, dilation and curettage, and medication abortion. (The length of a pregnancy is measured from the first day of a woman’s last menstrual period.)\n
-        \u2022 For pregnancies of more than 12 completed weeks since the woman’s last menstrual period, the two most widely used abortion methods are dilation and evacuation (D and E) and medication abortion.\n
+        \u2022 Safe methods of abortion used during the first trimester (12 weeks) of pregnancy are vacuum aspiration, dilation and curettage, and medication abortion (The length of a pregnancy is measured from the first day of a woman’s last menstrual period)\n
+        \u2022 For pregnancies of more than 12 completed weeks since the woman’s last menstrual period, the two most widely used abortion methods are dilation and evacuation (D and E) and medication abortion\n
     </string>
     <string name="unsafe_abortion_issues">Unsafe Abortion Issues</string>
     <string name="unsafe_abortion_issues_detail">
-        <b><i>Incomplete abortion</i></b> occurs when some tissue remains in the uterus.\n
-        \u2022 Symptoms include abdominal pain; vaginal bleeding; and a soft, enlarged uterus.\n
-        \u2022 Treatment involves removing the remaining tissue in the uterus with vacuum aspiration or, if that is not available, with dilation and curettage.\n
-        <b><i>Infection</i></b> of uterine tissue can result from use of contaminated instruments or when tissue remains in the uterus.\n
-        \u2022 Symptoms include those of incomplete abortion as well as fever, chills, and foul-smelling vaginal discharge and uterine tenderness. Most often, symptoms appear two to three days after the abortion.\n
-        \u2022 Treatment involves antibiotics and vacuum aspiration if needed to remove the remaining tissue in the uterus.
-        <b><i>Heavy bleeding</i></b> results when an incomplete abortion is not treated or from some abortion techniques such as dilation and curettage or insertion of sticks or other objects into the cervix.\n
-        \u2022 Heavy bleeding also can be triggered by toxic reactions caused by herbs, drugs, or chemicals that are swallowed or placed in the vagina.\n
-        \u2022 Treatment may require removing remaining tissue in the uterus and administration of drugs to stop the bleeding, intravenous fluid replacement, and, in severe cases, blood transfusion or surgery.\n
-        <b><i>Uterine perforation</i></b> can occur when a sharp object or instrument is inserted into the uterus.\n
-        \u2022 Other organs also can be injured, including the cervix, ovaries, bowel, bladder, and rectum.\n
-        \u2022 Observation and antibiotics may be all that is needed as treatment, but in more severe cases, surgery may be needed to repair damage to bowel, blood vessels, or other organs.\n
-        NB: Untreated, these complications can cause disabilities and chronic conditions that include: chronic pelvic pain; pelvic inflammatory disease, an infection of the reproductive organs; and infertility.\n
+        <b><i>Incomplete abortion</i></b> occurs when some tissue remains in the uterus\n
+        \u2022 Symptoms include abdominal pain; vaginal bleeding; and a soft, enlarged uterus\n
+        \u2022 Treatment involves removing the remaining tissue in the uterus with vacuum aspiration or, if that is not available, with dilation and curettage\n
+        <b><i>Infection</i></b> of uterine tissue can result from use of contaminated instruments or when tissue remains in the uterus\n
+        \u2022 Symptoms include those of incomplete abortion as well as fever, chills, and foul-smelling vaginal discharge and uterine tenderness. Most often, symptoms appear two to three days after the abortion\n
+        \u2022 Treatment involves antibiotics and vacuum aspiration if needed to remove the remaining tissue in the uterus
+        <b><i>Heavy bleeding</i></b> results when an incomplete abortion is not treated or from some abortion techniques such as dilation and curettage or insertion of sticks or other objects into the cervix\n
+        \u2022 Heavy bleeding also can be triggered by toxic reactions caused by herbs, drugs, or chemicals that are swallowed or placed in the vagina\n
+        \u2022 Treatment may require removing remaining tissue in the uterus and administration of drugs to stop the bleeding, intravenous fluid replacement, and, in severe cases, blood transfusion or surgery\n
+        <b><i>Uterine perforation</i></b> can occur when a sharp object or instrument is inserted into the uterus\n
+        \u2022 Other organs also can be injured, including the cervix, ovaries, bowel, bladder, and rectum\n
+        \u2022 Observation and antibiotics may be all that is needed as treatment, but in more severe cases, surgery may be needed to repair damage to bowel, blood vessels, or other organs\n
+        NB: Untreated, these complications can cause disabilities and chronic conditions that include: chronic pelvic pain; pelvic inflammatory disease, an infection of the reproductive organs; and infertility\n
     </string>
     <!-- end of content of Unintended Pregnancy -->
     <!-- star of Sexually Transmitted Infections -->
     <string name="stis_head">Sexually Transmitted Infections (STIs)</string>
     <string name="sti_intro">Introduction</string>
     <string name="sti_intro_detail">
-    Sexually transmitted infections (STIs), also called sexually transmitted diseases (STDs), are infections that are passed from one person to another through sexual contact.
+    Sexually transmitted infections (STIs), also called sexually transmitted diseases (STDs), are infections that are passed from one person to another through sexual contact
     </string>
     <string name="sti_causes">Causes</string>
     <string name="sti_causes_detail">
-        More than 30 different bacteria, viruses and parasites are known to be transmitted through sexual contact. Eight of these pathogens are linked to the greatest incidence of sexually transmitted disease. Of these 8 infections, 4 are currently curable: syphilis, gonorrhoea, chlamydia and trichomoniasis. The other 4 are viral infections and are incurable: hepatitis B, herpes simplex virus (HSV or herpes), HIV, and human papillomavirus (HPV).
+        More than 30 different bacteria, viruses and parasites are known to be transmitted through sexual contact Eight of these pathogens are linked to the greatest incidence of sexually transmitted disease. Of these 8 infections, 4 are currently curable: syphilis, gonorrhoea, chlamydia and trichomoniasis. The other 4 are viral infections and are incurable: hepatitis B, herpes simplex virus (HSV or herpes), HIV, and human papillomavirus (HPV)
     </string>
     <string name="sti_transmission">Transmission</string>
     <string name="sti_transmission_detail">
             STIs are spread from one person to another person in the following ways:\n
-        \u2022 Having unprotected (without a condom) vaginal, oral, or anal sex with someone who has an STI. NB. STIs can be spread even if there are no signs or symptoms.\n
-        \u2022 During genital touching. It is possible to get some STIs, such as syphilis and herpes, without having sex.\n
-        \u2022 From a pregnant woman to her baby.\n
+        \u2022 Having unprotected (without a condom) vaginal, oral, or anal sex with someone who has an STI.\n NB: STIs can be spread even if there are no signs or symptoms\n
+        \u2022 During genital touching. It is possible to get some STIs, such as syphilis and herpes, without having sex\n
+        \u2022 From a pregnant woman to her baby\n
     </string>
     <string name="sti_syptoms">Signs and Symptoms</string>
     <string name="sti_syptoms_detail">
-        Different STIs have different manifestations. Many STIs have only mild symptoms or no signs or symptoms at all. When women have symptoms, the symptoms may be mistaken for something else, such as a urinary tract infection or yeast infection. The common signs/symptoms of STIs.\n
-        \u2022 Itching around the vagina and/or discharge from the vagina for women.\n
-        \u2022 Discharge from the penis for men.\n
-        \u2022 Pain during sex or when urinating.\n
-        \u2022 Pain in the pelvic area.\n
-        \u2022 Chancre sores (painless red sores) on the genital area, anus, tongue and/or throat.\n
-        \u2022 A scaly rash on the palms of your hands and the soles of your feet.\n
-        \u2022 Dark urine, loose, light-colored stools, and yellow eyes and skin.\n
-        \u2022 Small blisters that turn into scabs on the genital area.\n
-        \u2022 Swollen glands, fever and body aches.\n
-        \u2022 Unusual infections, unexplained fatigue, night sweats and weight loss.\n
-        \u2022 Soft, flesh-colored warts (growth) around the genital area.\n
+        Different STIs have different manifestations. Many STIs have only mild symptoms or no signs or symptoms at all When women have symptoms, the symptoms may be mistaken for something else, such as a urinary tract infection or yeast infection. The common signs/symptoms of STIs\n
+        \u2022 Itching around the vagina and/or discharge from the vagina for women\n
+        \u2022 Milky or slightly yellowish discharge from the penis for men\n
+        \u2022 Pain during sex or when urinating\n
+        \u2022 Pain in the pelvic area\n
+        \u2022 Chancre sores (painless red sores) on the genital area, anus, tongue and/or throat\n
+        \u2022 A scaly rash on the palms of your hands and the soles of your feet\n
+        \u2022 Dark urine, loose, light-colored stools, and yellow eyes and skin\n
+        \u2022 Small blisters that turn into scabs on the genital area\n
+        \u2022 Swollen glands, fever and body aches\n
+        \u2022 Unusual infections, unexplained fatigue, night sweats and weight loss\n
+        \u2022 Soft, flesh-colored warts (growth) around the genital area\n
     </string>
     <string name="sti_complications">Complications</string>
     <string name="sti_complications_detail">
-        STIs can have serious consequences beyond the immediate impact of the infection itself. Women often have more serious health problems from STIs than men, including infertility.\n
-        \nEach STI causes different health problems. Certain types of untreated STIs can cause or lead to:\n
-        \u2022 Problems getting pregnant or permanent infertility. STIs such as gonorrhoea and chlamydia are major causes of pelvic inflammatory disease (PID) and infertility in women.\n
-        \u2022 Problems during pregnancy and health problems for the unborn baby.\n
-        \u2022 Infection in other parts of the body\n
+        STIs can have serious consequences beyond the immediate impact of the infection itself. Women often have more serious health problems from STIs than men, including infertility\n
+        \nEach STI causes different health problems Certain types of untreated STIs can cause or lead to:\n
+        \u2022 Problems getting pregnant or permanent infertility STIs such as gonorrhoea and chlamydia are major causes of pelvic inflammatory disease (PID) and infertility in women\n
         \u2022 Organ damage\n
         \u2022 HPV infection can causes cervical cancer and related deaths each year\n
-        \u2022 STIs like herpes and syphilis can increase the risk of HIV acquisition three-fold or more.\n
-        \u2022 Mother-to-child transmission of STIs can result in stillbirth, neonatal death, low-birth-weight and prematurity, sepsis, pneumonia, neonatal conjunctivitis, and congenital deformities.\n
-        \u2022 Death.\n
+        \u2022 STIs like herpes and syphilis can increase the risk of HIV acquisition three-fold or more\n
+        \u2022 Mother-to-child transmission of STIs can result in miscarriage, stillbirth, intrauterine growth restriction (IUGR), neonatal death, low-birth-weight and prematurity, sepsis, pneumonia, neonatal conjunctivitis, and congenital deformities\n
+        \u2022 Death\n
     </string>
     <string name="sti_prevention">Prevention</string>
     <string name="sti_prevention_detail">
-        The best way to prevent an STI is to not have vaginal, oral, or anal sex.\n\n
+        The best way to prevent an STI is to not have vaginal, oral, or anal sex\n\n
         If you do have sex, lower your risk of getting an STI with the following steps:\n
-        \u2022 <b><i>Get vaccinated:</i></b> There are vaccines to protect against HPV and hepatitis B. (but not practiced in our country)\n
-        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex.\n\n
-        <b><i>NB.</i></b> Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
-with some sores (such as those that can occur with herpes) or warts (which can be caused by HPV infection).\n
-        \u2022 <b><i>Be monogamous (faithful to each other):</i></b> Having sex with just one partner can lower your risk for STIs. Your risk of getting STIs goes up with the number of partners you have.\n
-        <b><i>NB.</i></b> The steps work best when used together. No single step can protect you from every single type of STI.\n
+        \u2022 <b><i>Get vaccinated:</i></b> There are vaccines to protect against HPV and hepatitis B (but not practiced in our country)\n Get hepatitis B vaccination it is available in Ethiopia. (but not practiced in our country)\n
+        \u2022 <b><i>Use condoms:</i></b> Condoms are the best way to prevent STIs when you have sex\n\n
+        <b><i>NB</i></b> Though, that condoms aren’t 100% safe and can’t protect you from coming in contact
+with some sores (such as those that can occur with herpes) or warts (which can be caused by HPV infection)\n
+        \u2022 <b><i>Be monogamous (faithful to each other):</i></b> Having sex with just one partner can lower your risk for STIs Your risk of getting STIs goes up with the number of partners you have\n
+        <b><i>NB</i></b> The steps work best when used together No single step can protect you from every single type of STI\n
     </string>
     <string name="sti_treatment">Treatment</string>
     <string name="sti_treatment_detail">
-        Some STIs are curable while few are not. STIs that are caused by bacteria, like chlamydia, syphilis and Gonorrhoea, can be cured with antibiotics. But STIs caused by a virus (like HIV or herpes) can’t be cured. Your doctor can only treat the symptoms that the virus causes. Don’t wait to be treated. Early treatment helps prevent serious health problems.\n\n
-        See your doctor if you’re at risk for having an STI, if you have any of the symptoms, or if you have concerns about whether you have one. STIs can cause serious health problems if left untreated. For example, chlamydia can lead to problems that can cause women not to be able to have children (infertility). HPV can lead to cancer of the cervix or penis, and syphilis can lead to paralysis, mental problems, heart damage, blindness and even death.
+        Some STIs are curable while few are not STIs that are caused by bacteria, like chlamydia, syphilis and Gonorrhoea, can be cured with antibiotics. But STIs caused by a virus (like HIV or herpes) can’t be cured. Your doctor can only treat the symptoms that the virus causes Don’t wait to be treated. Early treatment helps prevent serious health problems\n\n
+        See your doctor if you’re at risk for having an STI, if you have any of the symptoms, or if you have concerns about whether you have one STIs can cause serious health problems if left untreated. For example, chlamydia can lead to problems that can cause women not to be able to have children (infertility). HPV can lead to cancer of the cervix or penis, and syphilis can lead to paralysis, mental problems, heart damage, blindness and even death
     </string>
     <!-- end of Sexually Transmitted Infections -->
 
@@ -530,7 +560,7 @@ with some sores (such as those that can occur with herpes) or warts (which can b
 
     <!-- START: HIV and STI Questions -->
 
-    <string name="hiv_sti_q1">Which one <b>is not</b> the benefit of using contraceptive methods for sexually active youths?</string>
+    <string name="hiv_sti_q1">Which one <b>is not</b> transmitted sexually?</string>
     <string-array name="hiv_sti_q1_choices">
         <item>HIV</item>
         <item>Syphilis</item>
@@ -570,7 +600,7 @@ with some sores (such as those that can occur with herpes) or warts (which can b
         <item>None</item>
         <item>None</item>
     </string-array>
-    <string name="hiv_sti_q6">Using double condom can prevent HIV and other STIs than using single condom for each sexual contact.</string>
+    <string name="hiv_sti_q6">Using double condom can prevent HIV and other STIs than using single condom for each sexual contact</string>
     <string-array name="hiv_sti_q6_choices">
         <item>True</item>
         <item>False</item>
@@ -677,7 +707,7 @@ sex and the method taken</string>
         <item>True</item>
     </string-array>
     <string name="contra_q10">The earlier that the emergency contraceptive method taken after unsafe sex, the higher the effectiveness
-of the method.</string>
+of the method</string>
     <string-array name="contra_q10_choices">
         <item>True</item>
         <item>False</item>
@@ -725,8 +755,8 @@ ones (Pills and injectable)</string>
 
     <!-- START: Pregnancy -->
     
-    <string name="preg_q1">____________ is a procedure for terminating an unwanted pregnancy either by persons lacking the
-minimal medical standards, or both</string>
+    <string name="preg_q1">____________ is a procedure for terminating an unwanted pregnancy either by a persons lacking the
+minimal medical standards or in an environment lacking the minimal medial standard, or both</string>
     <string-array name="preg_q1_choices">
         <item>Safe Abortion</item>
         <item>STI</item>
@@ -768,45 +798,45 @@ minimal medical standards, or both</string>
     <string-array name="myth_choices">
         <item>True</item>
         <item>False</item>
-        <item>True</item>
+        <item>False</item>
     </string-array>
-    <string name="myth_1">Myth#1: People with mental health problems are violent and unpredictable.</string>
+    <string name="myth_1">Myth#1: People with mental health problems are violent and unpredictable</string>
     <string name="myth_1_description">
         The vast majority of people with mental health problems are no more likely to be violent
 than anyone else. Most people with mental illness are not violent and only 3%–5% of violent
-acts can be attributed to individuals living with a serious mental illness.
+acts can be attributed to individuals living with a serious mental illness
     </string>
     <string name="myth_2">Myth#2: People with mental health needs, even those who are managing their mental illness, cannot
-tolerate the stress of being a student.</string>
+tolerate the stress of being a student</string>
     <string name="myth_2_description">
-        People with mental health problems are just as productive as handworker as other students.
+        People with mental health problems are just as productive and as hard-worker as other students
     </string>
-    <string name="myth_3">Myth#3: There is no hope for people with mental health problems. Once a friend or family member
-develops mental health problems, he or she will never recover.</string>
+    <string name="myth_3">Myth#3: There is no hope for people with mental health problems Once a friend or family member
+develops mental health problems, he or she will never recover</string>
     <string name="myth_3_description">
         Studies show that people with mental health problems get better and many recover
-completely.
+completely
     </string>
-    <string name="myth_4">Myth#4: Therapy and self-help are a waste of time. Why bother when you can just take a pill?</string>
+    <string name="myth_4">Myth#4: Therapy and self-help are a waste of time Why bother when you can just take a pill?</string>
     <string name="myth_4_description">
         Treatment for mental health problems varies depending on the individual and could include
-medication, therapy, or both.
+medication, therapy, or both
     </string>
-    <string name="myth_5">Myth#5: I can\'t do anything for a person with a mental health problem.</string>
+    <string name="myth_5">Myth#5: I can\'t do anything for a person with a mental health problem</string>
     <string name="myth_5_description">
-        Friends and loved ones can make a big difference. Friends and family can be important
-influences to help someone get the treatment and services they need.
+        Friends and loved ones can make a big difference Friends and family can be important
+influences to help someone get the treatment and services they need
     </string>
-    <string name="myth_6">Myth#6: Prevention doesn\'t work. It is impossible to prevent mental illnesses.</string>
+    <string name="myth_6">Myth#6: Prevention doesn\'t work It is impossible to prevent mental illnesses</string>
     <string name="myth_6_description">
         Prevention of mental, emotional, and behavioral disorders focuses on addressing known risk
 factors such as exposure to trauma that can affect the chances that children, youth, and
-young adults will develop mental health problems.
+young adults will develop mental health problems
     </string>
-    <string name="myth_7">Myth#7: People with a mental illness lack intelligence.</string>
+    <string name="myth_7">Myth#7: People with a mental illness lack intelligence</string>
     <string name="myth_7_description">
-        Intelligence has nothing to do with mental illnesses or brain disorders. On one hand, many
-people with mental disorders are brilliant, creative, productive people.
+        Intelligence has nothing to do with mental illnesses or brain disorders On one hand, many
+people with mental disorders are brilliant, creative, productive people
     </string>
     <!-- END: Mental Health -->
 </resources>

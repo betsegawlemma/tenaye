@@ -33,7 +33,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="1dp"
                     android:background="@drawable/question_background"
-                    android:gravity="center"
+                    android:gravity="left|center"
                     android:padding="15dp"
                     android:text="@string/contra_q1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"

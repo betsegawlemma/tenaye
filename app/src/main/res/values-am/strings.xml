@@ -758,289 +758,291 @@
     <!-- Questions -->
     <string name="cross_mark">\u2717</string>
     <string name="check_mark">\u2713 </string>
-    <string name="next"><b>Next</b></string>
+    <string name="next"><b>ቀጣይ ጥያቄ</b></string>
 
     <!-- START: HIV and STI Questions -->
 
-    <string name="hiv_sti_q1">Which one <b>is not</b> the benefit of using contraceptive methods for sexually active youths?</string>
+    <string name="hiv_sti_q1">ከሚከተሉት በሽታዎች የትኛው በግብረ ስጋ ግንኙነት አተላለፋም?</string>
     <string-array name="hiv_sti_q1_choices">
-        <item>HIV</item>
-        <item>Syphilis</item>
-        <item>Gonorrhoea</item>
-        <item>None</item>
-        <item>None</item>
+        <item>ኤችአይቪ</item>
+        <item>ቂጥኝ</item>
+        <item>ጨብጥ</item>
+        <item>መልሱ አልተሰጠም</item>
+        <item>መልሱ አልተሰጠም</item>
     </string-array>
-    <string name="hiv_sti_q2">You can prevent sexually transmitted infections (STIs) <b>except</b>?</string>
+    <string name="hiv_sti_q2">ከሚከተሉት ዘዴዎች <b>ከአንዱ ሌላ</b> በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎችን ለመከላከል ይቻላል</string>
     <string-array name="hiv_sti_q2_choices">
-        <item>Using Contraceptive methods</item>
-        <item>Using condoms</item>
-        <item>Through Abstinence</item>
-        <item>Through being faithful</item>
-        <item>Using Contraceptive methods</item>
+        <item>የእርግዝና መከላከያ ዘዴዎችን በጠመቀም</item>
+        <item>ኮንዶም በመጠቀም</item>
+        <item>በመታቀብ</item>
+        <item>ታማኝ በመሆን</item>
+        <item>የእርግዝና መከላከያ ዘዴዎችን በመጠቀም</item>
     </string-array>
-    <string name="hiv_sti_q3">What can be a sign/symptom for sexually transmitted infections <b>except</b>?</string>
+    <string name="hiv_sti_q3">ከሚከተሉት <b>ከአንደኛው በስተቀር</b> በግብረ ስጋ ግንኙነት ለሚተላለፉ በሽታዎች ምልክት ነው</string>
     <string-array name="hiv_sti_q3_choices">
-        <item>Headache</item>
-        <item>Lower abdominal crumpy pain in female</item>
-        <item>Abnormal vaginal discharge</item>
-        <item>Urethral discharge in male</item>
-        <item>Headache</item>
+        <item>የራስ ህመም</item>
+        <item>ሴቶችን ሊሰማ የሚችል ታችኛው የሆድ ክፍል አካባቢ የሚሰማ ህመም</item>
+        <item>ያልተለመደ ከሴቶች ብልት የሚወጣ ፈሳሽ</item>
+        <item>ከወንዶች ብልት የሚወጣ ፈሳሽ</item>
+        <item>የራስ ህመም</item>
     </string-array>
-    <string name="hiv_sti_q4">Which STI <b>is not</b> correctly matched with sign and symptom</string>
+    <string name="hiv_sti_q4">የትኛው በግብረ ስጋ ግንኙነት የሚተላለፍ በሽታ ከጎትን ከተሰጡት የህመም ምልክቶች ጋር የሚጣጣም አይደለም</string>
     <string-array name="hiv_sti_q4_choices">
-        <item>Syphilis, Vaginal discharge</item>
-        <item>Gonorrhoea, Vaginal discharge</item>
-        <item>Gonorrhoea, urethral discharge in male</item>
-        <item>Chancroid, Ulcer</item>
-        <item>Syphilis, Vaginal discharge</item>
+        <item>ቂጥኝ - ከሴቶች የመራቢያ ብልት ያልተለመደ ፈሳሽ</item>
+        <item>ጨብጥ - ከሴቶች የመራቢያ ብልት ያልተለመደ ፈሳሽ</item>
+        <item>ጨብጥ - ከወንዶች ብልት የሚወጣ ፈሳሽ</item>
+        <item>ከርክር - አልሰር</item>
+        <item>ቂጥኝ - ከሴቶች የመራቢያ ብልት ያልተለመደ ፈሳሽ</item>
     </string-array>
-    <string name="hiv_sti_q5">One <b>is not</b> recommended if you experience sign/symptom of STIs</string>
+    <string name="hiv_sti_q5">በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎች ምልክት በሚታይበት ጊዜ ከሚከተሉት አንዱ የሚመከር አይደለም</string>
     <string-array name="hiv_sti_q5_choices">
-        <item>Visit health institutions for medical care as early as possible</item>
-        <item>Take the prescribed medicine/drugs completely</item>
-        <item>Your partner should also take the drugs though asymptomatic</item>
-        <item>None</item>
-        <item>None</item>
+        <item>በተቻለ ፍጥነት የህክምና እርዳታ ለማግኘት ወደ ህክምና ተቋም መሄድ</item>
+        <item>የታዘዘን መድሃኒት እና እንክብል ሙሉ በሙሉ መውሰድ</item>
+        <item>ምልክቱ ባይታይበትም ግብረ ስጋ ግንኙነት ከእርስዎ ጋር ያላቸው ጓደኛ መድሃኒቱን እንዲወስዱ ማድረግ</item>
+        <item>መልሱ አልተሰጠም</item>
+        <item>መልሱ አልተሰጠም</item>
     </string-array>
-    <string name="hiv_sti_q6">Using double condom can prevent HIV and other STIs than using single condom for each sexual contact.</string>
+    <string name="hiv_sti_q6">ለእያንዳንዱ የግብረ ስጋ ግንኙነት ነጠላ ኮንዶምን ከመጠቀም ይልቅ ደርቦ መጠቀም ከኤችአይቪ እና ሌሎች
+በግብረ ስጋ ግንኙነት ከሚመጡ በሽታዎች ለመከላከል ያስችላል</string>
     <string-array name="hiv_sti_q6_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="hiv_sti_q7">Presence of other STIs like Syphilis can increase the chance of acquiring HIV infection</string>
+    <string name="hiv_sti_q7">እንደ ቂጥኝ ያሉ በግብረ ስጋ ግንኙነት የሚመጡ በሽታዎች በኤችአይቪ የመያዝ እድልን ይጨምራሉ</string>
     <string-array name="hiv_sti_q7_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
-    <string name="hiv_sti_q8">All sexually transmitted infections are preventable</string>
+    <string name="hiv_sti_q8">ሁሉም በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎችን መከላከል ይቻላል</string>
     <string-array name="hiv_sti_q8_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
-    <string name="hiv_sti_q9">All sexually transmitted infections are curable</string>
+    <string name="hiv_sti_q9">ሁሉም በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎች ሊድኑ ይቻላሉ</string>
     <string-array name="hiv_sti_q9_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="hiv_sti_q10">Syphilis can be transmitted from one person to another through shared pants</string>
+    <string name="hiv_sti_q10">የውስጥ ልብስን / ፓንትን በመጋራት ቂጥኝ ከአንድ ሰው ወደ ሌላ ሰው ሊተላለፍ ይችላል</string>
     <string-array name="hiv_sti_q10_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
 
     <!-- END: HIV and STI Questions -->
 
     <!-- START: Contraception -->
 
-    <string name="contra_q1">Which one <b>is not</b> the benefit of using contraceptive methods for sexually active youths?</string>
+    <string name="contra_q1">ከሚከተሉት አንዱ የወሲብ ግንኙነት ለጀመሩ ወጣቶች ጠቃሚ የእርግዝና መከላከያ ዘዴ አይደለም</string>
     <string-array name="contra_q1_choices">
-        <item>Prevents unplanned pregnancies</item>
-        <item>Induces abortion for unplanned pregnancy</item>
-        <item>Reduces school dropout rate</item>
-        <item>None</item>
-        <item>None</item>
+        <item>ያልታቀደ እርግዝናን ይከላከላል</item>
+        <item>ላልተፈለገ እርግዝና ጽንስ ማቋረጥን ይቀንሳል፣</item>
+        <item>የትምህርት ማቋረጥን ይቀንሳል፣</item>
+        <item>መልሱ አልተሰጠም</item>
+        <item>መልሱ አልተሰጠም</item>
     </string-array>
-    <string name="contra_q2">Which contraceptive method can prevent both pregnancy and sexually transmitted diseases?</string>
+    <string name="contra_q2">ከሚከተሉት የእርግዝና መከላከያ ዘዴዎች የትኛው እርግዝናንና በግብረ ስጋ ግንኙነት የሚተላለፉ በሽታዎችን
+ይከላከላል?</string>
     <string-array name="contra_q2_choices">
-        <item>Implants</item>
-        <item>Intrauterine device (IUCD)</item>
-        <item>Emergency Pills</item>
-        <item>Condoms</item>
-        <item>Condoms</item>
+        <item>ኢምፕላንት/</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች (ይአይሲዲ )</item>
+        <item>የድንገተኛ መከላከያ እንክብሎች</item>
+        <item>ኮንዶም</item>
+        <item>ኮንዶም</item>
     </string-array>
-    <string name="contra_q3">Which contraceptive method is highly effective than the others?</string>
+    <string name="contra_q3">ከሚከተሉት የእርግዝና መከላከያ ዘዴዎች መካከል የትኛው በከፍተኛነት ውጤታማ ነው?</string>
     <string-array name="contra_q3_choices">
-        <item>Implants</item>
-        <item>Emergency Pills</item>
-        <item>Regular pills</item>
-        <item>Condoms</item>
-        <item>Implants</item>
+        <item>ኢምፕላንት</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች (ይአይሲዲ )</item>
+        <item>የድንገተኛ መከላከያ እንክብሎች</item>
+        <item>ኮንዶም</item>
+        <item>ኢምፕላንት/</item>
     </string-array>
-    <string name="contra_q4">Which method is least effective in preventing pregnancy?</string>
+    <string name="contra_q4">ከሚከተሉት የእርግዝና መከላከያ ዘዴዎች መካከል የትኛው ብዝቅተኛነት ውጤታማ ነው፡፡</string>
     <string-array name="contra_q4_choices">
-        <item>Implants</item>
-        <item>Condoms</item>
-        <item>IUCD</item>
-        <item>Injection</item>
-        <item>Condoms</item>
+        <item>ኢምፕላንት</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች (ይአይሲዲ )</item>
+        <item>የድንገተኛ መከላከያ እንክብሎች</item>
+        <item>ኮንዶም</item>
+        <item>ኮንዶም</item>
     </string-array>
-    <string name="contra_q5">Which contraceptive is no t correctly matched with regard to duration of pregnancy protection?</string>
+    <string name="contra_q5">በእርግዝና መከላከል ቆይታ ረገድ የትኛው የመከላከያ ዘዴ ከሚከተሉት ምርጫዎች ጋር በትክክል የማይዛመድ
+ነው፡፡</string>
     <string-array name="contra_q5_choices">
-        <item>Implants, 3-5 years</item>
-        <item>Intrauterine device (IUCD), 12 years</item>
-        <item>Emergency Pills, 1 cycle for one month</item>
-        <item>Condoms, 1 condom for a single sexual contact</item>
-        <item>Emergency Pills, 1 cycle for one month</item>
+        <item>ኢምፕላንት፣ ከ 3-5</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች ( ጄዩሲዲ )፡ 12 አመት</item>
+        <item>ድንገተኛ እንክብሎች፣ ለ 1 ዙር 1 ወር</item>
+        <item>ኮንዶም፣1 ኮንዶም ለአንድ ጊዜ የግብረ ስጋ ግንኙነት ያገለግላል</item>
+        <item>ድንገተኛ እንክብሎች፣ ለ 1 ዙር 1 ወር</item>
     </string-array>
-    <string name="contra_q6">Identify a permanent contraceptive method done in females</string>
+    <string name="contra_q6">ሴቶች ሊጠቀሙትት የሚችሉት ቋሚ የእርግዝና መከላከያ ዘዴ ለይ</string>
     <string-array name="contra_q6_choices">
-        <item>Implants</item>
-        <item>Intrauterine device (IUCD)</item>
-        <item>Tubaligation</item>
-        <item>Vasectomy</item>
-        <item>Vasectomy</item>
+        <item>ኢምፕላንት</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች (ይአይሲዲ )</item>
+        <item>ቱባሊጌሽን ( ሉፕ )</item>
+        <item>ቫስኮቶሚ</item>
+        <item>ቫስኮቶሚ</item>
     </string-array>
-    <string name="contra_q7">Which contraceptive method demands professional skill?</string>
+    <string name="contra_q7">የትኛው የእርግዝና መከላከያ መንገድ የባሙያ እገዛ ይፈልጋል?</string>
     <string-array name="contra_q7_choices">
-        <item>Intrauterine device (IUCD)</item>
-        <item>Emergency Pills</item>
-        <item>Regular pills</item>
-        <item>Condoms</item>
-        <item>Intrauterine device (IUCD)</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች (ይአይሲዲ )</item>
+        <item>የድንገተኛ እንክብሎች</item>
+        <item>መደበኛ እንክብል</item>
+        <item>ኮንዶም</item>
+        <item>ኢንትራዩቲሪን መሳሪያዎች / በማህፀን ውስጥ የሚተከሉ መከላከያዎች (ይአይሲዲ )</item>
     </string-array>
-    <string name="contra_q8">What is the maximum duration of time an emergency contraceptive can protect/prevent pregnancy?</string>
+    <string name="contra_q8">ለድንገተኛ የእርግዝና መከላከል ከፍተኛው የመከላከል ቆይታው ምን ያህል ነው?</string>
     <string-array name="contra_q8_choices">
-        <item>1 day</item>
-        <item>3 days</item>
-        <item>4 days</item>
-        <item>5 days</item>
-        <item>5 days</item>
+        <item>1 ቀን</item>
+        <item>3 ቀናት</item>
+        <item>4 ቀናት</item>
+        <item>5 ቀናት</item>
+        <item>5 ቀናት</item>
     </string-array>
-    <string name="contra_q9">The effectiveness of "emergency contraceptive" relay on the duration of time between unsafe/unprotected
-sex and the method taken</string>
+    <string name="contra_q9">የድንገተኛ የእርግዝና መከላከያ ውጤታማነት ደህንነቱ ያልተጠበቀ የግብረ ስጋ ግንኙነት ከተደረገ
+እና ዘዴው ጥቅም ላይ ከዋለ በኋላ ባለው የቆይታ ጊዜ ይወሰናል</string>
     <string-array name="contra_q9_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
-    <string name="contra_q10">The earlier that the emergency contraceptive method taken after unsafe sex, the higher the effectiveness
-of the method.</string>
+    <string name="contra_q10">ደህንነቱ ላልተጠበቀ የግብረ ስጋ ግንኙነት በጊዜ የድንገተኛ እርግዝና መከላከያው ቢወሰድ
+ውጤታማነቱ ከፍተኛ ነው</string>
     <string-array name="contra_q10_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
-    <string name="contra_q11">It is acceptable to use an emergency contraceptive as a regular contraceptive method</string>
+    <string name="contra_q11">የድንገተኛ የእርግዝና መከላከያ ዘዴን በመደበኛነት መጠቀም ተቀባይነት አለው</string>
     <string-array name="contra_q11_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="contra_q12">Long acting reversible contraceptives (Implants and IUCD) have severe side effects than short acting
-ones (Pills and injectable)</string>
+    <string name="contra_q12">ለረጅም ጊዜ የሚቆይ የእርግዝና መከላከያዎች ( ኢምፕላንት እና አይዩሲዲ ) ለአጭር ጊዜ
+ከሚወሰዱት ( እንክብሎች እና መርፌ ) ይልቅ ከባድ የጎንዮሽ ጉዳት አላቸው</string>
     <string-array name="contra_q12_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="contra_q13">Intrauterine device (IUCD) <b>is not</b> recommended for unmarried girls</string>
+    <string name="contra_q13">በማህፀን የሚተከል ( አይዩሲዲ ) ላላገቡ ሴቶች የማይመከር ዘዴ ነው</string>
     <string-array name="contra_q13_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="contra_q14">Implants can have a chance of embedding in to the brain</string>
+    <string name="contra_q14">ኢንፕላንት አንጎልን የመጉዳት እድል አለው</string>
     <string-array name="contra_q14_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="contra_q15">Intrauterine device (IUCD) can cause discomfort during sex</string>
+    <string name="contra_q15">በማህፀን ውስጥ የሚቀበር የእርግዝና መከላከያ ( አይዩሲዲ ) በግብረ ስጋ ግንኙነት ጊዜ ምቾት
+አይሰጥም</string>
     <string-array name="contra_q15_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="contra_q16">Implants can cause arthritis (joint pain)</string>
+    <string name="contra_q16">ኢምፕላንት የመገጣጠሚያ ህመም (አርትሪቲ) ሊያመጣ ይችላል </string>
     <string-array name="contra_q16_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>False</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
 
     <!-- END: Contraception -->
 
     <!-- START: Pregnancy -->
 
-    <string name="preg_q1">____________ is a procedure for terminating an unwanted pregnancy either by persons lacking the
-minimal medical standards, or both</string>
+    <string name="preg_q1">____________ የሚባለው በቂ የህክምና ክህሎት በሌለው ባለሙያ ወይም ደግሞ አስፈላጊውን የህክምናን መመዘኛ ባላሙዋላ ቦታ ያልተፈለገ እርግዝናን ለማቋረጥ
+        የሚደረ ሂደት ነው፡፡</string>
     <string-array name="preg_q1_choices">
-        <item>Safe Abortion</item>
-        <item>STI</item>
-        <item>Unsafe Abortion</item>
-        <item>All</item>
-        <item>Unsafe Abortion</item>
+        <item>ደህንነቱ የተጠበቀ ፅንስ ማስወረድ</item>
+        <item>ኤስቲአይ</item>
+        <item>ደህንነቱ ያልተጠበቀ ፅንስ ማስወረድ</item>
+        <item>ሁሉም</item>
+        <item>ደህንነቱ ያልተጠበቀ ፅንስ ማስወረድ</item>
     </string-array>
-    <string name="preg_q2">One of the following is safe method of abortion</string>
+    <string name="preg_q2">ከሚከተሉት አንዱ ደህንነቱ የተጠበቀ ጽንስ የማስወረድ ዘዴ ነ</string>
     <string-array name="preg_q2_choices">
-        <item>Inserting a sharp object into the uterus</item>
-        <item>Vacuum aspiration</item>
-        <item>Prolonged and hard massage</item>
-        <item>Swallowing large doses of drugs</item>
-        <item>Vacuum aspiration</item>
+        <item>ወደ ማህፀን ውስጥ ስለታማ እቃዎችን ማስገባት</item>
+        <item>የቫኪውም አስፐሬሽን</item>
+        <item>ለረጅም ጊዜ የሚቆይ እና በኃይለኛው የሚደረግ ማሳ</item>
+        <item>ቁጥሩ በርካታ የሆነ መድሃኒት መዋጥ</item>
+        <item>የቫኪውም አስፐሬሽን</item>
     </string-array>
-    <string name="preg_q3">Which one of the following is issues of unsafe abortion?</string>
+    <string name="preg_q3">ከሚከተሉት ውስጥ የትኛው ደህንነቱ ያልተጠበቀ ጽንስ ማቋረጥ ሂደት ችግር ነው</string>
     <string-array name="preg_q3_choices">
-        <item>Infection</item>
-        <item>Heavy Bleeding</item>
-        <item>Uterine Perforation</item>
-        <item>All</item>
-        <item>All</item>
+        <item>ኢንፌክሽን</item>
+        <item>ከባድ የደም መፍሰስ</item>
+        <item>የማህፀን መቀደድ</item>
+        <item>ሁሉም</item>
+        <item>ሁሉም</item>
     </string-array>
-    <string name="preg_q4">Rape can be a cause for unintended pregnancy</string>
+    <string name="preg_q4">ተገዶ መደፈር ያልተፈለገ እርግዝና መንስኤ ነው</string>
     <string-array name="preg_q4_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
-    <string name="preg_q5">Unintended pregnancy can lead to depression</string>
+    <string name="preg_q5">ያልተፈለገ እርግዝና ድብርት ሊያስከትል ይችላል</string>
     <string-array name="preg_q5_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>እውነት</item>
     </string-array>
     <!-- END: Pregnancy -->
 
     <!-- START: Mental Health-->
-
-    <string name="myth_description">Description</string>
     <string-array name="myth_choices">
-        <item>True</item>
-        <item>False</item>
-        <item>True</item>
+        <item>እውነት</item>
+        <item>ሀሰት</item>
+        <item>ሀሰት</item>
     </string-array>
-    <string name="myth_1">Myth#1: People with mental health problems are violent and unpredictable.</string>
+    <string name="myth_1">የተዛባ አመለካክት ቁ1- የአዕምሮ ህመም ያለባቸው ሰዎች ረብሸኛና ምን ሊፈጥሩ እንደሚችሉ መገመት አይቻልም</string>
     <string name="myth_1_description">
-        The vast majority of people with mental health problems are no more likely to be violent
-than anyone else. Most people with mental illness are not violent and only 3%–5% of violent
-acts can be attributed to individuals living with a serious mental illness.
+        አብዛኛው የአእምሮ እክል ያለባቸው ሰዎች ከሌሎች ሰዎች ይልቅ ረብሸኛ የመሆን እድላቸው አነስተኛ ነው፡፡
+አብዛኞቹ የአእምሮ ህመም ያለባቸው ሰዎች ረብሸኞች አይደሉም፡፡ ከባድ የአእምሮ ህመም ያለባቸው ከ 3-
+5 በመቶ የሚሆኑት ብቻ የረብሸኝነት ባህሪ ይታይባቸዋል፡፡
     </string>
-    <string name="myth_2">Myth#2: People with mental health needs, even those who are managing their mental illness, cannot
-tolerate the stress of being a student.</string>
+    <string name="myth_2">የተዛባ አመለካክት ቁ2- የአዕምሮ ህመም ያለባቸው ሰዎች ምንም እንኳን የአእምሮ ህመማቸውን መቆጣጠር
+ቢችሉም ተማሪ የመሆን ጭንቀትን ግ መቋቋም አይችሉም፡፡</string>
     <string name="myth_2_description">
-        People with mental health problems are just as productive as handworker as other students.
+        የአዕምሮ ህመም ያለባቸው ሰዎች እንደ ሌሎች ተማሪዎች ምርታማና ታታሪ ሰራተኞች መሆን ይችላሉ፡፡
     </string>
-    <string name="myth_3">Myth#3: There is no hope for people with mental health problems. Once a friend or family member
-develops mental health problems, he or she will never recover.</string>
+    <string name="myth_3">የተዛባ አመለካክት ቁ3- የአዕምሮ ህመም ያለባቸው ሰዎች ተስፋ የላቸውም፡፡ የቤተሰብ አባል ወይም ጓደኛ የአምሮ
+ጤና እክል ከታየበት ፈጽሞ ለማገገም አይችልም፡፡</string>
     <string name="myth_3_description">
-        Studies show that people with mental health problems get better and many recover
-completely.
+        ጥናቶች እንደሚያሳዩት የአእምሮ ጤና ችግር ያለባቸው ሰዎች ሊሻላቸው እና አብዛኞቹም ሙሉ በሙሉ
+ሊያገግሙ ይችላሉ፡፡
     </string>
-    <string name="myth_4">Myth#4: Therapy and self-help are a waste of time. Why bother when you can just take a pill?</string>
+    <string name="myth_4">የተዛባ አመለካክት ቁ4- የህክምና እርዳታና ለራስ የሚሰጥ እርዳታ ለአዕምሮ ህመም ብዙ ጠቀሜታ የለውም፡ መድሃኒትን መዋጥ እያለ
+ለምን መቸገር ያስፈልጋል?</string>
     <string name="myth_4_description">
-        Treatment for mental health problems varies depending on the individual and could include
-medication, therapy, or both.
+        የአእምሮ ጤና እክል የህክምና እርዳታ እንደግለሰቡ ይለያል፡፡ የመድሃነት ህክምናን
+ቴራፒን ወይንም ሁለቱንም ያካተተ ህክምና ሊሰጣቸው ይችላል፡፡
     </string>
-    <string name="myth_5">Myth#5: I can\'t do anything for a person with a mental health problem.</string>
+    <string name="myth_5">የተዛባ አመለካክት ቁ5- የአዕምሮ ህመም ላለባቸው ሰዎች ምንም ነገር ማድረግ አልችልም፡፡</string>
     <string name="myth_5_description">
-        Friends and loved ones can make a big difference. Friends and family can be important
-influences to help someone get the treatment and services they need.
+        ጓደኞችና የቤተሰብ አባላት ትልቅ ለውጥ ሊያመጡ ይችላሉ፡፡ ጓደኛና የቤተሰብ አባላት የአእምሮ ህመም ያለበት
+ግለሰብ የሚያስለፈልገውን የህክምና እርዳታ አገልግሎት እንዲያገኝ ታላቅ አስተዋአጾ ሊያደርጉ ይችላሉ፡፡
     </string>
-    <string name="myth_6">Myth#6: Prevention doesn\'t work. It is impossible to prevent mental illnesses.</string>
+    <string name="myth_6">የተዛባ አመለካክት ቁ6- የአእምሮ ህመምን መከላከል በፍጹም መከላከል አይቻልም፡፡</string>
     <string name="myth_6_description">
-        Prevention of mental, emotional, and behavioral disorders focuses on addressing known risk
-factors such as exposure to trauma that can affect the chances that children, youth, and
-young adults will develop mental health problems.
+        የአዕምሮ የስሜት እና የባህሪ መዛባትን ለመከላከል በልጅነት በታዳጊነት እና በወጣትነት ጊዜ ግለሰቡ ባጋጠመው የከባድ ሀዘን ተጠቂነት ምክንያት
+        ሊያዳብር ወደቻለው የአእምሮ የጤና እክል ላይ በማተኮር መፍትሄ መፈለግ ይቻላል፡፡
     </string>
-    <string name="myth_7">Myth#7: People with a mental illness lack intelligence.</string>
+    <string name="myth_7">የተዛባ አመለካክት ቁ7- የአዕምሮ ህመም ያለባቸው ሰዎች የመገንዘብ አቅማቸው ዝቅተኛ ነው፡፡</string>
     <string name="myth_7_description">
-        Intelligence has nothing to do with mental illnesses or brain disorders. On one hand, many
-people with mental disorders are brilliant, creative, productive people.
+        የመገንዘብ አቅም ከአእምሮ ህመም እና ከአእምሮ መቃወስ ጋር ምንም ግንኙነት የለውም፡፡ በሌላ በኩል ብዙ
+የአዕምሮ መቃወስ ያለባቸው ሰዎች የላቀ እውቀት ያላቸው አምራች እና የፈጠራ ሰዎች ናቸው፡፡
     </string>
     <!-- END: Mental Health -->
 </resources>

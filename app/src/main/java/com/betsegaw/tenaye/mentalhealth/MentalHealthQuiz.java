@@ -137,7 +137,6 @@ public class MentalHealthQuiz extends Fragment{
         return choice.equals(answer);
     }
 
-
     private int getStringResourceByName(String aString, String type) {
         String packageName = getActivity().getPackageName();
         int resId = getResources().getIdentifier(aString, type, packageName);
