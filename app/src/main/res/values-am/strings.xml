@@ -252,6 +252,8 @@
         \u2022 ከመከናወኑ አስቀድሞ የባለሙያ ምክር አገልግሎት እንደሚያስፈልግዎት ሙሉ በሙሉ እርግጠኛ
 መሆን አለበዎት፡፡\n
     </string>
+    <string name="contra_male_condom">የወንድ ኮንዶም አጠቃቀም</string>
+    <string name="contra_female_condom">የሴት ኮንዶም አጠቃቀም</string>
     <!-- End of Contraceptive content -->
 
    <!-- Start of HIV content -->
@@ -402,6 +404,8 @@
 ልጆቻቸውም ከተወለዱ በኋላ ከ 4 እስከ 6 ሳምንታት ለሚቆይ ጊዜ የኤችአይቪ መድሃትን
 መውሰድ አለባቸው፡፡\n
     </string>
+    <string name="hiv_male_condom">የወንድ ኮንዶም አጠቃቀም</string>
+    <string name="hiv_female_condom">የሴት ኮንዶም አጠቃቀም</string>
     <!-- End of HIV content -->
     <!-- Start of Mental Health content -->
     <string name="mh_head">የአዕምሮ ጤና ችግሮች</string>

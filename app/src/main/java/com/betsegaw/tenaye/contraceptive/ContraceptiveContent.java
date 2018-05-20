@@ -72,6 +72,16 @@ public class ContraceptiveContent extends Fragment {
     TextView contraFsArrow;
     ConstraintLayout contraFsDetail;
 
+    // Contraception male condom
+    TextView contraMaleCondomHeader;
+    TextView contraMaleCondomArrow;
+    ConstraintLayout contraMaleCondomDetails;
+
+    // Contraception female condom
+    TextView contraFemaleCondomHeader;
+    TextView contraFemaleCondomArrow;
+    ConstraintLayout contraFemaleCondomDetails;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -300,6 +310,48 @@ public class ContraceptiveContent extends Fragment {
             }
         });
 
+        // ContraceptionHivAndSTIs Male Condom
+        contraMaleCondomHeader = view.findViewById(R.id.contra_male_condom_header);
+        contraMaleCondomArrow = view.findViewById(R.id.contra_male_condom_arrow);
+        contraMaleCondomDetails = view.findViewById(R.id.contra_male_condom_details);
+
+        contraMaleCondomHeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TransitionManager.beginDelayedTransition(contraMaleCondomDetails);
+
+                if(contraMaleCondomDetails.getVisibility()==View.VISIBLE){
+                    contraMaleCondomArrow.setText(R.string.down_arrow);
+                    setGone(contraMaleCondomDetails);
+                }else if(contraMaleCondomDetails.getVisibility()==View.GONE) {
+                    setVisible(contraMaleCondomDetails);
+                    contraMaleCondomArrow.setText(R.string.up_arrow);
+
+                }
+            }
+        });
+
+        // Contraception Female Condom
+        contraFemaleCondomHeader = view.findViewById(R.id.contra_female_condom_header);
+        contraFemaleCondomArrow = view.findViewById(R.id.contra_female_condom_arrow);
+        contraFemaleCondomDetails = view.findViewById(R.id.contra_female_condom_details);
+
+        contraFemaleCondomHeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TransitionManager.beginDelayedTransition(contraFemaleCondomDetails);
+
+                if(contraFemaleCondomDetails.getVisibility()==View.VISIBLE){
+                    contraFemaleCondomArrow.setText(R.string.down_arrow);
+                    setGone(contraFemaleCondomDetails);
+                }else if(contraFemaleCondomDetails.getVisibility()==View.GONE) {
+                    setVisible(contraFemaleCondomDetails);
+                    contraFemaleCondomArrow.setText(R.string.up_arrow);
+
+                }
+            }
+        });
+
         return view;
 
 
@@ -329,6 +381,8 @@ public class ContraceptiveContent extends Fragment {
         contraMsArrow.setText(R.string.down_arrow);
         contraFsDetail.setVisibility(View.GONE);
         contraFsArrow.setText(R.string.down_arrow);
+        contraMaleCondomDetails.setVisibility(View.GONE);
+        contraMaleCondomArrow.setText(R.string.down_arrow);
 
         constraintLayout.setVisibility(View.VISIBLE);
 

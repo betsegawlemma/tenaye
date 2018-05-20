@@ -52,6 +52,16 @@ public class HivContent extends Fragment {
     TextView hivPreventionArrow;
     ConstraintLayout hivPreventionDetail;
 
+    // Hiv male condom
+    TextView hivMaleCondomHeader;
+    TextView hivMaleCondomArrow;
+    ConstraintLayout hivMaleCondomDetails;
+
+    // Hiv female condom
+    TextView hivFemaleCondomHeader;
+    TextView hivFemaleCondomArrow;
+    ConstraintLayout hivFemaleCondomDetails;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -206,6 +216,48 @@ public class HivContent extends Fragment {
             }
         });
 
+        // HivAndSTIs Male Condom
+        hivMaleCondomHeader = view.findViewById(R.id.hiv_male_condom_header);
+        hivMaleCondomArrow = view.findViewById(R.id.hiv_male_condom_arrow);
+        hivMaleCondomDetails = view.findViewById(R.id.hiv_male_condom_details);
+
+        hivMaleCondomHeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TransitionManager.beginDelayedTransition(hivMaleCondomDetails);
+
+                if(hivMaleCondomDetails.getVisibility()==View.VISIBLE){
+                    hivMaleCondomArrow.setText(R.string.down_arrow);
+                    setGone(hivMaleCondomDetails);
+                }else if(hivMaleCondomDetails.getVisibility()==View.GONE) {
+                    setVisible(hivMaleCondomDetails);
+                    hivMaleCondomArrow.setText(R.string.up_arrow);
+
+                }
+            }
+        });
+
+        // HivAndSTIs Female Condom
+        hivFemaleCondomHeader = view.findViewById(R.id.hiv_female_condom_header);
+        hivFemaleCondomArrow = view.findViewById(R.id.hiv_female_condom_arrow);
+        hivFemaleCondomDetails = view.findViewById(R.id.hiv_female_condom_details);
+
+        hivFemaleCondomHeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TransitionManager.beginDelayedTransition(hivFemaleCondomDetails);
+
+                if(hivFemaleCondomDetails.getVisibility()==View.VISIBLE){
+                    hivFemaleCondomArrow.setText(R.string.down_arrow);
+                    setGone(hivFemaleCondomDetails);
+                }else if(hivFemaleCondomDetails.getVisibility()==View.GONE) {
+                    setVisible(hivFemaleCondomDetails);
+                    hivFemaleCondomArrow.setText(R.string.up_arrow);
+
+                }
+            }
+        });
+
         return view;
     }
 
@@ -225,6 +277,8 @@ public class HivContent extends Fragment {
         hivTransmissionArrow.setText(R.string.down_arrow);
         hivPreventionDetail.setVisibility(View.GONE);
         hivPreventionArrow.setText(R.string.down_arrow);
+        hivMaleCondomDetails.setVisibility(View.GONE);
+        hivMaleCondomArrow.setText(R.string.down_arrow);
 
         constraintLayout.setVisibility(View.VISIBLE);
 
