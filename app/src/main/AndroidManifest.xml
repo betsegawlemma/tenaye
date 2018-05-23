@@ -20,6 +20,7 @@
         <activity android:name=".hivandotherstis.HivAndSTIs"/>
         <activity android:name=".mentalhealth.MentalHealth"/>
         <activity android:name=".upregnancy.UnintendedPregnancy"/>
+        <activity android:name=".About"/>
 
     </application>
 

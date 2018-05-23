@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tenaye</string>
-
+    <string name="about">About Tenaye</string>
+    <string name="about_text">The development of this mobile application is sponsored by University of Gondar as part of 2018\'s Technology Transfer Project.</string>
+    <string name="copy">\u00A9 2018</string>
     <string name="up_arrow">\u25B2</string>
     <string name="down_arrow">\u25BC</string>
     <string name="pros">Pros</string>

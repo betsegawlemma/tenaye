@@ -76,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
                            case R.id.nav_english:
                                setLocaleLanguage("gb");
                                return true;
+                           case R.id.nav_about:
+                               startActivity(new Intent(MainActivity.this,About.class));
                            default:
                                return true;
 

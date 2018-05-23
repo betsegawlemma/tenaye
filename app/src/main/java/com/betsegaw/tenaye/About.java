@@ -1,46 +1,37 @@
-package com.betsegaw.tenaye.upregnancy;
+package com.betsegaw.tenaye;
 
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 
-import com.betsegaw.tenaye.About;
-import com.betsegaw.tenaye.MainActivity;
-import com.betsegaw.tenaye.R;
 import com.betsegaw.tenaye.contraceptive.Contraceptive;
 import com.betsegaw.tenaye.hivandotherstis.HivAndSTIs;
 import com.betsegaw.tenaye.mentalhealth.MentalHealth;
+import com.betsegaw.tenaye.upregnancy.UnintendedPregnancy;
 
 import java.util.Locale;
 
-public class UnintendedPregnancy extends AppCompatActivity implements TabLayout.OnTabSelectedListener,View.OnClickListener {
+public class About extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
 
-    TabLayout upregnancyTabLayout;
-    ViewPager upregnancyViewPager;
-    UnintededPregnancyViewPagerAdapter unintededPregnancyViewPagerAdapter;
-
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.upregnancy_main);
+        setContentView(R.layout.about);
+
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu);
         getSupportActionBar().setTitle("");
-
 
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
@@ -55,20 +46,21 @@ public class UnintendedPregnancy extends AppCompatActivity implements TabLayout.
                         // close drawer when item is tapped
                         mDrawerLayout.closeDrawers();
 
-                        switch(menuItem.getItemId()){
+                        switch (menuItem.getItemId()) {
                             case R.id.nav_home:
-                                startActivity(new Intent(UnintendedPregnancy.this, MainActivity.class));
+                                startActivity(new Intent(About.this, MainActivity.class));
                                 return true;
                             case R.id.nav_contraceptive:
-                                startActivity(new Intent(UnintendedPregnancy.this, Contraceptive.class));
+                                startActivity(new Intent(About.this, Contraceptive.class));
                                 return true;
                             case R.id.nav_hiv:
-                                startActivity(new Intent(UnintendedPregnancy.this, HivAndSTIs.class));
+                                startActivity(new Intent(About.this, HivAndSTIs.class));
                                 return true;
                             case R.id.nav_upregnancy:
+                                startActivity(new Intent(About.this, UnintendedPregnancy.class));
                                 return true;
                             case R.id.nav_mhealth:
-                                startActivity(new Intent(UnintendedPregnancy.this, MentalHealth.class));
+                                startActivity(new Intent(About.this, MentalHealth.class));
                                 return true;
                             case R.id.nav_amharic:
                                 setLocaleLanguage("am");
@@ -77,52 +69,15 @@ public class UnintendedPregnancy extends AppCompatActivity implements TabLayout.
                                 setLocaleLanguage("gb");
                                 return true;
                             case R.id.nav_about:
-                                startActivity(new Intent(UnintendedPregnancy.this,About.class));
-                            default:
+                                return true;
+                                default:
                                 return true;
 
                         }
 
                     }
                 });
-        init();
     }
-
-    private void init() {
-
-        upregnancyTabLayout = findViewById(R.id.upregnancy_tab_layout);
-        upregnancyTabLayout.addTab(upregnancyTabLayout.newTab().setText(R.string.description));
-        upregnancyTabLayout.addTab(upregnancyTabLayout.newTab().setText(R.string.quiz));
-        upregnancyTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-
-        upregnancyViewPager = findViewById(R.id.upregnancy_pager);
-        unintededPregnancyViewPagerAdapter = new UnintededPregnancyViewPagerAdapter(getSupportFragmentManager(), upregnancyTabLayout.getTabCount());
-        upregnancyViewPager.setAdapter(unintededPregnancyViewPagerAdapter);
-        upregnancyViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(upregnancyTabLayout));
-        upregnancyTabLayout.addOnTabSelectedListener(this);
-
-    }
-
-    @Override
-    public void onTabSelected(TabLayout.Tab tab) {
-        upregnancyViewPager.setCurrentItem(tab.getPosition());
-    }
-
-    @Override
-    public void onTabUnselected(TabLayout.Tab tab) {
-
-    }
-
-    @Override
-    public void onTabReselected(TabLayout.Tab tab) {
-
-    }
-
-    @Override
-    public void onClick(View v) {
-
-    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

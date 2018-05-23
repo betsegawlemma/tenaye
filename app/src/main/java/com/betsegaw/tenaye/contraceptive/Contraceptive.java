@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.betsegaw.tenaye.About;
 import com.betsegaw.tenaye.MainActivity;
 import com.betsegaw.tenaye.R;
 import com.betsegaw.tenaye.hivandotherstis.HivAndSTIs;
@@ -78,6 +79,8 @@ public class Contraceptive extends AppCompatActivity implements TabLayout.OnTabS
                             case R.id.nav_english:
                                 setLocaleLanguage("gb");
                                 return true;
+                            case R.id.nav_about:
+                                startActivity(new Intent(Contraceptive.this,About.class));
                             default:
                                 return true;
 

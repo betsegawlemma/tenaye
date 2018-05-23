@@ -39,5 +39,11 @@
                     />
             </menu>
         </item>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_64"
+            android:title="@string/about"
+            />
+
     </group>
 </menu>
