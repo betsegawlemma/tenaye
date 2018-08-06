@@ -21,13 +21,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
-        app:contentScrim="@color/colorAccent"
+        app:contentScrim="@color/green"
         app:expandedTitleTextAppearance="@android:color/transparent"
         app:layout_scrollFlags="exitUntilCollapsed">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="228dp"
             android:orientation="vertical">
 
             <include
